@@ -1,0 +1,109 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add beehive rules",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC)Adam.Joja_HoneyMakerPRO": {
+          "HasInput": false,
+          "HasOutput": false,
+          "InteractMethod": null,
+          "OutputRules": [
+            {
+              "Id": "Default",
+              "Triggers": [
+                {
+                  "Id": "OutputCollected, MachinePutDown",
+                  "Trigger": "OutputCollected, MachinePutDown",
+                  "RequiredItemId": null,
+                  "RequiredTags": null,
+                  "RequiredCount": 1,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.OverrideInputItemId": "NEARBY_FLOWER_QUALIFIED_ID"
+                  },
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": true,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": "DROP_IN",
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": [
+          {
+            "Id": "FlowerBase",
+            "Modification": "Multiply",
+            "Amount": 3.0,
+            "Condition": "ITEM_PRICE Input 0"
+          },
+          {
+            "Id": "HoneyBase",
+            "Modification": "Add",
+            "Amount": 200,
+            "Condition": "ITEM_PRICE Input 0"
+          },
+        ],
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)Adam.Joja_Honey",
+                  "ItemId": "(O)Adam.Joja_Honey",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 1,
+                  "MaxStack": 2,
+                  "Quality": -1,
+                  "ObjectInternalName": "Joja {0} Honey",
+                  "ObjectDisplayName": "Joja %PRESERVED_DISPLAY_NAME Honey",
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": -1,
+              "DaysUntilReady": 2,
+              "InvalidCountMessage": null,
+              "RecalculateOnCollect": true
+            },
+          ],
+          "AdditionalConsumedItems": null,
+          "PreventTimePass": [
+            "Outside"
+          ],
+          "ReadyTimeModifiers": null,
+          "ReadyTimeModifierMode": "Stack",
+          "InvalidItemMessage": null,
+          "InvalidItemMessageCondition": null,
+          "InvalidCountMessage": null,
+          "LoadEffects": null,
+          "WorkingEffects": null,
+          "WorkingEffectChance": 0.33,
+          "AllowLoadWhenFull": false,
+          "WobbleWhileWorking": false,
+          "LightWhileWorking": null,
+          "ShowNextIndexWhileWorking": false,
+          "ShowNextIndexWhenReady": true,
+          "AllowFairyDust": true,
+          "IsIncubator": false,
+          "OnlyCompleteOvernight": false,
+          "ClearContentsOvernightCondition": null,
+          "StatsToIncrementWhenLoaded": null,
+          "StatsToIncrementWhenHarvested": null,
+          "ExperienceGainOnHarvest": null,
+          "CustomFields": null
+        }
+      }
+    }
+  ]
+}

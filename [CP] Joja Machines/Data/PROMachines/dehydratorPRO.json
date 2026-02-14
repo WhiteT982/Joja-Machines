@@ -1,0 +1,324 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add dehydrator rules",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC)Adam.Joja_DehydratorPRO": {
+          "OutputRules": [
+            {
+              "Id": "Raisins",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)398",
+                  "RequiredTags": null,
+                  "RequiredCount": 10,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)Raisins",
+                  "ItemId": "(O)Raisins",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 2,
+                  "MaxStack": 3,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 1000,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 10]",
+              "RecalculateOnCollect": false
+            },
+            {
+              "Id": "DriedFruit",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": null,
+                  "RequiredTags": [
+                    "category_fruits"
+                  ],
+                  "RequiredCount": 10,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "FLAVORED_ITEM DriedFruit DROP_IN_ID",
+                  "ItemId": "FLAVORED_ITEM DriedFruit DROP_IN_ID",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 2,
+                  "MaxStack": 3,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 1000,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 10]",
+              "RecalculateOnCollect": false
+            },
+            {
+              "Id": "DriedFish",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": null,
+                  "RequiredTags": [
+                     "category_fish",
+                    "!item_smoked",
+                    "!item_roe",
+                    "!item_aged_roe",
+                    "!item_caviar"
+                  ],
+                  "RequiredCount": 3,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": true,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": "DROP_IN",
+                  "PriceModifiers": [
+                    {
+                      "Id": "Start Price",
+                      "Modification": "Multiply",
+                      "Amount": 7.5
+                    }
+                  ],
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)Adam.Joja_DriedFish",
+                  "ItemId": "(O)Adam.Joja_DriedFish",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 1,
+                  "MaxStack": 2,
+                  "Quality": -1,
+                  "ObjectInternalName": "Joja Dried {0}",
+                  "ObjectDisplayName": "Joja Dried %PRESERVED_DISPLAY_NAME",
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 1000,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 3]",
+              "RecalculateOnCollect": false
+            },
+            {
+              "Id": "DriedRedMushrooms",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)420",
+                  "RequiredTags": null,
+                  "RequiredCount": 10,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": true,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "PriceModifiers": [
+                    {
+                      "Id": "Start Price",
+                      "Modification": "Multiply",
+                      "Amount": 7.5
+                    }
+                  ],
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)Adam.Joja_DriedRedMushroooms",
+                  "ItemId": "(O)Adam.Joja_DriedRedMushrooms",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 2,
+                  "MaxStack": 3,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 1000,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 10]",
+              "RecalculateOnCollect": false
+            },
+            {
+              "Id": "DriedMushrooms",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": null,
+                  "RequiredTags": [
+                    "edible_mushroom"
+                  ],
+                  "RequiredCount": 10,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "FLAVORED_ITEM DriedMushroom DROP_IN_ID",
+                  "ItemId": "FLAVORED_ITEM DriedMushroom DROP_IN_ID",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 2,
+                  "MaxStack": 3,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 1000,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 10]",
+              "RecalculateOnCollect": false
+            }
+          ],
+          "AdditionalConsumedItems": null,
+          "PreventTimePass": null,
+          "ReadyTimeModifiers": null,
+          "ReadyTimeModifierMode": "Stack",
+          "InvalidItemMessage": null,
+          "InvalidItemMessageCondition": null,
+          "InvalidCountMessage": null,
+          "LoadEffects": [
+            {
+              "Id": "Default",
+              "Condition": null,
+              "Sounds": [
+                {
+                  "Id": "fishSlap",
+                  "Delay": 0
+                }
+              ],
+              "Interval": 100,
+              "Frames": null,
+              "ShakeDuration": -1,
+              "TemporarySprites": null
+            }
+          ],
+          "WorkingEffects": null,
+          "WorkingEffectChance": 0.33,
+          "AllowLoadWhenFull": false,
+          "WobbleWhileWorking": true,
+          "LightWhileWorking": null,
+          "ShowNextIndexWhileWorking": false,
+          "ShowNextIndexWhenReady": false,
+          "AllowFairyDust": true,
+          "IsIncubator": false,
+          "OnlyCompleteOvernight": false,
+          "ClearContentsOvernightCondition": null,
+          "StatsToIncrementWhenLoaded": null,
+          "StatsToIncrementWhenHarvested": null,
+          "ExperienceGainOnHarvest": null,
+          "CustomFields": null
+        }
+      }
+    }
+  ]
+}

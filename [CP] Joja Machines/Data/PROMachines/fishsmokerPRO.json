@@ -1,0 +1,99 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add fish smoker rules",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC)Adam.Joja_FishSmokerPRO": {
+          "OutputRules": [
+            {
+              "Id": "SmokedFish",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": null,
+                  "RequiredTags": [
+                     "category_fish",
+                    "!item_smoked",
+                    "!item_roe",
+                    "!item_aged_roe",
+                    "!item_caviar"
+                  ],
+                  "RequiredCount": 1,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": true,
+                  "CopyQuality": true,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": [
+                    {
+                      "Id": "Start Price",
+                      "Modification": "Multiply",
+                      "Amount": 2
+                    }
+                  ],
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY",
+                  "ItemId": "FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 1,
+                  "MaxStack": 2,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 120,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": null,
+              "RecalculateOnCollect": false
+            }
+          ],
+          "PreventTimePass": ["Rain"],
+          "ReadyTimeModifiers": null,
+          "ReadyTimeModifierMode": "Stack",
+          "InvalidItemMessage": null,
+          "InvalidItemMessageCondition": null,
+          "InvalidCountMessage": null,
+          "LoadEffects": [
+            {
+              "Id": "Default",
+              "Condition": null,
+              "Sounds": [
+                {
+                  "Id": "fishSlap",
+                  "Delay": 0
+                }
+              ]
+            }
+          ],
+          "ShowNextIndexWhileWorking": true,
+           "WobbleWhileWorking": false,
+          "AllowFairyDust": true
+        }
+      }
+    }
+  ]
+}

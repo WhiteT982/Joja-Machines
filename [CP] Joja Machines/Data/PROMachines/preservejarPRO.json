@@ -1,0 +1,252 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add jar rules",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC)Adam.Joja_PreservesJarPRO": {
+          "OutputRules": [
+            {
+              "Id": "Sturgeon Roe",
+              "Triggers": [
+                {
+                  "Id": "Adam.Joja_PreservesJar",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)812",
+                  "RequiredTags": [
+                    "preserve_sheet_index_698"
+                  ],
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "CopyPrice": false,
+                  "Id": "Joja Caviar",
+                  "ItemId": "(O)Adam.Joja_Caviar",
+                  "MinStack": 1,
+                  "MaxStack": 2
+                }
+              ],
+              "MinutesUntilReady": 1200
+            },
+            {
+              "Id": "Joja Aged Roe",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)812",
+                  "RequiredTags": null,
+                  "RequiredCount": 1,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": true,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": "DROP_IN_PRESERVE",
+                  "PriceModifiers": [
+                    {
+                      "Id": "Start Price",
+                      "Modification": "Multiply",
+                      "Amount": 1.5
+                    }
+                  ],
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)Adam.Joja_AgedRoe",
+                  "ItemId": "(O)Adam.Joja_AgedRoe",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 1,
+                  "MaxStack": 2,
+                  "Quality": -1,
+                  "ObjectInternalName": "Aged Joja {0} Roe",
+                  "ObjectDisplayName": "Joja Aged %PRESERVED_DISPLAY_NAME Roe",
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                }
+              ],
+              "MinutesUntilReady": 1200
+            },
+            {
+              "Id": "Joja Pickles",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine_Vegetable",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": null,
+                  "RequiredTags": [
+                    "category_vegetable"
+                  ],
+                  "RequiredCount": 1,
+                  "Condition": null
+                },
+                {
+                  "Id": "ItemPlacedInMachine_Forage",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": null,
+                  "RequiredTags": [
+                    "category_greens"
+                  ],
+                  "RequiredCount": 1,
+                  "Condition": "ITEM_EDIBILITY Input 1"
+                },
+                {
+                  "Id": "ItemPlacedInMachine_Pickle",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": null,
+                  "RequiredTags": [
+                    "preserves_pickle"
+                  ],
+                  "RequiredCount": 1,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": true,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": "DROP_IN",
+                  "PriceModifiers": [
+                    {
+                      "Id": "Start Price",
+                      "Modification": "Multiply",
+                      "Amount": 1.25
+                    },
+                    {
+                      "Id": "Start Price",
+                      "Modification": "Add",
+                      "Amount": 30
+                    }
+                  ],
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)Adam.Joja_Pickle",
+                  "ItemId": "(O)Adam.Joja_Pickle",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 1,
+                  "MaxStack": 2,
+                  "Quality": -1,
+                  "ObjectInternalName": "Joja {0} Pickles",
+                  "ObjectDisplayName": "Joja %PRESERVED_DISPLAY_NAME Pickles",
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                }
+              ],
+              "MinutesUntilReady": 1200
+            },
+            {
+              "Id": "Joja Jelly",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine_Fruit",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": null,
+                  "RequiredTags": [
+                    "category_fruits"
+                  ],
+                  "RequiredCount": 1,
+                  "Condition": null
+                },
+                {
+                  "Id": "ItemPlacedInMachine_Jelly",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": null,
+                  "RequiredTags": [
+                    "preserves_jelly"
+                  ],
+                  "RequiredCount": 1,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": true,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": "DROP_IN",
+                  "PriceModifiers": [
+                    {
+                      "Id": "Start Price",
+                      "Modification": "Multiply",
+                      "Amount": 1.25
+                    },
+                    {
+                      "Id": "Start Price",
+                      "Modification": "Add",
+                      "Amount": 30
+                    }
+                  ],
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)Adam.Joja_Jelly",
+                  "ItemId": "(O)Adam.Joja_Jelly",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 1,
+                  "MaxStack": 2,
+                  "Quality": -1,
+                  "ObjectInternalName": "Joja {0} Jelly",
+                  "ObjectDisplayName": "Joja %PRESERVED_DISPLAY_NAME Jelly",
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                }
+              ],
+              "MinutesUntilReady": 1200
+            },
+          ],
+          "AdditionalConsumedItems": null,
+          "PreventTimePass": null,
+          "ReadyTimeModifiers": null,
+          "ReadyTimeModifierMode": "Stack",
+          "InvalidItemMessage": null,
+          "InvalidItemMessageCondition": null,
+          "InvalidCountMessage": null,
+          "LoadEffects": [
+            {
+              "Id": "Default",
+              "Condition": null,
+              "Sounds": [
+                {
+                  "Id": "Ship",
+                  "Delay": 0
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
