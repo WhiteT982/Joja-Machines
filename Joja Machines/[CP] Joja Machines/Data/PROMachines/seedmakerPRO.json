@@ -1,0 +1,289 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add seed maker rules",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC)Adam.Joja_SeedMakerPRO": {
+          "HasInput": false,
+          "HasOutput": false,
+          "InteractMethod": null,
+          "OutputRules": [
+            {
+              "Id": "Mixed Seeds",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": null,
+                  "RequiredTags": [
+                    "!fruit_item",
+                    "category_fruits"
+                    ],
+                  "RequiredCount": 1,
+                  "Condition": null
+                },
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": null,
+                  "RequiredTags": [
+                    "category_vegetable"
+                  ],
+                  "RequiredCount": 1,
+                  "Condition": null
+                },
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)770",
+                  "ItemId": "(O)770",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 7,
+                  "MaxStack": 10,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 20,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": null,
+              "RecalculateOnCollect": false
+            },
+            {
+              "Id": "Mixed Flower Seeds",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": null,
+                  "RequiredTags": [
+                    "flower_item"
+                  ],
+                  "RequiredCount": 1,
+                  "Condition": null
+                },
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)MixedFlowerSeeds",
+                  "ItemId": "(O)MixedFlowerSeeds",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 7,
+                  "MaxStack":10,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 20,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": null,
+              "RecalculateOnCollect": false
+            },
+             {
+              "Id": "Saplings",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": null,
+                  "RequiredTags": [
+                    "fruit_item"
+                  ],
+                  "RequiredCount": 2,
+                  "Condition": null
+                },
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": null,
+                  "ItemId": "RANDOM_ITEMS (O)",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": "ITEM_CONTEXT_TAG Target sapling_item"
+                }
+              ],
+              "MinutesUntilReady": 200,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": "Needs 2 tree fruit.",
+              "RecalculateOnCollect": false
+            },
+            {
+              "Id": "Seasonal Seeds",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": null,
+                  "RequiredTags": [
+                    "category_greens",
+                    "!id_o_92"
+                  ],
+                  "RequiredCount": 1,
+                  "Condition": null
+                },
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": null,
+                  "ItemId": null,
+                  "RandomItemId": [
+                    "(O)495",
+                    "(O)496",
+                    "(O)497",
+                    "(O)498"
+                  ],
+                  "MaxItems": null,
+                  "MinStack": 7,
+                  "MaxStack": 10,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 20,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": null,
+              "RecalculateOnCollect": false
+            }
+          ],
+          "AdditionalConsumedItems": null,
+          "PreventTimePass": null,
+          "ReadyTimeModifiers": null,
+          "ReadyTimeModifierMode": "Stack",
+          "InvalidItemMessage": null,
+          "InvalidItemMessageCondition": null,
+          "InvalidCountMessage": null,
+          "LoadEffects": [
+            {
+              "Id": "Default",
+              "Condition": null,
+              "Sounds": [
+                {
+                  "Id": "Ship",
+                  "Delay": 0
+                },
+                {
+                  "Id": "dirtyHit",
+                  "Delay": 250
+                }
+              ],
+              "Interval": 100,
+              "Frames": null,
+              "ShakeDuration": -1,
+              "TemporarySprites": null
+            }
+          ],
+          "WorkingEffects": null,
+          "WorkingEffectChance": 0.33,
+          "AllowLoadWhenFull": false,
+          "WobbleWhileWorking": true,
+          "LightWhileWorking": null,
+          "ShowNextIndexWhileWorking": false,
+          "ShowNextIndexWhenReady": false,
+          "AllowFairyDust": true,
+          "IsIncubator": false,
+          "OnlyCompleteOvernight": false,
+          "ClearContentsOvernightCondition": null,
+          "StatsToIncrementWhenLoaded": null,
+          "StatsToIncrementWhenHarvested": null,
+          "ExperienceGainOnHarvest": null,
+          "CustomFields": null
+        }
+      }
+    }
+  ]
+}

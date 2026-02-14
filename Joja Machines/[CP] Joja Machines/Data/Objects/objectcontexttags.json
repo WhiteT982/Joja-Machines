@@ -1,0 +1,2356 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "472", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "473", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "474", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "475", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "476", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "477", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "273", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "478", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "745", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "CarrotSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "433", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed",
+            "summer_seed": "summer_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "831", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "479", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "480", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "481", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "482", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "484", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "485", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "486", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "833", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "302", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "SummerSquashSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "483", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed",
+            "fall_seed": "fall_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "487", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed",
+            "fall_seed": "fall_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "301", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        }
+    },
+     {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "299", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        }
+    },
+     {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "488", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        }
+    },
+     {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "489", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        }
+    },
+     {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "490", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        }
+    },
+     {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "491", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        }
+    },
+     {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "492", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        }
+    },
+     {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "493", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        }
+    },
+     {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "494", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        }
+    },
+     {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "BroccoliSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "PowdermelonSeeds", "ContextTags"],
+      "Entries": {
+            "winter_seed": "winter_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "885", "ContextTags"],
+      "Entries": {
+      "spring_seed": "spring_seed",
+      "summer_seed": "summer_seed",
+      "fall_seed": "fall_seed",
+            "winter_seed": "winter_seed"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "802", "ContextTags"],
+      "Entries": {
+      "spring_seed": "spring_seed",
+      "summer_seed": "summer_seed",
+      "fall_seed": "fall_seed",
+            "winter_seed": "winter_seed"
+        }
+    },
+    //SVE seeds
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Cucumber_Seed", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Slime_Seed", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Shrub_Seed", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed",
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Gold_Carrot_Seed", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed",
+            "summer_seed": "summer_seed",
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Joja_Berry_Starter", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed",
+            "summer_seed": "summer_seed",
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Joja_Veggie_Seeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed",
+            "summer_seed": "summer_seed",
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Butternut_Squash_Seed", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Ancient_Ferns_Seed", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Stalk_Seed", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Sweet_Potato_Seed", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Fungus_Seed", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Void_Seed", "ContextTags"],
+      "Entries": {
+            "winter_seed": "winter_seed"
+        },
+        "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        },
+    },
+    //Cornucopia seeds
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_BasilSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_OnionSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_AgaveSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_AsparagusSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_BuckwheatSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_CabbageSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_CanaryMelonSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_CantaloupeSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_JalapenoSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_PassionFruitSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_PintoBeansSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_RedOnionSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_ShallotSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_SugarBeetSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_CatnipSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_DillSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_FenugreekSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_LicoriceRootSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_MarjoramSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_ParsleySeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_SpringOnionSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.GrowableForage",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_BambooSeeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed",
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_BellPepperSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_CucumberSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_KiwiSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_LettuceSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_SugarcaneSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_WatermelonSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_AdzukiBeanSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_BlueAgaveSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_ButternutSquashSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_CassavaSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_ChickpeaSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_GreenPeasSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_HoneydewSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_NavyBeansSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_QuinoaSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_WasabiRootSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_AloeSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_ChivesSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_LemongrassSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_OreganoSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_PerillaLeavesSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_GingerSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.GrowableForage",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_CottonBollSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed",
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+     {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_GroundcherriesSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed",
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+     {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_OkraSeeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed",
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_TurnipSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_PeanutSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Soybeans", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_ZucchiniSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_BarleySeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_BlackBeansSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_CelerySeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_DaikonSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_DurumSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_HabaneroSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_KidneyBeansSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_OatsSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_SweetPotatoSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_WhiteGrapeSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_CilantroSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_CuminSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_FennelSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_RosemarySeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_SageSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_TarragonSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_ThymeSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_TurmericSeeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_MintSeeds", "ContextTags"],
+      "Entries": {
+            "winter_seed": "winter_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_WormwoodSeeds", "ContextTags"],
+      "Entries": {
+            "winter_seed": "winter_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_GinsengSeeds", "ContextTags"],
+      "Entries": {
+      "spring_seed": "spring_seed",
+            "winter_seed": "winter_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_SpinachSeeds", "ContextTags"],
+      "Entries": {
+      "spring_seed": "spring_seed",
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    //Wildflour seeds
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Wild_Strawberry_Seeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Honey_Fungus_Seeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Wheatberry_Mushroom_Seeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Cilantro_Seeds", "ContextTags"],
+      "Entries": {
+            "spring_seed": "spring_seed"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Chicken_Woods_Seeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Wild_Raspberry_Seeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Basil_Seeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Wormwood_Seeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Milk_Mushroom_Seeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed",
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Meringue_Mushroom_Seeds", "ContextTags"],
+      "Entries": {
+            "summer_seed": "summer_seed",
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+      {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Sage_Seeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Rosemary_Seeds", "ContextTags"],
+      "Entries": {
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Red_Onion_Seeds", "ContextTags"],
+      "Entries": {
+      "spring_seed": "spring_seed",
+            "fall_seed": "fall_seed"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    //Vanilla saplings
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "628", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "629", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "630", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "631", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "632", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "633", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "69", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "835", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        }
+    },
+    //SVE saplings
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Pear_Sapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Nectarine_Sapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Persimmon_Sapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Tree_Coin", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        },
+    },
+    //Cornucopia saplings
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_AvocadoSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_CocoaPodSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_PearSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_PistachioSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_AlmondSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_BreadfruitSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_CashewSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_DragonFruitSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_DurianSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_FigSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_GrapefruitSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_LemonSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_LimeSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_LycheeSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_NectarineSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_PapayaSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_PecanSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_PersimmonSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_PlantainSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_PomeloSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_UmeSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_WalnutSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_YuzuSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_CamphorLeavesSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_CinnamonSticksSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_EucalyptusLeavesSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_MelaleucaLeavesSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_NutmegSapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    //Wildflour saplings
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Almond_Sapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Anise_Sapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Cacao_Sapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Cashew_Sapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Elder_Sapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Olive_Sapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Lemon_Sapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Lime_Sapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Pistachio_Sapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Walnut_Sapling", "ContextTags"],
+      "Entries": {
+            "sapling_item": "sapling_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    //Cornucopia tree fruit
+     {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Avocado", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_CocoaPod", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Pear", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Pistachio", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Almond", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+   {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Breadfruit", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+     {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Cashew", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_DragonFruit", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Durian", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Fig", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Grapefruit", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Lemon", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Lime", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+   {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Lychee", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+     {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Nectarine", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Papaya", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Pecan", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Persimmon", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Plantain", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Pomelo", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Ume", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Walnut", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Yuzu", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_CamphorLeaves", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_CinnamonSticks", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_EucalyptusLeaves", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_MelaleucaLeaves", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Cornucopia_Nutmeg", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        },
+    },
+    //Wildflour tree fruit
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Almond", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+   {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Anise", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Cacao_Pod", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Cashew", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Elderberries", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Olive", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Lemon", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Lime", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Pistachio", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },
+   {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "Wildflour.AtelierGoods_Walnut", "ContextTags"],
+      "Entries": {
+            "fruit_item": "fruit_item"
+        },
+        "When": {
+        "HasMod": "Wildflour.AtelierGoods",
+        },
+    },  
+  ]
+}

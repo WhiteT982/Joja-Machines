@@ -1,0 +1,140 @@
+{
+  "Changes": [
+    {
+      "LogName": "Create keg recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_KegPRO": "(BC)Adam.Joja_Keg 1 Adam.Joja_UpgradePack 1/Home/Adam.Joja_KegPRO/true/none/"
+      }
+    },
+    {
+      "LogName": "Create jar recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_PreservesJarPRO": "(BC)Adam.Joja_PreservesJar 1 Adam.Joja_UpgradePack 1/Home/Adam.Joja_PreservesJarPRO/true/none/"
+      }
+    },
+     {
+      "LogName": "Create dehydrator recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_DehydratorPRO": "(BC)Adam.Joja_Dehydrator 1 Adam.Joja_UpgradePack 1/Home/Adam.Joja_DehydratorPRO/true/none/"
+      }
+    },
+     {
+      "LogName": "Create fish smoker recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_FishSmokerPRO": "(BC)Adam.Joja_FishSmoker 1 Adam.Joja_UpgradePack 1/Home/Adam.Joja_FishSmokerPRO/true/none/"
+      }
+    },
+    {
+      "LogName": "Create cheese press recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_CheesePressPRO": "(BC)Adam.Joja_CheesePress 1 Adam.Joja_UpgradePack 1/Home/Adam.Joja_CheesePressPRO/true/none/"
+      }
+    },
+    {
+      "LogName": "Create honey maker recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_HoneyMakerPRO": "(BC)Adam.Joja_HoneyMaker 1 Adam.Joja_UpgradePack 1/Home/Adam.Joja_HoneyMakerPRO/true/none/"
+      }
+    },
+     {
+      "LogName": "Create mayo machine recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_MayoMachinePRO": "(BC)Adam.Joja_MayoMachine 1 Adam.Joja_UpgradePack 1/Home/Adam.Joja_MayoMachinePRO/true/none/"
+      }
+    },
+    {
+      "LogName": "Create generator recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_GeneratorPRO": "(BC)Adam.Joja_Generator 1 Adam.Joja_UpgradePack 1/Home/Adam.Joja_GeneratorPRO/true/none/"
+      }
+    },
+    {
+      "LogName": "Create fish trap recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_FishTrapPRO": "(BC)Adam.Joja_FishTrap 1 Adam.Joja_UpgradePack 1/Home/Adam.Joja_FishTrapPRO/true/none/"
+      }
+    },
+    {
+      "LogName": "Create oil maker recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_OilMakerPRO": "(BC)Adam.Joja_OilMaker 1 Adam.Joja_UpgradePack 1/Home/Adam.Joja_OilMakerPRO/true/none/"
+      }
+    },
+    {
+      "LogName": "Create loom recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_LoomPRO": "(BC)Adam.Joja_Loom 1 Adam.Joja_UpgradePack 1/Home/Adam.Joja_LoomPRO/true/none/"
+      }
+    },
+    {
+      "LogName": "Create furnace recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_FurnacePRO": "(BC)Adam.Joja_Furnace 1 Adam.Joja_UpgradePack 1/Home/Adam.Joja_FurnacePRO/true/none/"
+      }
+    },
+    {
+      "LogName": "Create tackle bin recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_TackleBinPRO": "(BC)Adam.Joja_TackleBin 1 Adam.Joja_UpgradePack 1/Home/Adam.Joja_TackleBinPRO/true/none/"
+      }
+    },
+    {
+      "LogName": "Create seed maker recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_SeedMakerPRO": "(BC)Adam.Joja_SeedMaker 1 Adam.Joja_UpgradePack 1/Home/Adam.Joja_SeedMakerPRO/true/none/"
+      }
+    },
+    {
+      "LogName": "Create seed sorter recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_SeedSorterPRO": "(BC)Adam.Joja_SeedSorter 1 Adam.Joja_UpgradePack 1/Home/Adam.Joja_SeedSorterPRO/true/none/"
+      }
+    },
+    {
+      "LogName": "Create chum makerrecipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_ChumMakerPRO": "(BC)Adam.Joja_ChumMaker 1 Adam.Joja_UpgradePack 1/Home/Adam.Joja_ChumMakerPRO/true/none/"
+      }
+    },
+    {
+      "LogName": "Create worm bin recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_WormBinPRO": "(BC)Adam.Joja_WormBin 1 Adam.Joja_UpgradePack 1/Home/Adam.Joja_WormBinPRO/true/none/"
+      }
+    }
+  ]
+}

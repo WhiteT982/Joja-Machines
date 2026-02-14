@@ -1,0 +1,469 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add furnace rules",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC)Adam.Joja_FurnacePRO": {
+          "HasInput": false,
+          "HasOutput": false,
+          "InteractMethod": null,
+          "OutputRules": [
+            {
+              "Id": "CopperOre",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)378",
+                  "RequiredTags": null,
+                  "RequiredCount": 20,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)334",
+                  "ItemId": "(O)334",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 10,
+                  "MaxStack": 11,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 100,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 20]",
+              "RecalculateOnCollect": false
+            },
+            {
+              "Id": "IronOre",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)380",
+                  "RequiredTags": null,
+                  "RequiredCount": 20,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)335",
+                  "ItemId": "(O)335",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 10,
+                  "MaxStack": 11,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 360,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 20]",
+              "RecalculateOnCollect": false
+            },
+            {
+              "Id": "GoldOre",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)384",
+                  "RequiredTags": null,
+                  "RequiredCount": 20,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)336",
+                  "ItemId": "(O)336",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 10,
+                  "MaxStack": 11,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 700,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 20]",
+              "RecalculateOnCollect": false
+            },
+            {
+              "Id": "IridiumOre",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)386",
+                  "RequiredTags": null,
+                  "RequiredCount": 20,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)337",
+                  "ItemId": "(O)337",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 10,
+                  "MaxStack": 11,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 1000,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 20]",
+              "RecalculateOnCollect": false
+            },
+            {
+              "Id": "Quartz",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)80",
+                  "RequiredTags": null,
+                  "RequiredCount": 5,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)338",
+                  "ItemId": "(O)338",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 12,
+                  "MaxStack": 15,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 180,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 5]",
+              "RecalculateOnCollect": false
+            },
+            {
+              "Id": "FireQuartz",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)82",
+                  "RequiredTags": null,
+                  "RequiredCount": 3,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)338",
+                  "ItemId": "(O)338",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 30,
+                  "MaxStack": 40,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 180,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 3]",
+              "RecalculateOnCollect": false
+            },
+            {
+              "Id": "Bouquet",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)458",
+                  "RequiredTags": null,
+                  "RequiredCount": 1,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)277",
+                  "ItemId": "(O)277",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 2,
+                  "MaxStack": 2,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 10,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": null,
+              "RecalculateOnCollect": false
+            },
+            {
+              "Id": "RadioactiveOre",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)909",
+                  "RequiredTags": null,
+                  "RequiredCount": 20,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)910",
+                  "ItemId": "(O)910",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 10,
+                  "MaxStack": 11,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 1400,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 20]",
+              "RecalculateOnCollect": false
+            }
+          ],
+          "AdditionalConsumedItems": [
+            {
+              "ItemId": "(O)787",
+              "RequiredCount": 1,
+              "InvalidCountMessage": "Requires one battery pack."
+            }
+          ],
+          "PreventTimePass": null,
+          "ReadyTimeModifiers": null,
+          "ReadyTimeModifierMode": "Stack",
+          "InvalidItemMessage": null,
+          "InvalidItemMessageCondition": null,
+          "InvalidCountMessage": null,
+          "LoadEffects": [
+            {
+              "Id": "Default",
+              "Condition": null,
+              "Sounds": [
+                {
+                  "Id": "select",
+                  "Delay": 0
+                }
+              ]
+            }
+          ],
+          "WorkingEffects": null,
+          "WorkingEffectChance": 0.33,
+          "AllowLoadWhenFull": false,
+          "WobbleWhileWorking": true,
+          "LightWhileWorking": {
+            "Radius": 1.5,
+            "Color": "DarkCyan"
+          },
+          "ShowNextIndexWhileWorking": true,
+          "ShowNextIndexWhenReady": false,
+          "AllowFairyDust": true,
+          "IsIncubator": false,
+          "OnlyCompleteOvernight": false,
+          "ClearContentsOvernightCondition": null,
+          "StatsToIncrementWhenLoaded": null,
+          "StatsToIncrementWhenHarvested": null,
+          "ExperienceGainOnHarvest": null,
+          "CustomFields": null
+        }
+      }
+    }
+  ]
+}

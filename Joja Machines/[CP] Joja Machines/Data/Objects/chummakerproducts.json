@@ -1,0 +1,25 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Object Data",
+      "Target": "Data/Objects",
+      "Entries": {
+       "Adam.Joja_Chum": {
+          "Name": "Adam.Joja_Chum",
+          "DisplayName": "{{i18n:Adam.Joja_Chum.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_Chum.Description}}",
+          "Type": "Basic",
+          "Category": -23,
+          "Price": 10,
+          "Texture": "{{InternalAssetKey: assets/jojaproducts.png}}",
+          "SpriteIndex": "14",
+          "Edibility": -300,
+          "ContextTags": [
+            "joja_item"
+          ]
+        }
+      }
+    }
+  ]
+}

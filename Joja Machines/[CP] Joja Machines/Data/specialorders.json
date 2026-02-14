@@ -1,0 +1,651 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Special Orders Data",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "Adam.Joja_Shipments1": {
+          "Name": "{{i18n:Adam.Joja_Shipments1_2.name}}",
+          "Requester": "Morris",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "mail_Adam.Joja_PreservesJarMail",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "{{i18n:Adam.Joja_Shipments1_2.text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "JojaGoods",
+              "Values": [
+                {
+                  "Value": "PICK_ITEM Adam.Joja_Pickle, Adam.Joja_Jelly"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:Adam.Joja_Shipments1_2.collect}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{JojaGoods:Tags}"
+              }
+            },
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:Adam.Joja_Shipments1_2.ship}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{JojaGoods:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "7500"
+              }
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Adam.Joja_Shipments1Mail",
+                "Host": "false",
+                "NoLetter": "false"
+              }
+            }
+          ],
+          "CustomFields": null
+        },
+        "Adam.Joja_Shipments2": {
+          "Name": "{{i18n:Adam.Joja_Shipments1_2.name}}",
+          "Requester": "Morris",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "mail_Adam.Joja_KegMail, mail_Adam.Joja_Shipments1Mail",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "{{i18n:Adam.Joja_Shipments1_2.text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "JojaGoods",
+              "Values": [
+                {
+                  "Value": "PICK_ITEM Adam.Joja_Juice, Adam.Joja_Wine"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:Adam.Joja_Shipments1_2.collect}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{JojaGoods:Tags}"
+              }
+            },
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:Adam.Joja_Shipments1_2.ship}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{JojaGoods:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "12500"
+              }
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Adam.Joja_Shipments2Mail",
+                "Host": "false",
+                "NoLetter": "false"
+              }
+            }
+          ],
+          "CustomFields": null
+        },
+        "Adam.Joja_Shipments3": {
+          "Name": "{{i18n:Adam.Joja_Shipments3_4.name}}",
+          "Requester": "Morris",
+          "Duration": "Month",
+          "Repeatable": "False",
+          "RequiredTags": "mail_Adam.Joja_Shipments2Mail",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "{{i18n:Adam.Joja_Shipments3_4.text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "JojaGoods",
+              "Values": [
+                {
+                  "Value": "PICK_ITEM Adam.Joja_Jelly, Adam.Joja_Pickle"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:Adam.Joja_Shipments3_4.collect}}",
+              "RequiredCount": "200",
+              "Data": {
+                "AcceptedContextTags": "{JojaGoods:Tags}"
+              }
+            },
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:Adam.Joja_Shipments3_4.ship}}",
+              "RequiredCount": "200",
+              "Data": {
+                "AcceptedContextTags": "{JojaGoods:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "20000"
+              }
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Adam.Joja_Shipments3Mail",
+                "Host": "false",
+                "NoLetter": "false"
+              }
+            }
+          ],
+          "CustomFields": null
+        },
+        "Adam.Joja_Shipments4": {
+          "Name": "{{i18n:Adam.Joja_Shipments3_4.name}}",
+          "Requester": "Morris",
+          "Duration": "Month",
+          "Repeatable": "False",
+          "RequiredTags": "mail_Adam.Joja_Shipments3Mail",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "{{i18n:Adam.Joja_Shipments3_4.text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "JojaGoods",
+              "Values": [
+                {
+                  "Value": "PICK_ITEM Adam.Joja_Wine, Adam.Joja_Juice"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:Adam.Joja_Shipments3_4.collect}}",
+              "RequiredCount": "200",
+              "Data": {
+                "AcceptedContextTags": "{JojaGoods:Tags}"
+              }
+            },
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:Adam.Joja_Shipments3_4.ship}}",
+              "RequiredCount": "200",
+              "Data": {
+                "AcceptedContextTags": "{JojaGoods:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "25000"
+              }
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Adam.Joja_Shipments4Mail",
+                "Host": "false",
+                "NoLetter": "false"
+              }
+            }
+          ],
+          "CustomFields": null
+        },
+        "Adam.Joja_WinterMead": {
+          "Name": "{{i18n:Adam.Joja_WinterMead.name}}",
+          "Requester": "Gus",
+          "Duration": "Month",
+          "Repeatable": "true",
+          "RequiredTags": "season_winter",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "{{i18n:Adam.Joja_WinterMead.text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:Adam.Joja_WinterMead.collect}}",
+              "RequiredCount": "150",
+              "Data": {
+                "AcceptedContextTags": "joja_mead"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:Adam.Joja_WinterMead.donate}}",
+              "RequiredCount": "150",
+              "Data": {
+                "DropBox": "GusFridge",
+                "DropBoxGameLocation": "Saloon",
+                "DropBoxIndicatorLocation": "18 15",
+                "MinimumCapacity": "36",
+                "AcceptedContextTags": "joja_mead"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "25000"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "325",
+                "TargetName": "Gus"
+              }
+            }
+          ],
+          "CustomFields": null
+        },
+        "Adam.Joja_CheezeShipment": {
+          "Name": "{{i18n:Adam.Joja_CheezeShipment.name}}",
+          "Requester": "Morris",
+          "Duration": "Week",
+          "Repeatable": "true",
+          "RequiredTags": " ",
+          "Condition": "BUILDINGS_CONSTRUCTED All Barn",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "{{i18n:Adam.Joja_CheezeShipment.text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:Adam.Joja_CheezeShipment.collect}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "joja_cheeze"
+              }
+            },
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:Adam.Joja_CheezeShipment.ship}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "joja_cheeze"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5000"
+              }
+            }
+          ],
+          "CustomFields": null
+        },
+        "Adam.Joja_CafeOrder": {
+          "Name": "{{i18n:Adam.Joja_CafeOrder.name}}",
+          "Requester": "Morris",
+          "Duration": "Week",
+          "Repeatable": "false",
+          "RequiredTags": " ",
+          "Condition": "PLAYER_FARMING_LEVEL Current 6",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "{{i18n:Adam.Joja_CafeOrder.text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:Adam.Joja_CafeOrder.collect}}",
+              "RequiredCount": "50",
+              "Data": {
+                "AcceptedContextTags": "joja_coffee"
+              }
+            },
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:Adam.Joja_CafeOrder.ship}}",
+              "RequiredCount": "50",
+              "Data": {
+                "AcceptedContextTags": "joja_coffee"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Adam.Joja_CafeOrderMail",
+    "NoLetter": "true"
+              }
+            },
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5000"
+              }
+            }
+          ],
+          "CustomFields": null
+        },
+        "Adam.Joja_MachinesPRO": {
+          "Name": "{{i18n:Adam.Joja_MachinesPRO.name}}",
+          "Requester": "Morris",
+          "Duration": "Week",
+          "Repeatable": "false",
+          "RequiredTags": "!event_191393",
+          "Condition": "LOCATION_ACCESSIBLE Desert, !IS_COMMUNITY_CENTER_COMPLETE",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "{{i18n:Adam.Joja_MachinesPRO.text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:Adam.Joja_MachinesPRO.collect}}",
+              "RequiredCount": "100",
+              "Data": {
+                "AcceptedContextTags": "color_iridium, furnace_item,  use_reverse_name_for_sorting"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:Adam.Joja_MachinesPRO.donate}}",
+              "RequiredCount": "100",
+              "Data": {
+                "DropBox": "JojaPROorder",
+                "DropBoxGameLocation": "JojaMart",
+                "DropBoxIndicatorLocation": "5 27",
+                "MinimumCapacity": "9",
+                "AcceptedContextTags": "color_iridium, furnace_item,  use_reverse_name_for_sorting"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Adam.Joja_MachinesPROMail",
+                "NoLetter": "false",
+                "Host": "false"
+              }
+            }
+          ],
+          "CustomFields": null
+        },
+        "Adam.Joja_BoysNight": {
+          "Name": "{{i18n:Adam.Joja_BoysNight.name}}",
+          "Requester": "Shane",
+          "Duration": "Week",
+          "Repeatable": "true",
+          "RequiredTags": " ",
+          "Condition": "PLAYER_HAS_SEEN_EVENT current GuysNightPrequel",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "{{i18n:Adam.Joja_BoysNight.text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:Adam.Joja_BoysNight.collect}}",
+              "RequiredCount": "12",
+              "Data": {
+                "AcceptedContextTags": "joja_beer"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:Adam.Joja_BoysNight.deliver}}",
+              "RequiredCount": "12",
+              "Data": {
+                "AcceptedContextTags": "joja_beer",
+                "TargetName": "Shane"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Shane"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Andy"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Martin"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Elliott"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Sebastian"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Alex"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Sam"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Harvey"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Gus"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Willy"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Linus"
+              }
+            }
+          ],
+          "CustomFields": null
+        },
+        "Adam.Joja_GirlsNight": {
+          "Name": "{{i18n:Adam.Joja_GirlsNight.name}}",
+          "Requester": "Leah",
+          "Duration": "Week",
+          "Repeatable": "true",
+          "RequiredTags": " ",
+          "Condition": "PLAYER_HAS_SEEN_EVENT current GirlsNightPrequel",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "{{i18n:Adam.Joja_GirlsNight.text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:Adam.Joja_GirlsNight.collect}}",
+              "RequiredCount": "10",
+              "Data": {
+                "AcceptedContextTags": "joja_wine"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:Adam.Joja_GirlsNight.deliver}}",
+              "RequiredCount": "10",
+              "Data": {
+                "AcceptedContextTags": "joja_wine",
+                "TargetName": "Leah"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Leah"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Haley"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Maru"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Penny"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Abigail"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Andy"
+              }
+            },{
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Olivia"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Sophia"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Caroline"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                "Amount": "250",
+                "TargetName": "Marnie"
+              }
+            },
+          ],
+          "CustomFields": null
+        }
+      }
+    }
+  ]
+}

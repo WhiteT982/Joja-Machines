@@ -1,0 +1,25 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Morris Data",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+         "Adam.Joja_MorrisStatue": {
+          "Name": "Adam.Joja_MorrisStatue",
+          "DisplayName": "{{i18n:Adam.Joja_MorrisStatue.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_MorrisStatue.Description}}",
+          "Price": 0,
+          "Fragility": 0,
+          "CanBePlacedOutdoors": true,
+          "CanBePlacedIndoors": true,
+          "IsLamp": false,
+          "Texture": "{{InternalAssetKey: assets/jojamachinesPRO.png}}",
+          "SpriteIndex": 23,
+          "ContextTags": null,
+          "CustomFields": null
+        }
+      }
+    }
+  ]
+}

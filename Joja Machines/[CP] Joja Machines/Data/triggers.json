@@ -1,0 +1,365 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "Joja Preserves Jar Mail": {
+          "Id": "Adam.Joja_PreservesJarMail",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 2",
+          "Actions": [
+            "AddMail Current Adam.Joja_PreservesJarMail"
+          ]
+        },
+        "Joja Keg Mail": {
+          "Id": "Adam.Joja_KegMail",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 6",
+          "Actions": [
+            "AddMail Current Adam.Joja_KegMail"
+          ]
+        },
+        "Joja Dehydrator Mail": {
+          "Id": "Adam.Joja_DehydratorMail",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 8",
+          "Actions": [
+            "AddMail Current Adam.Joja_DehydratorMail"
+          ]
+        },
+        "Joja Fish Smoker Mail": {
+          "Id": "Adam.Joja_FishSmokerMail",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FISHING_LEVEL Current 7",
+          "Actions": [
+            "AddMail Current Adam.Joja_FishSmokerMail"
+          ]
+        },
+        "Joja Chum Maker Mail": {
+          "Id": "Adam.Joja_ChumMakerMail",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FISHING_LEVEL Current 2",
+          "Actions": [
+            "AddMail Current Adam.Joja_ChumMakerMail"
+          ]
+        },
+        "Joja Cheese Press Mail": {
+          "Id": "Adam.Joja_CheesePressMail",
+          "Trigger": "DayEnding",
+          "Condition": "BUILDINGS_CONSTRUCTED All Barn",
+          "Actions": [
+            "AddMail Current Adam.Joja_CheesePressMail"
+          ]
+        },
+        "Joja Honey Maker Mail": {
+          "Id": "Adam.Joja_HoneyMakerMail",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_FORAGING_LEVEL Current 3",
+          "Actions": [
+            "AddMail Current Adam.Joja_HoneyMakerMail now"
+          ]
+        },
+        "Joja Mayo Machine Mail": {
+          "Id": "Adam.Joja_MayoMachineMail",
+          "Trigger": "DayStarted",
+          "Condition": "BUILDINGS_CONSTRUCTED All Coop",
+          "Actions": [
+            "AddMail Current Adam.Joja_MayoMachineMail now"
+          ]
+        },
+        "Joja Generator Mail": {
+          "Id": "Adam.Joja_GeneratorMail",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_MAIL current landslideDone Received",
+          "Actions": [
+            "AddMail Current Adam.Joja_GeneratorMail now"
+          ]
+        },
+        "Joja Fish Trap Mail": {
+          "Id": "Adam.Joja_FishTrapMail",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_FISHING_LEVEL current 3",
+          "Actions": [
+            "AddMail Current Adam.Joja_FishTrapMail now"
+          ]
+        },
+        "Joja Oil Maker Mail": {
+          "Id": "Adam.Joja_OilMakerMail",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_FARMING_LEVEL current 6",
+          "Actions": [
+            "AddMail Current Adam.Joja_OilMakerMail now"
+          ]
+        },
+        "Joja Loom Mail": {
+          "Id": "Adam.Joja_LoomMail",
+          "Trigger": "DayStarted",
+          "Condition": "BUILDINGS_CONSTRUCTED All \"Deluxe Barn\"",
+          "Actions": [
+            "AddMail Current Adam.Joja_LoomMail now"
+          ]
+        },
+        "Joja Furnace Mail": {
+          "Id": "Adam.Joja_FurnaceMail",
+          "Trigger": "DayStarted",
+          "Condition": "MINE_LOWEST_LEVEL_REACHED 5",
+          "Actions": [
+            "AddMail Current Adam.Joja_FurnaceMail now"
+          ]
+        },
+        "Joja Tackle Bin Mail": {
+          "Id": "Adam.Joja_TackleBinMail",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_FISHING_LEVEL current 3",
+          "Actions": [
+            "AddMail Current Adam.Joja_TackleBinMail now"
+          ]
+        },
+        "Joja Seed Maker Mail": {
+          "Id": "Adam.Joja_SeedMakerMail",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_STAT current CropsShipped 1",
+          "Actions": [
+            "AddMail Current Adam.Joja_SeedMakerMail now"
+          ]
+        },
+        "Pierre Joja Machines": {
+          "Id": "Adam.Joja_MachinesPierre",
+          "Trigger": "DayEnding",
+          "Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+          "Actions": [
+            "AddMail Current Adam.Joja_MachinesPierre"
+          ]
+        },
+        "Pierre Abandoned JojaMart": {
+          "Id": "Adam.Joja_PierreAbandonedJojaMart",
+          "Trigger": "DayEnding",
+          "Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+          "Actions": [
+            "AddMail Current Adam.Joja_PierreAbandonedJojaMartMail tomorrow"
+          ]
+        },
+        "MorrisNoCCEvent": {
+          "Id": "Adam.Joja_MorrisNoCCEvent",
+          "Trigger": "DayEnding",
+          "Condition": "!IS_COMMUNITY_CENTER_COMPLETE, PLAYER_HAS_MAIL current Adam.Joja_Shipments4Mail Received",
+          "Actions": [
+            "AddMail current Adam.Joja_MorrisNoCCEvent received"
+          ]
+        },
+        "MorrisCCEvent": {
+          "Id": "Adam.Joja_MorrisCCEvent",
+          "Trigger": "DayEnding",
+          "Condition": "IS_COMMUNITY_CENTER_COMPLETE, PLAYER_HAS_MAIL current Adam.Joja_Shipments4Mail Received",
+          "Actions": [
+            "AddMail current Adam.Joja_MorrisCCEvent received"
+          ]
+        },
+        "Joja Shipment Start": {
+          "Id": "Adam.Joja_ShipmentStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_SEEN_EVENT current 15389722",
+          "Actions": [
+            "AddMail current Adam.Joja_ShipmentStartMail now"
+          ]
+        },
+        "Remove Shipments1": {
+          "Id": "Adam.Joja_Shipments1",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_SPECIAL_ORDER_COMPLETE current Adam.Joja_Shipments1",
+          "Actions": [
+            "RemoveSpecialOrder Adam.Joja_Shipments1"
+          ]
+        },
+        "Remove Shipments2": {
+          "Id": "Adam.Joja_Shipments2",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_SPECIAL_ORDER_COMPLETE current Adam.Joja_Shipments2",
+          "Actions": [
+            "RemoveSpecialOrder Adam.Joja_Shipments2"
+          ]
+        },
+        "Remove Shipments3": {
+          "Id": "Adam.Joja_Shipments3",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_SPECIAL_ORDER_COMPLETE current Adam.Joja_Shipments3",
+          "Actions": [
+            "RemoveSpecialOrder Adam.Joja_Shipments3"
+          ]
+        },
+        "Remove Shipments4": {
+          "Id": "Adam.Joja_Shipments4",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_SPECIAL_ORDER_COMPLETE current Adam.Joja_Shipments4",
+          "Actions": [
+            "RemoveSpecialOrder Adam.Joja_Shipments4"
+          ]
+        },
+        //Quest Triggers
+        "SamCheezeQuestStart": {
+          "Id": "Adam.Joja_SamCheezeQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL current VincentCheezeQuestCompleteMail Received",
+          "Actions": [
+            "AddQuest SamCheezeQuest"
+          ]
+        },
+        "VincentCheezeQuestStart": {
+          "Id": "Adam.Joja_VincentCheezeQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "BUILDINGS_CONSTRUCTED All Barn",
+          "Actions": [
+            "AddQuest VincentCheezeQuest"
+          ]
+        },
+        "HaleyHoneyQuestStart": {
+          "Id": "Adam.Joja_HaleyHoneyQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FORAGING_LEVEL Current 3",
+          "Actions": [
+            "AddQuest HaleyHoneyQuest"
+          ]
+        },
+        "LeahWineQuestStart": {
+          "Id": "Adam.Joja_LeahWineQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Leah 2",
+          "Actions": [
+            "AddQuest LeahWineQuest"
+          ]
+        },
+        "AlexJuiceQuestStart": {
+          "Id": "Adam.Joja_AlexJuiceQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Alex 2",
+          "Actions": [
+            "AddQuest AlexJuiceQuest"
+          ]
+        },
+        "ShaneBeerQuestStart": {
+          "Id": "Adam.Joja_ShaneBeerQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Shane 2",
+          "Actions": [
+            "AddQuest ShaneBeerQuest"
+          ]
+        },
+        "MaruVinegarQuestStart": {
+          "Id": "Adam.Joja_MaruVinegarQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Maru 2",
+          "Actions": [
+            "AddQuest MaruVinegarQuest"
+          ]
+        },
+        "PamPaleAleQuestStart": {
+          "Id": "Adam.Joja_PamPaleAleQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Pam 2",
+          "Actions": [
+            "AddQuest PamPaleAleQuest"
+          ]
+        },
+        "ElliottMeadQuestStart": {
+          "Id": "Adam.Joja_ElliotMeadQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Elliott 2",
+          "Actions": [
+            "AddQuest ElliottMeadQuest"
+          ]
+        },
+        "AbigailBlueTeaQuestStart": {
+          "Id": "Adam.Joja_AbigailBlueTeaQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Abigail 2",
+          "Actions": [
+            "AddQuest AbigailBlueTeaQuest"
+          ]
+        },
+        "SebastianJellyQuestStart": {
+          "Id": "Adam.Joja_SebastianJellyQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 2, PLAYER_HEARTS current Sebastian 2",
+          "Actions": [
+            "AddQuest SebastianJellyQuest"
+          ]
+        },
+        "HarveyPickleQuestStart": {
+          "Id": "Adam.Joja_HarveyPickleQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 2, PLAYER_HEARTS current Harvey 2",
+          "Actions": [
+            "AddQuest HarveyPickleQuest"
+          ]
+        },
+        "PennyAgedRoeQuestStart": {
+          "Id": "Adam.Joja_PennyAgedRoeQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 2, PLAYER_HEARTS current Penny 2",
+          "Actions": [
+            "AddQuest PennyAgedRoeQuest"
+          ]
+        },
+        "EmilyDriedRedMushroomsQuestStart": {
+          "Id": "Adam.Joja_EmilyDriedRedMushroomsQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 8, PLAYER_HEARTS current Emily 2",
+          "Actions": [
+            "AddQuest EmilyDriedRedMushroomsQuest"
+          ]
+        },
+        "WillyDriedFishQuestStart": {
+          "Id": "Adam.Joja_WillyDriedFishQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 8, PLAYER_HEARTS current Willy 2",
+          "Actions": [
+            "AddQuest WillyDriedFishQuest"
+          ]
+        }
+      }
+    },
+    {
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      },
+      "Action": "EditData",
+      "LogName": "Joja Machines SVE Trigger Data",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "MartinJuiceQuestStart": {
+          "Id": "Adam.Joja_MartinJuiceQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Martin 2",
+          "Actions": [
+            "AddQuest MartinJuiceQuest"
+          ]
+        },
+        "AndyBeerQuestStart": {
+          "Id": "Adam.Joja_AndyBeerQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Andy 2",
+          "Actions": [
+            "AddQuest AndyBeerQuest"
+          ]
+        },
+        "ClaireBlueTeaQuestStart": {
+          "Id": "Adam.Joja_ClaireBlueTeaQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Claire 2",
+          "Actions": [
+            "AddQuest ClaireBlueTeaQuest"
+          ]
+        },
+        "OliviaCaviarQuestStart": {
+          "Id": "Adam.Joja_OliviaCaviarQuestStart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_FARMING_LEVEL Current 2, PLAYER_HEARTS current Olivia 2",
+          "Actions": [
+            "AddQuest OliviaCaviarQuest"
+          ]
+        }
+      }
+    }
+  ]
+}

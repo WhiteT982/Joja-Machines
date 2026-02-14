@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines hat Data",
+      "Target": "Data/hats",
+      "Entries": {
+        "Adam.Joja_PROCap": "{{i18n:Adam.Joja_PROCap.DisplayName}}/{{i18n:Adam.Joja_PROCap.Description}}/false/true//{{i18n:Adam.Joja_PROCap.DisplayName}}/122"
+      }
+    }
+  ]
+}

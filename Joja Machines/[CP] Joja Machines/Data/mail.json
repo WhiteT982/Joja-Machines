@@ -1,0 +1,182 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_PreservesJarMail": "{{i18n:Adam.Joja_PreservesJarMail.text}} %item id (BC)Adam.Joja_PreservesJar 1%%[letterbg 4][#]{{i18n:Adam.Joja_PreservesJarMail.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_KegMail": "{{i18n:Adam.Joja_KegMail.text}} %item id (BC)Adam.Joja_Keg 1%%[letterbg 4][#]{{i18n:Adam.Joja_KegMail.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_CheesePressMail": "{{i18n:Adam.Joja_CheesePressMail.text}} %item id (O)Adam.Joja_Cheeze 3%%[letterbg 4][#]{{i18n:Adam.Joja_CheesePressMail.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_ChumMakerMail": "{{i18n:Adam.Joja_ChumMakerMail.text}} %item id (BC)Adam.Joja_ChumMaker 1%%[letterbg 4][#]{{i18n:Adam.Joja_ChumMakerMail.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_DehydratorMail": "{{i18n:Adam.Joja_DehydratorMail.text}} %item id (BC)Adam.Joja_Dehydrator 1%%[letterbg 4][#]{{i18n:Adam.Joja_DehydratorMail.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_FishSmokerMail": "{{i18n:Adam.Joja_FishSmokerMail.text}} %item id (BC)Adam.Joja_FishSmoker 1%%[letterbg 4][#]{{i18n:Adam.Joja_FishSmokerMail.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_HoneyMakerMail": "{{i18n:Adam.Joja_HoneyMakerMail.text}} %item id (BC)62 3%%[letterbg 4][#]{{i18n:Adam.Joja_HoneyMakerMail.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_MayoMachineMail": "{{i18n:Adam.Joja_MayoMachineMail.text}} %item id (O)180 1%%[letterbg 4][#]{{i18n:Adam.Joja_MayoMachineMail.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_GeneratorMail": "{{i18n:Adam.Joja_GeneratorMail.text}}[#]{{i18n:Adam.Joja_GeneratorMail.title}}"
+      }
+    },
+     {
+      "Action": "EditData",
+      "LogName": "Joja Machines Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_FishTrapMail": "{{i18n:Adam.Joja_FishTrapMail.text}} %item id (BC)Adam.Joja_FishTrap 1%%[letterbg 4][#]{{i18n:Adam.Joja_FishTrapMail.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_OilMakerMail": "{{i18n:Adam.Joja_OilMakerMail.text}} %item id (O)431 3%%[letterbg 4][#]{{i18n:Adam.Joja_OilMakerMail.title}}"
+      }
+    },
+     {
+      "Action": "EditData",
+      "LogName": "Joja Machines Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_LoomMail": "{{i18n:Adam.Joja_LoomMail.text}} %item id (O)440 1%%[letterbg 4][#]{{i18n:Adam.Joja_LoomMail.title}}"
+
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_FurnaceMail": "{{i18n:Adam.Joja_FurnaceMail.text}} %item id (O)378 10%%[letterbg 4][#]{{i18n:Adam.Joja_FurnaceMail.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_TackleBinMail": "{{i18n:Adam.Joja_TackleBinMail.text}} %item id (O)171 5%%[letterbg 4][#]{{i18n:Adam.Joja_TackleBinMail.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_SeedMakerMail": "{{i18n:Adam.Joja_SeedMakerMail.text}} %item id (BC)Adam.Joja_SeedMaker 1%%[letterbg 4][#]{{i18n:Adam.Joja_SeedMakerMail.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_MachinesPierre": "{{i18n:Adam.Joja_MachinesPierre.text}}[#]{{i18n:Adam.Joja_MachinesPierre.title}}"
+      }
+    },
+    //Special Orders Mail
+     {
+      "Action": "EditData",
+      "LogName": "Joja Machines Special Order Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_ShipmentStartMail": "{{i18n:Adam.Joja_ShipmentStartMail.text}}[#]{{i18n:Adam.Joja_ShipmentStartMail.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Special Order Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_Shipments1Mail": "{{i18n:Adam.Joja_Shipments1Mail.text}} %item id (H)JojaCap 1%%[letterbg 4][#]{{i18n:Adam.Joja_Shipments1Mail.title}}"
+      }
+    },
+     {
+      "Action": "EditData",
+      "LogName": "Joja Machines Special Order Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_Shipments2Mail": "{{i18n:Adam.Joja_Shipments2Mail.text}} %item id (BC)Adam.Joja_Keg 10%%[letterbg 4][#]{{i18n:Adam.Joja_Shipments2Mail.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Special Order Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_Shipments3Mail": "{{i18n:Adam.Joja_Shipments3Mail.text}} %item id (BC)Adam.Joja_PreservesJar 10%%[letterbg 4][#]{{i18n:Adam.Joja_Shipments3Mail.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Special Order Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_Shipments4Mail": "{{i18n:Adam.Joja_Shipments4Mail.text}} %item id (F)JojaCatalogue 1%%[letterbg 4][#]{{i18n:Adam.Joja_Shipments4Mail.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Special Order Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Adam.Joja_MachinesPROMail": "{{i18n:Adam.Joja_MachinesPROMail.text}} %item id (O)Adam.Joja_UpgradePack 3%%[letterbg 4][#]{{i18n:Adam.Joja_MachinesPROMail.title}}"
+      }
+    }
+  ]
+}
