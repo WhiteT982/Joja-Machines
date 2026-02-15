@@ -219,7 +219,7 @@
             {
               "ItemId": "(O)787",
               "RequiredCount": 1,
-              "InvalidCountMessage": "Requires one battery pack."
+              "InvalidCountMessage": "{{i18n:Adam.Joja_ICM.batterypack}}"
             }
           ],
           "PreventTimePass": null,

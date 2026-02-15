@@ -1,0 +1,21 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Strings Data",
+      "Target": "Strings/Objects",
+      "Entries": {
+        "DriedFishFlavor": "{{i18n:Adam.Joja_DriedFish.flavor}}",
+        "HoneyFlavor": "{{i18n:Adam.Joja_Honey.flavor}}",
+        "XLHoneyFlavor": "{{i18n:Adam.Joja_XLHoney.flavor}}",
+        "MeadFlavor": "{{i18n:Adam.Joja_Mead.flavor}}",
+        "WineFlavor": "{{i18n:Adam.Joja_Wine.flavor}}",
+        "JuiceFlavor": "{{i18n:Adam.Joja_Juice.flavor}}",
+        "PickleFlavor": "{{i18n:Adam.Joja_Pickle.flavor}}",
+        "JellyFlavor": "{{i18n:Adam.Joja_Jelly.flavor}}",
+        "AgedRoeFlavor": "{{i18n:Adam.Joja_AgedRoe.flavor}}"
+        
+      }
+    }
+]
+}

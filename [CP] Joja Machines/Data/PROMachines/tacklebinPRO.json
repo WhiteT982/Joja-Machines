@@ -28,7 +28,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -63,7 +63,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -98,7 +98,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -133,7 +133,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -168,7 +168,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -230,7 +230,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -265,7 +265,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -300,7 +300,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -335,7 +335,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -370,7 +370,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -432,7 +432,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -467,7 +467,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -502,7 +502,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -537,7 +537,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -572,7 +572,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -634,7 +634,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -669,7 +669,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -704,7 +704,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -739,7 +739,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -774,7 +774,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -836,7 +836,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -871,7 +871,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -906,7 +906,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -941,7 +941,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,
@@ -976,7 +976,7 @@
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "-20",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1",
-                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "Requires one processed metal bar and a piece of trash."
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Adam.Joja_ICM.tacklebin}}"
                   },
                   "OutputMethod": null,
                   "CopyColor": false,

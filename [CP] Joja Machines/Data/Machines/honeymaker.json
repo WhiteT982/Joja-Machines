@@ -58,8 +58,8 @@
                   "MinStack": -1,
                   "MaxStack": -1,
                   "Quality": -1,
-                  "ObjectInternalName": "Joja {0} Honey",
-                  "ObjectDisplayName": "Joja %PRESERVED_DISPLAY_NAME Honey",
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": "[LocalizedText Strings/Objects:HoneyFlavor %PRESERVED_DISPLAY_NAME]",
                   "ObjectColor": null,
                   "ToolUpgradeLevel": -1,
                   "IsRecipe": false,
@@ -72,7 +72,7 @@
                 }
               ],
               "MinutesUntilReady": -1,
-              "DaysUntilReady": 2,
+              "DaysUntilReady": 3,
               "InvalidCountMessage": null,
               "RecalculateOnCollect": true
             },

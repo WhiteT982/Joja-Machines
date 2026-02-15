@@ -19,7 +19,22 @@
             "joja_item",
             "joja_cheeze"
           ]
-        }
+        },
+        "Adam.Joja_XLCheeze": {
+          "Name": "Adam.Joja_XLCheeze",
+          "DisplayName": "{{i18n:Adam.Joja_XLCheeze.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_XLCheeze.Description}}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 450,
+          "Texture": "{{InternalAssetKey: assets/jojaproducts.png}}",
+          "SpriteIndex": "19",
+          "Edibility": 20,
+          "ContextTags": [
+            "joja_item",
+            "joja_cheeze"
+          ]
+        },
 
       }
     }

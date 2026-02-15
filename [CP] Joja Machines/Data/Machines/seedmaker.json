@@ -177,7 +177,7 @@
               ],
               "MinutesUntilReady": 300,
               "DaysUntilReady": -1,
-              "InvalidCountMessage": "Needs 3 tree fruit.",
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 3]",
               "RecalculateOnCollect": false
             },
             {

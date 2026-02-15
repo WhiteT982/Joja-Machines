@@ -57,8 +57,8 @@
                   "MinStack": -1,
                   "MaxStack": -1,
                   "Quality": -1,
-                  "ObjectInternalName": "Joja {0} Wine",
-                  "ObjectDisplayName": " Joja %PRESERVED_DISPLAY_NAME Wine ",
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": "[LocalizedText Strings/Objects:WineFlavor %PRESERVED_DISPLAY_NAME]",
                   "ObjectColor": null,
                   "ToolUpgradeLevel": -1,
                   "IsRecipe": false,
@@ -209,8 +209,40 @@
                   "ItemId": "(O)Adam.Joja_Mead",
                   "MinStack": -1,
                   "MaxStack": -1,
-                  "ObjectInternalName": "Joja {0} Mead",
-                  "ObjectDisplayName": "Joja %PRESERVED_DISPLAY_NAME Mead"
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": "[LocalizedText Strings/Objects:MeadFlavor %PRESERVED_DISPLAY_NAME]"
+                }
+              ],
+              "MinutesUntilReady": 250
+            },
+            {
+              "Id": "XLHoney",
+              "Triggers": [
+                {
+                  "Id": "Adam.Joja_Keg",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)Adam.Joja_XLHoney",
+                  "RequiredTags": null,
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "CopyPrice": true,
+                  "PreserveId": "DROP_IN_PRESERVE",
+                  "PriceModifiers": [
+                    {
+                      "Id": "Start Price",
+                      "Modification": "Multiply",
+                      "Amount": 2
+                    }
+                  ],
+                  "Id": "(O)Adam.Joja_Mead",
+                  "ItemId": "(O)Adam.Joja_Mead",
+                  "MinStack": 2,
+                  "MaxStack": 2,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": "[LocalizedText Strings/Objects:MeadFlavor %PRESERVED_DISPLAY_NAME]"
                 }
               ],
               "MinutesUntilReady": 250
@@ -304,8 +336,8 @@
                   "MinStack": -1,
                   "MaxStack": -1,
                   "Quality": -1,
-                  "ObjectInternalName": "{0} Juice",
-                  "ObjectDisplayName": "Joja %PRESERVED_DISPLAY_NAME Juice ",
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": "[LocalizedText Strings/Objects:JuiceFlavor %PRESERVED_DISPLAY_NAME]",
                   "ObjectColor": null,
                   "ToolUpgradeLevel": -1,
                   "IsRecipe": false,

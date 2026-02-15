@@ -120,7 +120,7 @@
               ],
               "MinutesUntilReady": 180,
               "DaysUntilReady": -1,
-              "InvalidCountMessage": "Needs 5 mixed seeds.",
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 5]",
               "RecalculateOnCollect": false
             },
             {
@@ -233,7 +233,7 @@
               ],
               "MinutesUntilReady": 180,
               "DaysUntilReady": -1,
-              "InvalidCountMessage": "Needs 5 mixed seeds.",
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 5]",
               "RecalculateOnCollect": false
             },
             {
@@ -346,7 +346,7 @@
               ],
               "MinutesUntilReady": 180,
               "DaysUntilReady": -1,
-              "InvalidCountMessage": "Needs 5 mixed seeds.",
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 5]",
               "RecalculateOnCollect": false
             },
             {
@@ -459,7 +459,7 @@
               ],
               "MinutesUntilReady": 180,
               "DaysUntilReady": -1,
-              "InvalidCountMessage": "Needs 5 mixed seeds.",
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 5]",
               "RecalculateOnCollect": false
             }
           ],

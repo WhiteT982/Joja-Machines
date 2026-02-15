@@ -20,6 +20,21 @@
             "honey_item",
             "color_blue"
           ]
+        },
+        "Adam.Joja_XLHoney": {
+          "Name": "Adam.Joja_XLHoney",
+          "DisplayName": "{{i18n:Adam.Joja_XLHoney.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_XLHoney.Description}}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 200,
+          "Texture": "{{InternalAssetKey: assets/jojaproducts.png}}",
+          "SpriteIndex": "20",
+          "Edibility": 40,
+          "ContextTags": [
+            "joja_item",
+            "color_blue"
+          ]
         }
       }
     }

@@ -5,7 +5,7 @@
       "Target": "Data/Characters",
       "Entries": {
         "Amber": {
-          "DisplayName": "Amber",
+          "DisplayName": "{{i18n:Adam.Joja_Amber}}",
           "BirthSeason": "Spring",
           "BirthDay": 27,
           "HomeRegion": "Other",
