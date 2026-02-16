@@ -64,7 +64,7 @@
                   "IsRecipe": false,
                   "StackModifiers": null,
                   "StackModifierMode": "Stack",
-                  "QualityModifiers": null,
+                  "QualityModifiers": null
                 }
               ],
               "MinutesUntilReady": 4000
@@ -343,7 +343,7 @@
                   "IsRecipe": false,
                   "StackModifiers": null,
                   "StackModifierMode": "Stack",
-                  "QualityModifiers": null,
+                  "QualityModifiers": null
                 }
               ],
               "MinutesUntilReady": 2400

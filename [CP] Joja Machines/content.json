@@ -145,7 +145,7 @@
         "Width": 2,
         "Height": 4
       },
-      "PatchMode": "Overlay",
+      "PatchMode": "Overlay"
     },
     //North Town Coffee
     {
@@ -167,7 +167,7 @@
         "Width": 2,
         "Height": 4
       },
-      "PatchMode": "Overlay",
+      "PatchMode": "Overlay"
     },
     //South Town Coffee
     {
@@ -189,7 +189,7 @@
         "Width": 2,
         "Height": 4
       },
-      "PatchMode": "Overlay",
+      "PatchMode": "Overlay"
     },
     //NPCs
     {
@@ -201,6 +201,6 @@
             "Action": "Load",
             "Target": "Portraits/Amber",
             "FromFile": "assets/NPCs/Portraits/Amber.png"
-        },
+        }
   ]
 }
