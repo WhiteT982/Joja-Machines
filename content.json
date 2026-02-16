@@ -4,39 +4,21 @@
     {
       "Action": "Include",
       "FromFile": "Data/shop.json, Data/mail.json, Data/triggers.json, Data/npcgifttastes.json, Data/Machines/BC.json, Data/Machines/keg.json, Data/Machines/preservejar.json, Data/Machines/dehydrator.json, Data/Machines/fishsmoker.json, Data/Machines/wormbin.json, Data/Machines/chummaker.json, Data/Machines/cheesepress.json, Data/Machines/honeymaker.json, Data/Machines/mayomachine.json, Data/Machines/generator.json, Data/Machines/fishtrap.json, Data/Machines/oilmaker.json, Data/Machines/loom.json, Data/Machines/furnace.json, Data/Machines/tacklebin.json, Data/Machines/seedmaker.json, Data/Machines/seedsorter.json, Data/Machines/recipe.json, Data/Objects/kegproducts.json, Data/Objects/preservejarproducts.json, Data/Objects/dehydratorproducts.json, Data/Objects/chummakerproducts.json, Data/Objects/cheese.json, Data/Objects/honey.json, Data/Objects/objectcontexttags.json, Data/events.json, Data/specialorders.json, Data/Objects/morrisstatue.json, Data/Objects/prorecipebook.json, Data/Objects/upgradepack.json, Data/Objects/PROhat.json, Data/PROMachines/BCPRO.json, Data/PROMachines/kegPRO.json, Data/PROMachines/preservejarPRO.json, Data/PROMachines/dehydratorPRO.json, Data/PROMachines/fishsmokerPRO.json, Data/PROMachines/wormbinPRO.json, Data/PROMachines/chummakerPRO.json, Data/PROMachines/cheesepressPRO.json, Data/PROMachines/honeymakerPRO.json, Data/PROMachines/mayomachinePRO.json, Data/PROMachines/generatorPRO.json, Data/PROMachines/fishtrapPRO.json, Data/PROMachines/oilmakerPRO.json, Data/PROMachines/loomPRO.json, Data/PROMachines/furnacePRO.json, Data/PROMachines/tacklebinPRO.json, Data/PROMachines/seedmakerPRO.json, Data/PROMachines/seedsorterPRO.json, Data/PROMachines/recipePRO.json, Data/NPCs/Amber.json, Data/quests.json, Data/strings.json"
-    },
-    //Mayo Machine Patch
+    }
+    /*Mayo Machine Patch*/,
     {
       "When": {
         "HasMod": "6480.blueegg"
       },
       "Action": "Include",
       "FromFile": "Data/Patches/blueegg.json"
-    },
-    //Maps and Map Patches
+    }
+    /*Maps and Map Patches*/,
     {
       "Action": "Load",
       "Target": "Maps/JojaMart",
       "FromFile": "assets/Maps/JojaMart.tmx",
       "Priority": "Low"
-    },
-    {
-      "LogName": "Add JojaMart Map To Locations",
-      "Action": "EditData",
-      "Target": "Data/Locations",
-      "Entries": {
-        "JojaMart": {
-          "DisplayName": "JojaMart",
-          "DefaultArrivalTile": {
-            "X": 13,
-            "Y": 28
-          },
-          "MusicDefault": "Hospital_Ambient",
-          "CreateOnLoad": {
-            "MapPath": "Maps/JojaMart"
-          }
-        }
-      }
     },
     {
       "LogName": "Add PROevent Map To Locations",
@@ -103,8 +85,8 @@
       "Target": "Characters/Farmer/hats",
       "FromFile": "assets/hats.png",
       "Priority": "Low"
-    },
-    //Map Patches
+    }
+    /*Map Patches*/,
     {
       "When": {
         "HasMod": "FlashShifter.StardewValleyExpandedCP"
@@ -125,7 +107,39 @@
         "Height": 8
       }
     },
-    //Bus Stop Coffee
+     {
+     "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      },
+            "Action": "EditMap",
+            "Target": "Maps/JojaMart",
+            "MapTiles": [
+                {
+                    "Position": { "X": 5, "Y": 28 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                    "Action": "DropBox JojaPROorder"
+                    }
+                }
+            ]
+        },
+        {
+     "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      },
+            "Action": "EditMap",
+            "Target": "Maps/JojaMart",
+            "MapTiles": [
+                {
+                    "Position": { "X": 4, "Y": 28 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                    "Action": "DropBox JojaPROorder"
+                    }
+                }
+            ]
+        },
+    /*Bus Stop Coffee*/
     {
       "When": {
         "HasSeenEvent": "JojaCafeOrderEvent"
@@ -146,8 +160,8 @@
         "Height": 4
       },
       "PatchMode": "Overlay"
-    },
-    //North Town Coffee
+    }
+    /*North Town Coffee*/,
     {
       "When": {
         "HasSeenEvent": "JojaCafeOrderEvent"
@@ -168,8 +182,8 @@
         "Height": 4
       },
       "PatchMode": "Overlay"
-    },
-    //South Town Coffee
+    }
+    /*South Town Coffee*/,
     {
       "When": {
         "HasSeenEvent": "JojaCafeOrderEvent"
@@ -190,17 +204,17 @@
         "Height": 4
       },
       "PatchMode": "Overlay"
-    },
-    //NPCs
+    }
+    /*NPCs*/,
     {
-            "Action": "Load",
-            "Target": "Characters/Amber",
-            "FromFile": "assets/NPCs/Sprites/Amber.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Portraits/Amber",
-            "FromFile": "assets/NPCs/Portraits/Amber.png"
-        }
+      "Action": "Load",
+      "Target": "Characters/Amber",
+      "FromFile": "assets/NPCs/Sprites/Amber.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/Amber",
+      "FromFile": "assets/NPCs/Portraits/Amber.png"
+    }
   ]
 }
