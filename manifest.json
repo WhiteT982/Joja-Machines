@@ -12,9 +12,9 @@
 		{"UniqueID": "6480.blueegg", "IsRequired": false},
 		{"UniqueID": "FlashShifter.StardewValleyExpandedCP", "IsRequired": false},
 		{"UniqueID": "Cornucopia.MoreCrops", "IsRequired": false},
-		{"UniqueID": "Wildflour.AtelierGoods", "IsRequired": false},
+		{"UniqueID": "Wildflour.AtelierGoods", "IsRequired": false}
 		],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
-  },
+  }
   }
