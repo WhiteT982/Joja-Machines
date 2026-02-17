@@ -3,4 +3,5 @@ events, quests, and special orders. Right now I'm really looking if there is any
 there are any suggestions or bugs. This is my first real mod and I'm sure it can be improved in a lot of ways.
 
 Completed Translations
+
 Chinese by dark 8807 Thanks!
