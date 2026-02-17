@@ -56,7 +56,7 @@
                   "QualityModifierMode": "Stack",
                   "ModData": null,
                   "PerItemCondition": null
-                },
+                }
               ],
               "MinutesUntilReady": 1000,
               "DaysUntilReady": -1,

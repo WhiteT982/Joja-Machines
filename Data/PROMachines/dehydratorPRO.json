@@ -15,7 +15,7 @@
                   "Trigger": "ItemPlacedInMachine",
                   "RequiredItemId": "(O)398",
                   "RequiredTags": null,
-                  "RequiredCount": 10,
+                  "RequiredCount": 7,
                   "Condition": null
                 }
               ],
@@ -54,7 +54,7 @@
               ],
               "MinutesUntilReady": 1000,
               "DaysUntilReady": -1,
-              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 10]",
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 7]",
               "RecalculateOnCollect": false
             },
             {
@@ -67,7 +67,7 @@
                   "RequiredTags": [
                     "category_fruits"
                   ],
-                  "RequiredCount": 10,
+                  "RequiredCount": 7,
                   "Condition": null
                 }
               ],
@@ -106,7 +106,7 @@
               ],
               "MinutesUntilReady": 1000,
               "DaysUntilReady": -1,
-              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 10]",
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 7]",
               "RecalculateOnCollect": false
             },
             {
@@ -123,7 +123,7 @@
                     "!item_aged_roe",
                     "!item_caviar"
                   ],
-                  "RequiredCount": 3,
+                  "RequiredCount": 2,
                   "Condition": null
                 }
               ],
@@ -167,7 +167,7 @@
               ],
               "MinutesUntilReady": 1000,
               "DaysUntilReady": -1,
-              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 3]",
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 2]",
               "RecalculateOnCollect": false
             },
             {
@@ -178,7 +178,7 @@
                   "Trigger": "ItemPlacedInMachine",
                   "RequiredItemId": "(O)420",
                   "RequiredTags": null,
-                  "RequiredCount": 10,
+                  "RequiredCount": 7,
                   "Condition": null
                 }
               ],
@@ -223,7 +223,7 @@
               ],
               "MinutesUntilReady": 1000,
               "DaysUntilReady": -1,
-              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 10]",
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 7]",
               "RecalculateOnCollect": false
             },
             {
@@ -236,7 +236,7 @@
                   "RequiredTags": [
                     "edible_mushroom"
                   ],
-                  "RequiredCount": 10,
+                  "RequiredCount": 7,
                   "Condition": null
                 }
               ],
@@ -275,7 +275,7 @@
               ],
               "MinutesUntilReady": 1000,
               "DaysUntilReady": -1,
-              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 10]",
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 7]",
               "RecalculateOnCollect": false
             }
           ],
