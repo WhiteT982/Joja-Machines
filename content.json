@@ -139,6 +139,134 @@
                 }
             ]
         },
+        {
+     "When": {
+        "HasFlag": "Adam.Joja_PierreAbandonedJojaMartMail"
+      },
+            "Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "MapTiles": [
+                {
+                    "Position": { "X": 3, "Y": 19 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent CompleteCCJojaPRO"
+                    }
+                }
+            ]
+        },
+        {
+     "When": {
+        "HasFlag": "Adam.Joja_PierreAbandonedJojaMartMail"
+      },
+            "Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "MapTiles": [
+                {
+                    "Position": { "X": 4, "Y": 19 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent CompleteCCJojaPRO"
+                    }
+                }
+            ]
+        },
+        {
+     "When": {
+        "HasFlag": "Adam.Joja_PierreAbandonedJojaMartMail"
+      },
+            "Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "MapTiles": [
+                {
+                    "Position": { "X": 5, "Y": 19 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent CompleteCCJojaPRO"
+                    }
+                }
+            ]
+        },
+        {
+     "When": {
+        "HasFlag": "Adam.Joja_PierreAbandonedJojaMartMail"
+      },
+            "Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "MapTiles": [
+                {
+                    "Position": { "X": 6, "Y": 19 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent CompleteCCJojaPRO"
+                    }
+                }
+            ]
+        },
+        {
+     "When": {
+        "HasFlag": "Adam.Joja_PierreAbandonedJojaMartMail"
+      },
+            "Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "MapTiles": [
+                {
+                    "Position": { "X": 3, "Y": 20 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent CompleteCCJojaPRO"
+                    }
+                }
+            ]
+        },
+        {
+     "When": {
+        "HasFlag": "Adam.Joja_PierreAbandonedJojaMartMail"
+      },
+            "Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "MapTiles": [
+                {
+                    "Position": { "X": 4, "Y": 20 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent CompleteCCJojaPRO"
+                    }
+                }
+            ]
+        },
+        {
+     "When": {
+        "HasFlag": "Adam.Joja_PierreAbandonedJojaMartMail"
+      },
+            "Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "MapTiles": [
+                {
+                    "Position": { "X": 5,"Y": 20 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent CompleteCCJojaPRO"
+                    }
+                }
+            ]
+        },
+        {
+     "When": {
+        "HasFlag": "Adam.Joja_PierreAbandonedJojaMartMail"
+      },
+            "Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "MapTiles": [
+                {
+                    "Position": { "X": 6, "Y": 20 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent CompleteCCJojaPRO"
+                    }
+                }
+            ]
+        },
     /*Bus Stop Coffee*/
     {
       "When": {
