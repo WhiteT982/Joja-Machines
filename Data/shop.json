@@ -858,9 +858,30 @@
           "AvailableStock": 30,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
-          "Condition": "IS_COMMUNITY_CENTER_COMPLETE, PLAYER_HAS_SEEN_EVENT current JojaPROevent",
+          "Condition": "IS_COMMUNITY_CENTER_COMPLETE",
           "Id": "(O)Adam.Joja_UpgradePack",
           "ItemId": "(O)Adam.Joja_UpgradePack",
+          "IsRecipe": false
+        },
+        "Adam.Joja_PROrecipeBook": {
+          "Price": 150000,
+          "ActionsOnPurchase": [
+                "AddMail current Adam.Joja_recipebookMail received"
+              ],
+          "AvailableStock": -1,
+          "AvailableStockModifiers": [
+            {
+              "Id": "No Repeat Book",
+              "Modification": "Set",
+              "Amount": 0,
+              "Condition": "PLAYER_HAS_SEEN_EVENT current CompleteCCJojaPRO",
+            }
+          ],
+          "AvoidRepeat": false,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+          "Id": "(O)Adam.Joja_PROrecipeBook",
+          "ItemId": "(O)Adam.Joja_PROrecipeBook",
           "IsRecipe": false
         }
       }
