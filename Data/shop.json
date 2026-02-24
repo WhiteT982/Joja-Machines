@@ -874,7 +874,7 @@
               "Id": "No Repeat Book",
               "Modification": "Set",
               "Amount": 0,
-              "Condition": "PLAYER_HAS_SEEN_EVENT current CompleteCCJojaPRO",
+              "Condition": "PLAYER_HAS_SEEN_EVENT current CompleteCCJojaPRO"
             }
           ],
           "AvoidRepeat": false,
