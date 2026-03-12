@@ -201,6 +201,126 @@
           ]
         }
       }
-    }
+    },
+    {
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)163", "OutputRules" ],
+			"Entries": {
+				"Joja Wine Aging": 
+				{
+					"Id": "Adam.Joja_Wine",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)Adam.Joja_Wine",
+						"RequiredTags": null,
+						"RequiredCount": 1,
+						"Condition": null
+					}
+				],
+				"UseFirstValidOutput": false,
+				"OutputItem": [
+				{
+					"CustomData": {
+						"AgingMultiplier": "4"
+					},
+					"OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+					"CopyColor": false,
+					"CopyPrice": false,
+					"CopyQuality": false,
+					"PreserveType": null,
+					"PreserveId": null,
+					"IncrementMachineParentSheetIndex": 0,
+					"PriceModifiers": null,
+					"PriceModifierMode": "Stack",
+					"Condition": null,
+					"Id": "Default",
+					"ItemId": null,
+					"RandomItemId": null,
+					"MaxItems": null,
+					"MinStack": -1,
+					"MaxStack": -1,
+					"Quality": -1,
+					"ObjectInternalName": null,
+					"ObjectDisplayName": null,
+					"ToolUpgradeLevel": -1,
+					"IsRecipe": false,
+					"StackModifiers": null,
+					"StackModifierMode": "Stack",
+					"QualityModifiers": null,
+					"QualityModifierMode": "Stack",
+					"ModData": null,
+					"PerItemCondition": null
+				}
+			],
+			"MinutesUntilReady": -1,
+			"DaysUntilReady": -1,
+			"InvalidCountMessage": null,
+			"RecalculateOnCollect": false
+		}
+	}
+},
+{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)163", "OutputRules" ],
+			"Entries": {
+				"Joja Mead Aging": 
+				{
+					"Id": "Adam.Joja_Mead",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)Adam.Joja_Mead",
+						"RequiredTags": null,
+						"RequiredCount": 1,
+						"Condition": null
+					}
+				],
+				"UseFirstValidOutput": false,
+				"OutputItem": [
+				{
+					"CustomData": {
+						"AgingMultiplier": "4"
+					},
+					"OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+					"CopyColor": false,
+					"CopyPrice": false,
+					"CopyQuality": false,
+					"PreserveType": null,
+					"PreserveId": null,
+					"IncrementMachineParentSheetIndex": 0,
+					"PriceModifiers": null,
+					"PriceModifierMode": "Stack",
+					"Condition": null,
+					"Id": "Default",
+					"ItemId": null,
+					"RandomItemId": null,
+					"MaxItems": null,
+					"MinStack": -1,
+					"MaxStack": -1,
+					"Quality": -1,
+					"ObjectInternalName": null,
+					"ObjectDisplayName": null,
+					"ToolUpgradeLevel": -1,
+					"IsRecipe": false,
+					"StackModifiers": null,
+					"StackModifierMode": "Stack",
+					"QualityModifiers": null,
+					"QualityModifierMode": "Stack",
+					"ModData": null,
+					"PerItemCondition": null
+				}
+			],
+			"MinutesUntilReady": -1,
+			"DaysUntilReady": -1,
+			"InvalidCountMessage": null,
+			"RecalculateOnCollect": false
+		}
+	}
+}
   ]
 }
