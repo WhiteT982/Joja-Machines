@@ -14,7 +14,7 @@
           "Price": 1000,
           "Texture": "{{InternalAssetKey: assets/jojaproducts.png}}",
           "SpriteIndex": "18",
-          "Edibility": 0,
+          "Edibility": -300,
           "ContextTags": [
             "joja_item"
           ]
