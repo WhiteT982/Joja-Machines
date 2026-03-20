@@ -37,14 +37,14 @@
             "Target": "Maps/JojaMart",
             "MapTiles": [
                 {
-                    "Position": { "X": 12, "Y": 28 },
+                    "Position": { "X": 16, "Y": 28 },
                     "Layer": "Buildings",
                     "SetProperties": {
                     "Action": "DropBox JojaPROorder"
                     }
                   },
                 {
-                    "Position": { "X": 11, "Y": 28 },
+                    "Position": { "X": 17, "Y": 28 },
                     "Layer": "Buildings",
                     "SetProperties": {
                     "Action": "DropBox JojaPROorder"
