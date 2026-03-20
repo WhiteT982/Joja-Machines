@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="138">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="142">
  <properties>
   <property name="AmbientLight" value="40 40 40"/>
   <property name="Doors" value="21 24 1 120"/>
@@ -50,51 +50,36 @@
  </tileset>
  <layer id="1" name="Back" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlUEOgjAQRX8JjeMplJ1uPYTRe6jncOfWM7DRrXdw4TnUg5hJaSgNlRILRC3Jy3TK0JdJKeQjIB+Ia89o77NntDelftHexwDkRrTHddTVtvHdB3yPI/9DQt3mrjlB3ea+c9Ebvb/unVN4b0bV/1RGzffb5Oac7f5GzG8gj4+JG12nr0+8wtp7H28IbC9fFwe6bpFW12jKm7x7CSwBkCjjWAA3KOrW5eff5T7eqQS2BMwKHxlxIsu6tufB18u9rgVwJuDA59/yht5f9m5I9bcr+j4VsUvvSqg+XZHP0AsouxIQ
+   eJztlU0OgjAQRr8SGsdTKDvdegij91DP4c6tZ2CjW+/gwnOoBzETmFCaVmjkJypNXqZThr6UUkhHQNoT144R77NjxBtTt4j30QOpEe2+C1dtiO/e43s88D9E1G7uG1PUbl53bPAO3l/3zql5b0Ll/1RC1ddDcnPMdn8j5jeQ+8fIj9RJ+8SrrL2v420C28vt4kHqFnF5jqrchq+b3r0GlgBIFXGsgBsyXPPy/e/yOt6pBrYEzHIfGXGii7rQ81D1nMXLa10r4EzAgc+/5W16f9m7oWx9u3zdpzy26V2pbJ2+yDUvgJMRKg==
   </data>
  </layer>
  <objectgroup id="2" name="Back">
-  <object id="128" name="TileData" x="48" y="368" width="16">
-   <properties>
-    <property name="TouchAction" value="PlayEvent JojaPROevent true true"/>
-   </properties>
-  </object>
-  <object id="129" name="TileData" x="48" y="416" width="16" height="16">
+  <object id="129" name="TileData" x="240" y="416" width="16" height="16">
    <properties>
     <property name="TouchAction" value="PlayEvent JojaPROeventSVE true true"/>
    </properties>
   </object>
-  <object id="136" name="TileData" x="64" y="368" width="16" height="16">
+  <object id="140" name="TileData" x="240" y="368" width="16" height="16">
    <properties>
     <property name="TouchAction" value="PlayEvent JojaPROeventSVE true true"/>
    </properties>
   </object>
-  <object id="135" name="TileData" x="64" y="416" width="16" height="16">
+  <object id="141" name="TileData" x="224" y="384" width="16" height="16">
    <properties>
     <property name="TouchAction" value="PlayEvent JojaPROeventSVE true true"/>
    </properties>
   </object>
-  <object id="134" name="TileData" x="48" y="432" width="16" height="16">
+  <object id="131" name="TileData" x="224" y="368" width="16" height="16">
    <properties>
     <property name="TouchAction" value="PlayEvent JojaPROeventSVE true true"/>
    </properties>
   </object>
-  <object id="132" name="TileData" x="48" y="368" width="16" height="16">
+  <object id="133" name="TileData" x="224" y="416" width="16" height="16">
    <properties>
     <property name="TouchAction" value="PlayEvent JojaPROeventSVE true true"/>
    </properties>
   </object>
-  <object id="131" name="TileData" x="48" y="400" width="16" height="16">
-   <properties>
-    <property name="TouchAction" value="PlayEvent JojaPROeventSVE true true"/>
-   </properties>
-  </object>
-  <object id="133" name="TileData" x="48" y="400" width="16" height="16">
-   <properties>
-    <property name="TouchAction" value="PlayEvent JojaPROeventSVE true true"/>
-   </properties>
-  </object>
-  <object id="137" name="TileData" x="48" y="384" width="16" height="16">
+  <object id="137" name="TileData" x="224" y="400" width="16" height="16">
    <properties>
     <property name="TouchAction" value="PlayEvent JojaPROeventSVE true true"/>
    </properties>
@@ -111,7 +96,7 @@
  <objectgroup id="4" name="Back2"/>
  <layer id="5" name="Buildings" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztljlv1EAUx38xQe+x4Qx0VLDAOoe5v0AqhDi/BNpIkAPyCTjrpAh9BKKFcEmUEQjoOEUDJVdHOBsaNLItD09ee73ZpMqTnmb+8/4zP3vknZ2LApdWOC8LzAk88fKa0S6K6p3kjYR7S+CjwKek72KnQl1hl8JuhT2a1X2v638TWBT4LvCjoP0p8MvjPhXoVVirWT8v/brf36SwWWGLQn9Bu1Vhm2bczwLHFI5r3D+vcEHJDVc/pXA68brYp7Bf4YDCwYL2kMJhj+virMK5FiwbEwqTbXrzwufauC1wR2Be4K7AvRa+bnNfCLwUeCXwWuBNl7hNb5+bS9izpXBXOiz3mcDzZdTp2Cp3ldsNPaX/j1nuF4Gvy6jTMcsVBfWebZ3RVetWp3N8rtuLvHm1knVrBc/Rl8OVnPOqoRBqaz2kMGzqg6bu+weMP51juScUTno+d5aOFpzdGxQ2Vjzbjyg8NtwxhfEK3Ehhbwf/Kem9rhnBaFR9vg1//94D0wHUQugLYX0Ya5epb1bguvfeZbod7l9gBhgMYSiE4TDWM57vgcDDxH+/RLfDfQRs74F54mwEEAYwEMQ69Z2J4F2y7tukbaXzIr0H+u/7oRdG1sDijsx3NID+Rub7LfDHrFumy7guHNfGzS7dN/w7r11vznB76hDUY9+CwEQEk8n3PBbBeMVv2511U8nvcqHgPa4EcDWIfSNUS3/dTuan+Q8Vkwcz
+   eJztlrluFEEQhj8PRlWsOQ0ZESyw42O4X8ARQpwvgdYS+ABeYIyBGAc4t0CkYA5LhMgIyDjlBEKuDHMmJKg1O9p2aXaGvRy5pFLX3/V3f70tbe9OCVxZ5ZwWmBN46uV1o13k9VvJWzXuHYGPAp9qtYvdCmWFPQp7FfZpve97Xf1NYFngu8CPnPGnwC+P+0ygV2G91uus9Pt+vUVhq8I2hf6ccbvCDq1zPwucUDipSX1R4ZKSGa5/RuFszevigMJBhUMKh3PGIwpHPa6L8woXGrBsTChM/qc3K3yujbsC9wTmBe4LPGjg6zT3pcArgdcCbwTedohb9e652sadtcNd7bDc5wIvuqjTuTXuGrcT+rKunLPcLwJfu6jTOcsVBfXOtsHoZvtWp2t8rruLrHWlgn1LOefoy+BKxntVUQi1sR5SGDb9QdP3/QPGn66x3FMKpz2fe0tHc97uTQqbm3zbjyksGu6YwngT3Ehhfwu/KdMd/l3w7+89cCOAUgh9IWwME+0y9d0UmPX4RdqPWSGuRjAareT+BWaAwRCGQhgOEz3jne+RwELN/7BA21gQYtef9LiPgZ09ME+SlQDCAAaCRPvnW6qN7wq0jSUhPhcRT5jP+6EXRtbB8q6693gA/ZW677fAH7Nvkfbm47S23w/HtXG7C/837H5zhttThqCc+J60yR2LYDxK6sWC/a4GcC1IfCM0l/6+raxP8x8QIgnU
   </data>
  </layer>
  <objectgroup id="6" name="Buildings">
@@ -720,24 +705,24 @@
     <property name="Action" value="JoinJoja"/>
    </properties>
   </object>
-  <object id="122" name="TileData" x="64" y="432" width="16" height="16">
+  <object id="122" name="TileData" x="272" y="448" width="16" height="16">
    <properties>
     <property name="Action" value="DropBox JojaPROorder"/>
    </properties>
   </object>
-  <object id="123" name="TileData" x="80" y="432" width="16" height="16">
+  <object id="123" name="TileData" x="256" y="448" width="16" height="16">
    <properties>
     <property name="Action" value="DropBox JojaPROorder"/>
    </properties>
   </object>
-  <object id="124" name="TileData" x="32" y="400" width="16" height="16">
+  <object id="138" name="TileData" x="256" y="400" width="16" height="16">
    <properties>
-    <property name="Action" value="OpenShop JojaMachines right"/>
+    <property name="Action" value="OpenShop JojaMachines left"/>
    </properties>
   </object>
-  <object id="125" name="TileData" x="32" y="384" width="16" height="16">
+  <object id="139" name="TileData" x="256" y="384" width="16" height="16">
    <properties>
-    <property name="Action'" value="OpenShop JojaMachines right"/>
+    <property name="Action'" value="OpenShop JojaMachines left"/>
    </properties>
   </object>
  </objectgroup>
@@ -749,7 +734,7 @@
  <objectgroup id="8" name="Paths"/>
  <layer id="9" name="Front" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzdVktOAkEULEj0zRHcOgsTF3MI/26VEyBu/FzAPX4WJoq6kBMogh7CHaDGhBP4WxDQhScwHZ3QFG8GxuFjrKSTrtfNVL3Xr2cARoc96YyNO+E86HfDxr0AD5aPawFuLP4uwEcXnysOsKrk959xJMCxADkBTgQ4/QNnGQdLjj4fpq6PfQEOZHDcjzEuBLiUwXE/pqEZ0j8FWisLcNWl3+5ovajsNzF7n9EpWdzoVKR9v71eJV6Xzjyqim6BnltX8mHdJvnk/LrVQ/PbIF5UfDGalD+jocR4X5n8Nyh/9lVV6mN8pKy7wz3ioxRS14JyXhXyYYP7BQE14vPUdDg/+7ncd1oeZeKmFmkHWLNq0m8ehBkHyFj7ZonPEZ8nvkB8kXivMO/S5RF8h6Pq7gqQldb8NmD4yHjAutd/31FxTj2Xj/jN3wFQGwseGs4knPeCPICJxPc8Zw1GOmaNg/4HTieBx8n22OdUPK1edDVk+3Q/omg+ucCz2+JbHrD9U+sND9iMWHfzrkv9Io+ge6aNrNVnfEd9HCba4y8u8OoCb0mgkozuj33GwReNNY+G
+   eJzdVUlOw0AQrESC9hO44gMSBz+CnSvwghAuLB/gxsEsByQIi0ReACGBR3BLAgiJF7AdogQOvABZyMq43LYDOIsoaaSpns50dU+3A/QPOxK2DVvxPOp3vcadAPeGjisBrg3+LsBHgs4FC1hU8vvPOBDgUICCAEcCHA/AW/4Fc5a+72VcH7sC7En3uG9jnAtwId3jvk1DK6Z/SnRWFeAyod9u6bys+Hs208+LUzG4F6cmQX/zvE68IeE86krcEt3bUPLhuC3Syfkl1UPT2yReVnQxWpQ/o6nY2K9K+puUP+uqK/XxdCwZs8M94qMSU9eS8l410mGC+wURNeL31OJwfua93HdaHlXiXi1yFrBs1CRtHoUJC8gbfpPEp4hPE58hPku8U3jf0vk+/A//NO62AK609zcRa9BwRpqKCRrzDrDitPkmgMeh6KXhROK5hlMBNoy4RQAjme99wVhpI+dga90J28ezwMNo0PY51gUBHcDtw3w82cCznc5dqw6wptS4E0TNmbZco894Rn3sZ4L2Fxt4tYG3LFDL/j7HNOb/C/nkjdM=
   </data>
  </layer>
  <objectgroup id="10" name="Front"/>

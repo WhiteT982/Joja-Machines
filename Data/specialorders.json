@@ -402,7 +402,7 @@
               "Data": {
                 "DropBox": "JojaPROorder",
                 "DropBoxGameLocation": "JojaMart",
-                "DropBoxIndicatorLocation": "5 27",
+                "DropBoxIndicatorLocation": "16 27",
                 "MinimumCapacity": "9",
                 "AcceptedContextTags": "color_iridium, furnace_item,  use_reverse_name_for_sorting"
               }

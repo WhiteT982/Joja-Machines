@@ -13,13 +13,100 @@
       "Action": "Include",
       "FromFile": "Data/Patches/blueegg.json"
     }
-    /*Maps and Map Patches*/,
+    /*JojaMart Map Patches*/,
     {
       "Action": "Load",
       "Target": "Maps/JojaMart",
+      "Priority": "Low",
       "FromFile": "assets/Maps/JojaMart.tmx",
-      "Priority": "Low"
+      "FromArea": {
+        "X": 16,
+        "Y": 22,
+        "Width": 3,
+        "Height": 8
+      },
+      "ToArea": {
+        "X": 16,
+        "Y": 22,
+        "Width": 3,
+        "Height": 8
+      }
     },
+     {
+            "Action": "EditMap",
+            "Target": "Maps/JojaMart",
+            "MapTiles": [
+                {
+                    "Position": { "X": 12, "Y": 28 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                    "Action": "DropBox JojaPROorder"
+                    }
+                  },
+                {
+                    "Position": { "X": 11, "Y": 28 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                    "Action": "DropBox JojaPROorder"
+                    }
+                  },
+                {
+                    "Position": { "X": 16, "Y": 24 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                    "Action": "OpenShop JojaMachines left"
+                    }
+                },{
+                    "Position": { "X": 16, "Y": 25 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                    "Action": "OpenShop JojaMachines left"
+                    }
+                },
+                {
+                    "Position": { "X": 15, "Y": 26 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent JojaPROevent true true"
+                    }
+                },
+                {
+                    "Position": { "X": 14, "Y": 26 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent JojaPROevent true true"
+                    }
+                },
+                {
+                    "Position": { "X": 14, "Y": 25 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent JojaPROevent true true"
+                    }
+                },
+                {
+                    "Position": { "X": 14, "Y": 24 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent JojaPROevent true true"
+                    }
+                },
+                 {
+                    "Position": { "X": 14, "Y": 23 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent JojaPROevent true true"
+                    }
+                },
+                {
+                    "Position": { "X": 15, "Y": 23 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent JojaPROevent true true"
+                    }
+                }
+            ]
+        },
     {
       "LogName": "Add PROevent Map To Locations",
       "Action": "EditData",
@@ -86,7 +173,7 @@
       "FromFile": "assets/hats.png",
       "Priority": "Low"
     }
-    /*Map Patches*/,
+    /*SVE JojaMart Map Patches*/,
     {
       "When": {
         "HasMod": "FlashShifter.StardewValleyExpandedCP"
@@ -95,50 +182,84 @@
       "Target": "Maps/JojaMart",
       "FromFile": "assets/Maps/JojaMartSVE.tmx",
       "FromArea": {
-        "X": 1,
-        "Y": 21,
-        "Width": 5,
+        "X": 16,
+        "Y": 22,
+        "Width": 3,
         "Height": 8
       },
       "ToArea": {
-        "X": 1,
-        "Y": 21,
-        "Width": 5,
+        "X": 16,
+        "Y": 22,
+        "Width": 3,
         "Height": 8
       }
     },
-     {
-     "When": {
+    {
+      "When": {
         "HasMod": "FlashShifter.StardewValleyExpandedCP"
       },
-            "Action": "EditMap",
-            "Target": "Maps/JojaMart",
-            "MapTiles": [
-                {
-                    "Position": { "X": 5, "Y": 28 },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                    "Action": "DropBox JojaPROorder"
-                    }
-                }
-            ]
-        },
+      "Action": "EditMap",
+      "Target": "Maps/JojaMart",
+      "MapTiles": [
         {
-     "When": {
-        "HasMod": "FlashShifter.StardewValleyExpandedCP"
-      },
-            "Action": "EditMap",
-            "Target": "Maps/JojaMart",
-            "MapTiles": [
-                {
-                    "Position": { "X": 4, "Y": 28 },
+                    "Position": { "X": 16, "Y": 28 },
                     "Layer": "Buildings",
                     "SetProperties": {
                     "Action": "DropBox JojaPROorder"
                     }
+                  },
+                {
+                    "Position": { "X": 17, "Y": 28 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                    "Action": "DropBox JojaPROorder"
+                    }
+                  },
+                {
+                 "Position": { "X": 15, "Y": 26 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent JojaPROeventSVE true true"
+                    }
+                },
+                {
+                    "Position": { "X": 14, "Y": 26 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent JojaPROeventSVE true true"
+                    }
+                },
+                {
+                    "Position": { "X": 14, "Y": 25 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent JojaPROeventSVE true true"
+                    }
+                },
+                {
+                    "Position": { "X": 14, "Y": 24 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent JojaPROeventSVE true true"
+                    }
+                },
+                {
+                    "Position": { "X": 14, "Y": 23 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent JojaPROeventSVE true true"
+                    }
+                },
+                {
+                    "Position": { "X": 15, "Y": 23 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "TouchAction": "PlayEvent JojaPROeventSVE true true"
+                    }
                 }
             ]
         },
+        //CC Complete SeedShop map patches
         {
      "When": {
         "HasFlag": "Adam.Joja_PierreAbandonedJojaMartMail"
