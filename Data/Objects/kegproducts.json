@@ -92,7 +92,8 @@
           "IsDrink": true,
           "ContextTags": [
             "color_blue",
-            "joja_item"
+            "joja_item",
+            "vinegar_item"
           ]
         },
         "Adam.Joja_Coffee": {

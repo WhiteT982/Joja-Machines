@@ -1,0 +1,203 @@
+{
+    "Changes": [
+            {
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"Entries": {
+                "Cheese Cauli.": {
+					"ProductQualifiedId": "(O)197",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)190",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cheese_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Adam.Joja_AnyCheese}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+                    ]
+                },
+                "Pizza": {
+					"ProductQualifiedId": "(O)206",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)246",
+							"Amount": 1
+						},
+                        {
+							"Type": "Item",
+							"Value": "(O)256",
+							"Amount": 1
+						},
+                        {
+							"Type": "ContextTag",
+							"Value": "cheese_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Adam.Joja_AnyCheese}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+                    ]
+                },
+                "Pepper Poppers": {
+					"ProductQualifiedId": "(O)215",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)260",
+							"Amount": 1
+						},
+                        {
+							"Type": "ContextTag",
+							"Value": "cheese_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Adam.Joja_AnyCheese}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+                    ]
+                },
+                "Salad": {
+					"ProductQualifiedId": "(O)196",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)20",
+							"Amount": 1
+						},
+                        {
+							"Type": "Item",
+							"Value": "(O)22",
+							"Amount": 1
+						},
+                        {
+							"Type": "ContextTag",
+							"Value": "vinegar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Adam.Joja_AnyVinegar}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 176,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+                    ]
+                },
+                "Parsnip Soup": {
+					"ProductQualifiedId": "(O)199",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)24",
+							"Amount": 1
+						},
+                        {
+							"Type": "Item",
+							"Value": "(O)184",
+							"Amount": 1
+						},
+                        {
+							"Type": "ContextTag",
+							"Value": "vinegar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Adam.Joja_AnyVinegar}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 176,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+                    ]
+                },
+                "Radish Salad": {
+					"ProductQualifiedId": "(O)609",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)264",
+							"Amount": 1
+						},
+                        {
+							"Type": "Item",
+							"Value": "(O)247",
+							"Amount": 1
+						},
+                        {
+							"Type": "ContextTag",
+							"Value": "vinegar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Adam.Joja_AnyVinegar}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 176,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+                    ]
+                },
+                "Coleslaw": {
+					"ProductQualifiedId": "(O)648",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)266",
+							"Amount": 1
+						},
+                        {
+							"Type": "Item",
+							"Value": "(O)306",
+							"Amount": 1
+						},
+                        {
+							"Type": "ContextTag",
+							"Value": "vinegar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Adam.Joja_AnyVinegar}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 176,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+                    ]
+                }
+			}
+		}
+    ]
+}

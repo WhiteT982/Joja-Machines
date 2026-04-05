@@ -76,6 +76,8 @@
 "Adam.Joja_Honey.flavor": "Joja {0} Honey",
 "Adam.Joja_XLHoney.flavor": "Joja XL {0} Honey",
 "Adam.Joja_Mead.flavor": "Joja {0} Mead",
+"Adam.Joja_AnyCheese": "Cheese (Any)",
+"Adam.Joja_AnyVinegar": "Vinegar (Any)",
 //Machines
 "Adam.Joja_Keg.DisplayName": "Joja Keg",
 "Adam.Joja_Keg.Description": "Make your own artisan products at home with a new and improved keg design from Joja! Now faster than ever before!",

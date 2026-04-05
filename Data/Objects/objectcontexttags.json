@@ -3,6 +3,22 @@
     {
       "Action": "EditData",
       "Target": "Data/Objects",
+      "TargetField": [ "424", "ContextTags"],
+      "Entries": {
+            "cheese_item": "cheese_item"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "419", "ContextTags"],
+      "Entries": {
+            "vinegar_item": "vinegar_item"
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
       "TargetField": [ "472", "ContextTags"],
       "Entries": {
             "spring_seed": "spring_seed"
