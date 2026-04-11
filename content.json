@@ -56,7 +56,8 @@
                     "SetProperties": {
                     "Action": "OpenShop JojaMachines left"
                     }
-                },{
+                },
+                {
                     "Position": { "X": 16, "Y": 25 },
                     "Layer": "Buildings",
                     "SetProperties": {

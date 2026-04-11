@@ -57,8 +57,8 @@
                   "MinStack": -1,
                   "MaxStack": -1,
                   "Quality": -1,
-                  "ObjectInternalName": null,
-                  "ObjectDisplayName": "[LocalizedText Strings/Objects:WineFlavor %PRESERVED_DISPLAY_NAME]",
+                  "ObjectInternalName": "Joja {0} Wine",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:WineFlavor %PRESERVED_DISPLAY_NAME]",
                   "ObjectColor": null,
                   "ToolUpgradeLevel": -1,
                   "IsRecipe": false,
@@ -209,8 +209,8 @@
                   "ItemId": "(O)Adam.Joja_Mead",
                   "MinStack": -1,
                   "MaxStack": -1,
-                  "ObjectInternalName": null,
-                  "ObjectDisplayName": "[LocalizedText Strings/Objects:MeadFlavor %PRESERVED_DISPLAY_NAME]"
+                  "ObjectInternalName": "Joja {0} Mead",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:MeadFlavor %PRESERVED_DISPLAY_NAME]"
                 }
               ],
               "MinutesUntilReady": 250
@@ -241,8 +241,8 @@
                   "ItemId": "(O)Adam.Joja_Mead",
                   "MinStack": 2,
                   "MaxStack": 2,
-                  "ObjectInternalName": null,
-                  "ObjectDisplayName": "[LocalizedText Strings/Objects:MeadFlavor %PRESERVED_DISPLAY_NAME]"
+                  "ObjectInternalName": "Joja {0} Mead",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:MeadFlavor %PRESERVED_DISPLAY_NAME]"
                 }
               ],
               "MinutesUntilReady": 250
@@ -336,8 +336,8 @@
                   "MinStack": -1,
                   "MaxStack": -1,
                   "Quality": -1,
-                  "ObjectInternalName": null,
-                  "ObjectDisplayName": "[LocalizedText Strings/Objects:JuiceFlavor %PRESERVED_DISPLAY_NAME]",
+                  "ObjectInternalName": "Joja {0} Juice",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:JuiceFlavor %PRESERVED_DISPLAY_NAME]",
                   "ObjectColor": null,
                   "ToolUpgradeLevel": -1,
                   "IsRecipe": false,

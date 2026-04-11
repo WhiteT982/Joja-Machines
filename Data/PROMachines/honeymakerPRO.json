@@ -47,7 +47,7 @@
             "Modification": "Add",
             "Amount": 200,
             "Condition": "ITEM_PRICE Input 0"
-          },
+          }
         ],
                   "PriceModifierMode": "Stack",
                   "Condition": null,
@@ -58,8 +58,8 @@
                   "MinStack": 1,
                   "MaxStack": 2,
                   "Quality": -1,
-                  "ObjectInternalName": null,
-                  "ObjectDisplayName": "[LocalizedText Strings/Objects:XLHoneyFlavor %PRESERVED_DISPLAY_NAME]",
+                  "ObjectInternalName":  "Joja XL {0} Honey",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:XLHoneyFlavor %PRESERVED_DISPLAY_NAME]",
                   "ObjectColor": null,
                   "ToolUpgradeLevel": -1,
                   "IsRecipe": false,
@@ -75,7 +75,7 @@
               "DaysUntilReady": 2,
               "InvalidCountMessage": null,
               "RecalculateOnCollect": true
-            },
+            }
           ],
           "AdditionalConsumedItems": null,
           "PreventTimePass": [

@@ -69,14 +69,14 @@
                   "MinStack": 1,
                   "MaxStack": 2,
                   "Quality": -1,
-                  "ObjectInternalName": null,
-                  "ObjectDisplayName": "[LocalizedText Strings/Objects:AgedRoeFlavor %PRESERVED_DISPLAY_NAME]",
+                  "ObjectInternalName": "Joja Aged {0} Roe",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:AgedRoeFlavor %PRESERVED_DISPLAY_NAME]",
                   "ObjectColor": null,
                   "ToolUpgradeLevel": -1,
                   "IsRecipe": false,
                   "StackModifiers": null,
                   "StackModifierMode": "Stack",
-                  "QualityModifiers": null,
+                  "QualityModifiers": null
                 }
               ],
               "MinutesUntilReady": 1200
@@ -146,14 +146,14 @@
                   "MinStack": 1,
                   "MaxStack": 2,
                   "Quality": -1,
-                  "ObjectInternalName": null,
-                  "ObjectDisplayName": "[LocalizedText Strings/Objects:PickleFlavor %PRESERVED_DISPLAY_NAME]",
+                  "ObjectInternalName": "Joja {0} Pickles",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:PickleFlavor %PRESERVED_DISPLAY_NAME]",
                   "ObjectColor": null,
                   "ToolUpgradeLevel": -1,
                   "IsRecipe": false,
                   "StackModifiers": null,
                   "StackModifierMode": "Stack",
-                  "QualityModifiers": null,
+                  "QualityModifiers": null
                 }
               ],
               "MinutesUntilReady": 1200
@@ -213,18 +213,18 @@
                   "MinStack": 1,
                   "MaxStack": 2,
                   "Quality": -1,
-                  "ObjectInternalName": null,
-                  "ObjectDisplayName": "[LocalizedText Strings/Objects:JellyFlavor %PRESERVED_DISPLAY_NAME]",
+                  "ObjectInternalName": "Joja {0} Jelly",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:JellyFlavor %PRESERVED_DISPLAY_NAME]",
                   "ObjectColor": null,
                   "ToolUpgradeLevel": -1,
                   "IsRecipe": false,
                   "StackModifiers": null,
                   "StackModifierMode": "Stack",
-                  "QualityModifiers": null,
+                  "QualityModifiers": null
                 }
               ],
               "MinutesUntilReady": 1200
-            },
+            }
           ],
           "AdditionalConsumedItems": null,
           "PreventTimePass": null,
