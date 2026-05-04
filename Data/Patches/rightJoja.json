@@ -48,6 +48,16 @@
                     "Layer": "Front",
                     "Remove": true
                     },
+                    {
+                    "Position": { "X": 27, "Y": 28 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                  },
+                  {
+                    "Position": { "X": 28, "Y": 28 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                    },
                 {
                     "Position": { "X": 16, "Y": 28 },
                     "Layer": "Buildings",
