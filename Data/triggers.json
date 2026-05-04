@@ -7,7 +7,7 @@
         "Joja Preserves Jar Mail": {
           "Id": "Adam.Joja_PreservesJarMail",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 2",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 2",
           "Actions": [
             "AddMail Current Adam.Joja_PreservesJarMail"
           ]
@@ -15,7 +15,7 @@
         "Joja Keg Mail": {
           "Id": "Adam.Joja_KegMail",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 6",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 6",
           "Actions": [
             "AddMail Current Adam.Joja_KegMail"
           ]
@@ -23,7 +23,7 @@
         "Joja Dehydrator Mail": {
           "Id": "Adam.Joja_DehydratorMail",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 8",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 8",
           "Actions": [
             "AddMail Current Adam.Joja_DehydratorMail"
           ]
@@ -31,7 +31,7 @@
         "Joja Fish Smoker Mail": {
           "Id": "Adam.Joja_FishSmokerMail",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FISHING_LEVEL Current 7",
+          "Condition": "PLAYER_BASE_FISHING_LEVEL Current 7",
           "Actions": [
             "AddMail Current Adam.Joja_FishSmokerMail"
           ]
@@ -39,7 +39,7 @@
         "Joja Chum Maker Mail": {
           "Id": "Adam.Joja_ChumMakerMail",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FISHING_LEVEL Current 2",
+          "Condition": "PLAYER_BASE_FISHING_LEVEL Current 2",
           "Actions": [
             "AddMail Current Adam.Joja_ChumMakerMail"
           ]
@@ -55,7 +55,7 @@
         "Joja Honey Maker Mail": {
           "Id": "Adam.Joja_HoneyMakerMail",
           "Trigger": "DayStarted",
-          "Condition": "PLAYER_FORAGING_LEVEL Current 3",
+          "Condition": "PLAYER_BASE_FORAGING_LEVEL Current 3",
           "Actions": [
             "AddMail Current Adam.Joja_HoneyMakerMail now"
           ]
@@ -79,7 +79,7 @@
         "Joja Fish Trap Mail": {
           "Id": "Adam.Joja_FishTrapMail",
           "Trigger": "DayStarted",
-          "Condition": "PLAYER_FISHING_LEVEL current 3",
+          "Condition": "PLAYER_BASE_FISHING_LEVEL current 3",
           "Actions": [
             "AddMail Current Adam.Joja_FishTrapMail now"
           ]
@@ -87,7 +87,7 @@
         "Joja Oil Maker Mail": {
           "Id": "Adam.Joja_OilMakerMail",
           "Trigger": "DayStarted",
-          "Condition": "PLAYER_FARMING_LEVEL current 6",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL current 6",
           "Actions": [
             "AddMail Current Adam.Joja_OilMakerMail now"
           ]
@@ -111,7 +111,7 @@
         "Joja Tackle Bin Mail": {
           "Id": "Adam.Joja_TackleBinMail",
           "Trigger": "DayStarted",
-          "Condition": "PLAYER_FISHING_LEVEL current 3",
+          "Condition": "PLAYER_BASE_FISHING_LEVEL current 3",
           "Actions": [
             "AddMail Current Adam.Joja_TackleBinMail now"
           ]
@@ -216,7 +216,7 @@
         "HaleyHoneyQuestStart": {
           "Id": "Adam.Joja_HaleyHoneyQuestStart",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FORAGING_LEVEL Current 3",
+          "Condition": "PLAYER_BASE_FORAGING_LEVEL Current 3",
           "Actions": [
             "AddQuest HaleyHoneyQuest"
           ]
@@ -224,7 +224,7 @@
         "LeahWineQuestStart": {
           "Id": "Adam.Joja_LeahWineQuestStart",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Leah 2",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 6, PLAYER_HEARTS current Leah 2",
           "Actions": [
             "AddQuest LeahWineQuest"
           ]
@@ -232,7 +232,7 @@
         "AlexJuiceQuestStart": {
           "Id": "Adam.Joja_AlexJuiceQuestStart",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Alex 2",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 6, PLAYER_HEARTS current Alex 2",
           "Actions": [
             "AddQuest AlexJuiceQuest"
           ]
@@ -240,7 +240,7 @@
         "ShaneBeerQuestStart": {
           "Id": "Adam.Joja_ShaneBeerQuestStart",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Shane 2",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 6, PLAYER_HEARTS current Shane 2",
           "Actions": [
             "AddQuest ShaneBeerQuest"
           ]
@@ -248,7 +248,7 @@
         "MaruVinegarQuestStart": {
           "Id": "Adam.Joja_MaruVinegarQuestStart",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Maru 2",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 6, PLAYER_HEARTS current Maru 2",
           "Actions": [
             "AddQuest MaruVinegarQuest"
           ]
@@ -256,7 +256,7 @@
         "PamPaleAleQuestStart": {
           "Id": "Adam.Joja_PamPaleAleQuestStart",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Pam 2",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 6, PLAYER_HEARTS current Pam 2",
           "Actions": [
             "AddQuest PamPaleAleQuest"
           ]
@@ -264,7 +264,7 @@
         "ElliottMeadQuestStart": {
           "Id": "Adam.Joja_ElliotMeadQuestStart",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Elliott 2",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 6, PLAYER_HEARTS current Elliott 2",
           "Actions": [
             "AddQuest ElliottMeadQuest"
           ]
@@ -272,7 +272,7 @@
         "AbigailBlueTeaQuestStart": {
           "Id": "Adam.Joja_AbigailBlueTeaQuestStart",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Abigail 2",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 6, PLAYER_HEARTS current Abigail 2",
           "Actions": [
             "AddQuest AbigailBlueTeaQuest"
           ]
@@ -280,7 +280,7 @@
         "SebastianJellyQuestStart": {
           "Id": "Adam.Joja_SebastianJellyQuestStart",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 2, PLAYER_HEARTS current Sebastian 2",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 2, PLAYER_HEARTS current Sebastian 2",
           "Actions": [
             "AddQuest SebastianJellyQuest"
           ]
@@ -288,7 +288,7 @@
         "HarveyPickleQuestStart": {
           "Id": "Adam.Joja_HarveyPickleQuestStart",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 2, PLAYER_HEARTS current Harvey 2",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 2, PLAYER_HEARTS current Harvey 2",
           "Actions": [
             "AddQuest HarveyPickleQuest"
           ]
@@ -296,7 +296,7 @@
         "PennyAgedRoeQuestStart": {
           "Id": "Adam.Joja_PennyAgedRoeQuestStart",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 2, PLAYER_HEARTS current Penny 2",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 2, PLAYER_HEARTS current Penny 2",
           "Actions": [
             "AddQuest PennyAgedRoeQuest"
           ]
@@ -304,7 +304,7 @@
         "EmilyDriedRedMushroomsQuestStart": {
           "Id": "Adam.Joja_EmilyDriedRedMushroomsQuestStart",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 8, PLAYER_HEARTS current Emily 2",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 8, PLAYER_HEARTS current Emily 2",
           "Actions": [
             "AddQuest EmilyDriedRedMushroomsQuest"
           ]
@@ -312,7 +312,7 @@
         "WillyDriedFishQuestStart": {
           "Id": "Adam.Joja_WillyDriedFishQuestStart",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 8, PLAYER_HEARTS current Willy 2",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 8, PLAYER_HEARTS current Willy 2",
           "Actions": [
             "AddQuest WillyDriedFishQuest"
           ]
@@ -330,7 +330,7 @@
         "MartinJuiceQuestStart": {
           "Id": "Adam.Joja_MartinJuiceQuestStart",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Martin 2",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 6, PLAYER_HEARTS current Martin 2",
           "Actions": [
             "AddQuest MartinJuiceQuest"
           ]
@@ -338,7 +338,7 @@
         "AndyBeerQuestStart": {
           "Id": "Adam.Joja_AndyBeerQuestStart",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Andy 2",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 6, PLAYER_HEARTS current Andy 2",
           "Actions": [
             "AddQuest AndyBeerQuest"
           ]
@@ -346,7 +346,7 @@
         "ClaireBlueTeaQuestStart": {
           "Id": "Adam.Joja_ClaireBlueTeaQuestStart",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 6, PLAYER_HEARTS current Claire 2",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 6, PLAYER_HEARTS current Claire 2",
           "Actions": [
             "AddQuest ClaireBlueTeaQuest"
           ]
@@ -354,7 +354,7 @@
         "OliviaCaviarQuestStart": {
           "Id": "Adam.Joja_OliviaCaviarQuestStart",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_FARMING_LEVEL Current 2, PLAYER_HEARTS current Olivia 2",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL Current 2, PLAYER_HEARTS current Olivia 2",
           "Actions": [
             "AddQuest OliviaCaviarQuest"
           ]

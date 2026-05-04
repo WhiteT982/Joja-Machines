@@ -1,0 +1,62 @@
+ {
+    "Changes": 
+    [
+        {
+        "Action": "EditData",
+      "LogName": "Joja Machines SVE Trigger Data",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "PROBookSVE": {
+          "Id": "Adam.Joja_PROBookSVE",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_MAIL any Adam.Joja_MachinesPROMail",
+          "Actions": [
+            "AddMail all Adam.Joja_PROBookSVE received"
+          ]
+        }
+    }
+},
+{
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Priority": "Early",
+      "When": {
+        "HasFlag": "Adam.Joja_PROBookSVE"
+      },
+      "TargetField": [
+        "JojaMachines",
+        "Items"
+      ],
+      "Entries": {
+        "(O)Adam.Joja_PROrecipeBook": null
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "When": {
+        "HasFlag": "Adam.Joja_PROBookSVE"
+      },
+      "TargetField": [
+        "JojaMachines",
+        "Items"
+      ],
+      "Entries": {
+        "(O)Adam.Joja_PROrecipeBook": {
+              "Price": 75000,
+              "AvailableStock": 1,
+              "ActionsOnPurchase": [
+                "spacechase0.SpaceCore_PlayEvent JojaPROeventSVE true"
+              ],
+              "AvoidRepeat": true,
+              "IgnoreShopPriceModifiers": true,
+              "PriceModifiers": null,
+              "Condition": "PLAYER_HAS_MAIL current Adam.Joja_MachinesPROMail, PLAYER_HAS_MAIL current Adam.Joja_PROBookSVE received",
+              "Id": "(O)Adam.Joja_PROrecipeBoook",
+              "ItemId": "(O)Adam.Joja_PROrecipeBook",
+              "IsRecipe": false
+            }
+        }
+    }
+    ]
+}

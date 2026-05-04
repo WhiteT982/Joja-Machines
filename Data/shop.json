@@ -35,7 +35,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FARMING_LEVEL current 6",
+              "Condition": "PLAYER_BASE_FARMING_LEVEL current 6",
               "Id": "(BC)Adam.Joja_Keg (Recipe)",
               "ItemId": "(BC)Adam.Joja_Keg",
               "IsRecipe": true
@@ -53,7 +53,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FARMING_LEVEL current 6",
+              "Condition": "PLAYER_BASE_FARMING_LEVEL current 6",
               "Id": "(BC)Adam.Joja_Keg",
               "ItemId": "(BC)Adam.Joja_Keg",
               "IsRecipe": false
@@ -71,7 +71,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FARMING_LEVEL current 2",
+              "Condition": "PLAYER_BASE_FARMING_LEVEL current 2",
               "Id": "(BC)Adam.Joja_PreservesJar (Recipe)",
               "ItemId": "(BC)Adam.Joja_PreservesJar",
               "IsRecipe": true
@@ -89,7 +89,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FARMING_LEVEL current 2",
+              "Condition": "PLAYER_BASE_FARMING_LEVEL current 2",
               "Id": "(BC)Adam.Joja_PreservesJar",
               "ItemId": "(BC)Adam.Joja_PreservesJar",
               "IsRecipe": false
@@ -107,7 +107,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FARMING_LEVEL current 8",
+              "Condition": "PLAYER_BASE_FARMING_LEVEL current 8",
               "Id": "(BC)Adam.Joja_Dehydrator (Recipe)",
               "ItemId": "(BC)Adam.Joja_Dehydrator",
               "IsRecipe": true
@@ -125,7 +125,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FARMING_LEVEL current 8",
+              "Condition": "PLAYER_BASE_FARMING_LEVEL current 8",
               "Id": "(BC)Adam.Joja_Dehydrator",
               "ItemId": "(BC)Adam.Joja_Dehydrator",
               "IsRecipe": false
@@ -143,7 +143,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FISHING_LEVEL current 7",
+              "Condition": "PLAYER_BASE_FISHING_LEVEL current 7",
               "Id": "(BC)Adam.Joja_FishSmoker (Recipe)",
               "ItemId": "(BC)Adam.Joja_FishSmoker",
               "IsRecipe": true
@@ -161,7 +161,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FISHING_LEVEL current 7",
+              "Condition": "PLAYER_BASE_FISHING_LEVEL current 7",
               "Id": "(BC)Adam.Joja_FishSmoker",
               "ItemId": "(BC)Adam.Joja_FishSmoker",
               "IsRecipe": false
@@ -179,7 +179,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FISHING_LEVEL current 2",
+              "Condition": "PLAYER_BASE_FISHING_LEVEL current 2",
               "Id": "(BC)Adam.Joja_WormBin",
               "ItemId": "(BC)Adam.Joja_WormBin",
               "IsRecipe": false
@@ -197,7 +197,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FISHING_LEVEL current 2",
+              "Condition": "PLAYER_BASE_FISHING_LEVEL current 2",
               "Id": "(BC)Adam.Joja_ChumMaker",
               "ItemId": "(BC)Adam.Joja_ChumMaker",
               "IsRecipe": false
@@ -215,7 +215,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "BUILDINGS_CONSTRUCTED All Barn",
+              "Condition": "PLAYER_HAS_MAIL any Adam.Joja_CheesePressMail received",
               "Id": "(BC)Adam.Joja_CheesePress (Recipe)",
               "ItemId": "(BC)Adam.Joja_CheesePress",
               "IsRecipe": true
@@ -233,7 +233,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "BUILDINGS_CONSTRUCTED All Barn",
+              "Condition": "PLAYER_HAS_MAIL any Adam.Joja_CheesePressMail received",
               "Id": "(BC)Adam.Joja_CheesePress",
               "ItemId": "(BC)Adam.Joja_CheesePress",
               "IsRecipe": false
@@ -251,7 +251,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FORAGING_LEVEL current 3",
+              "Condition": "PLAYER_BASE_FORAGING_LEVEL current 3",
               "Id": "(BC)Adam.Joja_HoneyMaker (Recipe)",
               "ItemId": "(BC)Adam.Joja_HoneyMaker",
               "IsRecipe": true
@@ -269,7 +269,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FORAGING_LEVEL current 3",
+              "Condition": "PLAYER_BASE_FORAGING_LEVEL current 3",
               "Id": "(BC)Adam.Joja_HoneyMaker",
               "ItemId": "(BC)Adam.Joja_HoneyMaker",
               "IsRecipe": false
@@ -287,7 +287,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "BUILDINGS_CONSTRUCTED All Coop",
+              "Condition": "PLAYER_HAS_MAIL any Adam.Joja_MayoMachineMail received",
               "Id": "(BC)Adam.Joja_MayoMachine (Recipe)",
               "ItemId": "(BC)Adam.Joja_MayoMachine",
               "IsRecipe": true
@@ -305,7 +305,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "BUILDINGS_CONSTRUCTED All Coop",
+              "Condition": "PLAYER_HAS_MAIL any Adam.Joja_MayoMachineMail received",
               "Id": "(BC)Adam.Joja_MayoMachine",
               "ItemId": "(BC)Adam.Joja_MayoMachine",
               "IsRecipe": false
@@ -359,7 +359,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FISHING_LEVEL current 3",
+              "Condition": "PLAYER_BASE_FISHING_LEVEL current 3",
               "Id": "(BC)Adam.Joja_FishTrap (Recipe)",
               "ItemId": "(BC)Adam.Joja_FishTrap",
               "IsRecipe": true
@@ -377,7 +377,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FISHING_LEVEL current 3",
+              "Condition": "PLAYER_BASE_FISHING_LEVEL current 3",
               "Id": "(BC)Adam.Joja_FishTrap",
               "ItemId": "(BC)Adam.Joja_FishTrap",
               "IsRecipe": false
@@ -395,7 +395,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FARMING_LEVEL current 6",
+              "Condition": "PLAYER_BASE_FARMING_LEVEL current 6",
               "Id": "(BC)Adam.Joja_OilMaker (Recipe)",
               "ItemId": "(BC)Adam.Joja_OilMaker",
               "IsRecipe": true
@@ -413,7 +413,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FARMING_LEVEL current 6",
+              "Condition": "PLAYER_BASE_FARMING_LEVEL current 6",
               "Id": "(BC)Adam.Joja_OilMaker",
               "ItemId": "(BC)Adam.Joja_OilMaker",
               "IsRecipe": false
@@ -503,7 +503,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FISHING_LEVEL current 3",
+              "Condition": "PLAYER_BASE_FISHING_LEVEL current 3",
               "Id": "(BC)Adam.Joja_TackleBin (Recipe)",
               "ItemId": "(BC)Adam.Joja_TackleBin",
               "IsRecipe": true
@@ -521,7 +521,7 @@
                   "Condition": "IS_JOJA_MART_COMPLETE"
                 }
               ],
-              "Condition": "PLAYER_FISHING_LEVEL current 3",
+              "Condition": "PLAYER_BASE_FISHING_LEVEL current 3",
               "Id": "(BC)Adam.Joja_TackleBin",
               "ItemId": "(BC)Adam.Joja_TackleBin",
               "IsRecipe": false
@@ -613,12 +613,12 @@
               "Price": 75000,
               "AvailableStock": 1,
               "ActionsOnPurchase": [
-                "AddMail current Adam.Joja_recipebookMail received"
+                "spacechase0.SpaceCore_PlayEvent JojaPROevent true"
               ],
               "AvoidRepeat": true,
               "IgnoreShopPriceModifiers": true,
               "PriceModifiers": null,
-              "Condition": "PLAYER_HAS_MAIL current Adam.Joja_MachinesPROMail, !PLAYER_HAS_MAIL current Adam.Joja_recipebookMail",
+              "Condition": "PLAYER_HAS_MAIL current Adam.Joja_MachinesPROMail, !PLAYER_HAS_MAIL current Adam.Joja_PROBookSVE received",
               "Id": "(O)Adam.Joja_PROrecipeBoook",
               "ItemId": "(O)Adam.Joja_PROrecipeBook",
               "IsRecipe": false
@@ -866,7 +866,7 @@
         "Adam.Joja_PROrecipeBook": {
           "Price": 150000,
           "ActionsOnPurchase": [
-                "AddMail current Adam.Joja_recipebookMail received"
+                "spacechase0.SpaceCore_PlayEvent CompleteCCJojaPRO true"
               ],
           "AvailableStock": -1,
           "AvailableStockModifiers": [
