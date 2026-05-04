@@ -215,7 +215,7 @@
               ],
               "MinutesUntilReady": 250
             },
-            {
+             {
               "Id": "XLHoney",
               "Triggers": [
                 {
@@ -239,7 +239,7 @@
                   ],
                   "Id": "(O)Adam.Joja_Mead",
                   "ItemId": "(O)Adam.Joja_Mead",
-                  "MinStack": 2,
+                  "MinStack": 1,
                   "MaxStack": 2,
                   "ObjectInternalName": "Joja {0} Mead",
                   "ObjectDisplayName": "[LocalizedText Strings\\Objects:MeadFlavor %PRESERVED_DISPLAY_NAME]"

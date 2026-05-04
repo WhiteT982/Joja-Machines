@@ -39,7 +39,7 @@
           {
             "Id": "FlowerBase",
             "Modification": "Multiply",
-            "Amount": 3.0,
+            "Amount": 2.0,
             "Condition": "ITEM_PRICE Input 0"
           },
           {
