@@ -493,6 +493,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -504,6 +505,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -515,6 +517,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -526,6 +529,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -537,6 +541,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -548,6 +553,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -559,6 +565,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -570,6 +577,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -581,6 +589,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -592,6 +601,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -603,6 +613,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -614,6 +625,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -625,6 +637,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -636,6 +649,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -647,6 +661,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -658,6 +673,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -669,6 +685,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -680,6 +697,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -703,6 +721,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -780,6 +799,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -791,6 +811,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -802,6 +823,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -813,6 +835,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -824,6 +847,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -835,6 +859,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -846,6 +871,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -857,6 +883,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -868,6 +895,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -879,6 +907,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -890,6 +919,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -901,6 +931,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -912,6 +943,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -923,6 +955,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -934,6 +967,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -957,6 +991,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
      {
@@ -969,6 +1004,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
      {
@@ -981,6 +1017,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1036,6 +1073,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1047,6 +1085,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1058,6 +1097,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1069,6 +1109,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1080,6 +1121,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1091,6 +1133,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1102,6 +1145,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1113,6 +1157,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1124,6 +1169,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1135,6 +1181,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1146,6 +1193,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1157,6 +1205,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1168,6 +1217,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1179,6 +1229,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1190,6 +1241,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1201,6 +1253,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1212,6 +1265,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1223,6 +1277,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1234,6 +1289,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1245,6 +1301,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
@@ -1257,6 +1314,7 @@
         },
         "When": {
         "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
         },
     },
     {
