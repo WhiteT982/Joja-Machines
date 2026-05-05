@@ -197,6 +197,14 @@
       "Action": "Load",
       "Target": "Portraits/Amber",
       "FromFile": "assets/NPCs/Portraits/Amber.png"
+    },
+     /*HxW Builidings Compat*/,
+    {
+      "When": {
+        "HasMod": "HXW.Buildings_Complete"
+      },
+      "Action": "Include",
+      "FromFile": "Data/Patches/HxWBuildings.json",
     }
   ]
 }

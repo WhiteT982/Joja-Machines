@@ -1,0 +1,93 @@
+{
+    "Changes":[
+
+         {
+          "LogName": "Add Brewery Buffs",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Adam.Joja_Keg","ReadyTimeModifiers"],
+			    "Entries": {
+              "BreweryKeg_SpeedyBuff": {
+                "Id": "BreweryKeg_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Brewery",
+                "Modification": "Multiply",
+                "Amount": 0.85
+              },
+               "Brewery1Keg_SpeedyBuff2": {
+                "Id": "Brewery1Keg_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Brewery_Large",
+                "Modification": "Multiply",
+                "Amount": 0.8
+              },
+               "Brewery2Keg_SpeedyBuff3": {
+                "Id": "Brewery2Keg_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Brewery_XL",
+                "Modification": "Multiply",
+                "Amount": 0.75
+              },
+              "WineryKeg_SpeedyBuff": {
+                "Id": "WineryKeg_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Winery",
+                "Modification": "Multiply",
+                "Amount": 0.85
+              },
+               "Winery2Keg_SpeedyBuff2": {
+                "Id": "Winery2Keg_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Winery_Large",
+                "Modification": "Multiply",
+                "Amount": 0.8
+              },
+               "Winery3Keg_SpeedyBuff3": {
+                "Id": "Winery3Keg_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Winery_XL",
+                "Modification": "Multiply",
+                "Amount": 0.75
+              }
+          }
+        },
+        {
+          "LogName": "Add Brewery Buffs",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Adam.Joja_KegPRO","ReadyTimeModifiers"],
+			    "Entries": {
+              "BreweryKegPRO_SpeedyBuff": {
+                "Id": "BreweryKegPRO_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Brewery",
+                "Modification": "Multiply",
+                "Amount": 0.85
+              },
+               "Brewery1KegPRO_SpeedyBuff2": {
+                "Id": "Brewery1KegPRO_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Brewery_Large",
+                "Modification": "Multiply",
+                "Amount": 0.8
+              },
+               "Brewery2KegPRO_SpeedyBuff3": {
+                "Id": "Brewery2KegPRO_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Brewery_XL",
+                "Modification": "Multiply",
+                "Amount": 0.75
+              },
+              "WineryKegPRO_SpeedyBuff": {
+                "Id": "WineryKegPRO_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Winery",
+                "Modification": "Multiply",
+                "Amount": 0.85
+              },
+               "Winery2KegPRO_SpeedyBuff2": {
+                "Id": "Winery2KegPRO_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Winery_Large",
+                "Modification": "Multiply",
+                "Amount": 0.8
+              },
+               "Winery3KegPRO_SpeedyBuff3": {
+                "Id": "Winery3KegPRO_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Winery_XL",
+                "Modification": "Multiply",
+                "Amount": 0.75
+              }
+          }
+        }
+    ]
+}
