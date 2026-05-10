@@ -479,16 +479,6 @@
           "Operation": "Append",
           "Target": [
             "Fields",
-            "SVE_Henchman",
-            5
-          ],
-          "Value": "Adam.Joja_XLHoney Adam.Joja_XLCheeze Adam.Joja_Wine Adam.Joja_Juice Adam.Joja_Jelly Adam.Joja_AgedRoe Adam.Joja_Caviar Adam.Joja_Beer Adam.Joja_Vinegar Adam.Joja_Coffee Adam.Joja_BlueTea Adam.Joja_Mead Adam.Joja_PaleAle Adam.Joja_DriedFish Adam.Joja_DriedRedMushrooms Adam.Joja_Cheeze Adam.Joja_Honey Adam.Joja_Pickle",
-          "Delimiter": " "
-        },
-        {
-          "Operation": "Append",
-          "Target": [
-            "Fields",
             "MarlonFay",
             5
           ],
@@ -540,6 +530,50 @@
           "Target": [
             "Fields",
             "Susan",
+            5
+          ],
+          "Value": "Adam.Joja_XLHoney Adam.Joja_XLCheeze Adam.Joja_Wine Adam.Joja_Juice Adam.Joja_Jelly Adam.Joja_AgedRoe Adam.Joja_Caviar Adam.Joja_Beer Adam.Joja_Vinegar Adam.Joja_Coffee Adam.Joja_BlueTea Adam.Joja_Mead Adam.Joja_PaleAle Adam.Joja_DriedFish Adam.Joja_DriedRedMushrooms Adam.Joja_Cheeze Adam.Joja_Honey Adam.Joja_Pickle",
+          "Delimiter": " "
+        }
+      ]
+    },
+    //Distant Lands Henchman Gift Tastes
+    {
+      "When": {
+        "HasMod": "Aimon111.WitchSwampOverhaulCP",
+        "HasSeenEvent": "1337731"
+      },
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+
+            "Fields",
+            "SVE_Henchman",
+            5
+          ],
+          "Value": "Adam.Joja_XLHoney Adam.Joja_XLCheeze Adam.Joja_Wine Adam.Joja_Juice Adam.Joja_Jelly Adam.Joja_AgedRoe Adam.Joja_Caviar Adam.Joja_Beer Adam.Joja_Vinegar Adam.Joja_Coffee Adam.Joja_BlueTea Adam.Joja_Mead Adam.Joja_PaleAle Adam.Joja_DriedFish Adam.Joja_DriedRedMushrooms Adam.Joja_Cheeze Adam.Joja_Honey Adam.Joja_Pickle",
+          "Delimiter": " "
+        }
+      ]
+    },
+     //SVE Henchman Gift Tastes
+    {
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        "HasMod|contains=Aimon111.WitchSwampOverhaulCP": false
+      },
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+
+            "Fields",
+            "SVE_Henchman",
             5
           ],
           "Value": "Adam.Joja_XLHoney Adam.Joja_XLCheeze Adam.Joja_Wine Adam.Joja_Juice Adam.Joja_Jelly Adam.Joja_AgedRoe Adam.Joja_Caviar Adam.Joja_Beer Adam.Joja_Vinegar Adam.Joja_Coffee Adam.Joja_BlueTea Adam.Joja_Mead Adam.Joja_PaleAle Adam.Joja_DriedFish Adam.Joja_DriedRedMushrooms Adam.Joja_Cheeze Adam.Joja_Honey Adam.Joja_Pickle",
