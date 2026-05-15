@@ -23,7 +23,7 @@
           "PriceModifierMode": "Stack",
           "Items": [
             {
-              "Price": 6000,
+              "Price": 9000,
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -41,7 +41,7 @@
               "IsRecipe": true
             },
             {
-              "Price": 8000,
+              "Price": 7000,
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -113,7 +113,7 @@
               "IsRecipe": true
             },
             {
-              "Price": 6000,
+              "Price": 7000,
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -149,7 +149,7 @@
               "IsRecipe": true
             },
             {
-              "Price": 5500,
+              "Price": 7000,
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -203,7 +203,7 @@
               "IsRecipe": false
             },
             {
-              "Price": 4500,
+              "Price": 3000,
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -221,7 +221,7 @@
               "IsRecipe": true
             },
             {
-              "Price": 3000,
+              "Price": 5000,
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -257,7 +257,7 @@
               "IsRecipe": true
             },
             {
-              "Price": 2000,
+              "Price": 6000,
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -383,7 +383,7 @@
               "IsRecipe": false
             },
             {
-              "Price": 8000,
+              "Price": 6000,
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -401,7 +401,7 @@
               "IsRecipe": true
             },
             {
-              "Price": 6500,
+              "Price": 8000,
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -419,7 +419,7 @@
               "IsRecipe": false
             },
             {
-              "Price": 8000,
+              "Price": 6500,
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -437,7 +437,7 @@
               "IsRecipe": true
             },
             {
-              "Price": 6500,
+              "Price": 8000,
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -473,7 +473,7 @@
               "IsRecipe": true
             },
             {
-              "Price": 2500,
+              "Price": 5000,
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -491,7 +491,7 @@
               "IsRecipe": false
             },
             {
-              "Price": 4000,
+              "Price": 2000,
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -509,7 +509,7 @@
               "IsRecipe": true
             },
             {
-              "Price": 2000,
+              "Price": 3000,
               "AvailableStock": 20,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -527,7 +527,7 @@
               "IsRecipe": false
             },
             {
-              "Price": 1000,
+              "Price": 2000,
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -545,7 +545,7 @@
               "IsRecipe": true
             },
             {
-              "Price": 700,
+              "Price": 3000,
               "AvailableStock": 20,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -563,7 +563,7 @@
               "IsRecipe": false
             },
             {
-              "Price": 4000,
+              "Price": 7000,
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -581,7 +581,7 @@
               "IsRecipe": true
             },
             {
-              "Price": 5000,
+              "Price": 9000,
               "AvailableStock": 20,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -599,7 +599,7 @@
               "IsRecipe": false
             },
             {
-              "Price": 1000,
+              "Price": 3000,
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
