@@ -41,7 +41,7 @@
                   "RandomItemId": null,
                   "MaxItems": null,
                   "MinStack": 2,
-                  "MaxStack": 3,
+                  "MaxStack": 2,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
@@ -100,7 +100,7 @@
                   "RandomItemId": null,
                   "MaxItems": null,
                   "MinStack": 2,
-                  "MaxStack": 3,
+                  "MaxStack": 2,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
@@ -131,7 +131,7 @@
           ],
           "AdditionalConsumedItems": [
             {
-              "ItemId": "(O)787",
+              "ItemId": "(O)Adam.Joja_Battery",
               "RequiredCount": 1,
               "InvalidCountMessage": "{{i18n:Adam.Joja_ICM.batterypack}}"
             }

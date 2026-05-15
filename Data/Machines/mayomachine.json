@@ -528,7 +528,7 @@
           ],
           "AdditionalConsumedItems": [
             {
-              "ItemId": "(O)787",
+              "ItemId": "(O)Adam.Joja_Battery",
               "RequiredCount": 1,
               "InvalidCountMessage": "{{i18n:Adam.Joja_ICM.batterypack}}"
             }

@@ -40,8 +40,8 @@
                   "ItemId": "(O)247",
                   "RandomItemId": null,
                   "MaxItems": null,
-                  "MinStack": 10,
-                  "MaxStack": 15,
+                  "MinStack": 5,
+                  "MaxStack": 5,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
@@ -91,8 +91,8 @@
                   "ItemId": "(O)247",
                   "RandomItemId": null,
                   "MaxItems": null,
-                  "MinStack": 10,
-                  "MaxStack": 15,
+                  "MinStack": 5,
+                  "MaxStack": 5,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
@@ -142,8 +142,8 @@
                   "ItemId": "(O)247",
                   "RandomItemId": null,
                   "MaxItems": null,
-                  "MinStack": 15,
-                  "MaxStack": 20,
+                  "MinStack": 3,
+                  "MaxStack": 3,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
@@ -209,7 +209,7 @@
                   "PerItemCondition": null
                 }
               ],
-              "MinutesUntilReady": 360,
+              "MinutesUntilReady": 1000,
               "DaysUntilReady": -1,
               "InvalidCountMessage": null,
               "RecalculateOnCollect": false
@@ -217,7 +217,7 @@
           ],
           "AdditionalConsumedItems": [
             {
-              "ItemId": "(O)787",
+              "ItemId": "(O)Adam.Joja_Battery",
               "RequiredCount": 1,
               "InvalidCountMessage": "{{i18n:Adam.Joja_ICM.batterypack}}"
             }

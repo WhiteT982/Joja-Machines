@@ -40,15 +40,22 @@
                   "ItemId": "(O)334",
                   "RandomItemId": null,
                   "MaxItems": null,
-                  "MinStack": 10,
-                  "MaxStack": 11,
+                  "MinStack": 5,
+                  "MaxStack": 6,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
                   "ObjectColor": null,
                   "ToolUpgradeLevel": -1,
                   "IsRecipe": false,
-                  "StackModifiers": null,
+                  "StackModifiers": [
+                    {
+                      "Id": "Random Increase",
+                      "Modification": "Multiply",
+                      "Condition": "RANDOM 0.1",
+                      "Amount": 1.4
+                    }
+                  ],
                   "StackModifierMode": "Stack",
                   "QualityModifiers": null,
                   "QualityModifierMode": "Stack",
@@ -56,7 +63,7 @@
                   "PerItemCondition": null
                 }
               ],
-              "MinutesUntilReady": 100,
+              "MinutesUntilReady": 160,
               "DaysUntilReady": -1,
               "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 20]",
               "RecalculateOnCollect": false
@@ -91,15 +98,22 @@
                   "ItemId": "(O)335",
                   "RandomItemId": null,
                   "MaxItems": null,
-                  "MinStack": 10,
-                  "MaxStack": 11,
+                  "MinStack": 5,
+                  "MaxStack": 6,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
                   "ObjectColor": null,
                   "ToolUpgradeLevel": -1,
                   "IsRecipe": false,
-                  "StackModifiers": null,
+                  "StackModifiers": [
+                    {
+                      "Id": "Random Increase",
+                      "Modification": "Multiply",
+                      "Condition": "RANDOM 0.1",
+                      "Amount": 1.4
+                    }
+                  ],
                   "StackModifierMode": "Stack",
                   "QualityModifiers": null,
                   "QualityModifierMode": "Stack",
@@ -107,7 +121,7 @@
                   "PerItemCondition": null
                 }
               ],
-              "MinutesUntilReady": 360,
+              "MinutesUntilReady": 500,
               "DaysUntilReady": -1,
               "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 20]",
               "RecalculateOnCollect": false
@@ -142,15 +156,22 @@
                   "ItemId": "(O)336",
                   "RandomItemId": null,
                   "MaxItems": null,
-                  "MinStack": 10,
-                  "MaxStack": 11,
+                  "MinStack": 5,
+                  "MaxStack": 6,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
                   "ObjectColor": null,
                   "ToolUpgradeLevel": -1,
                   "IsRecipe": false,
-                  "StackModifiers": null,
+                  "StackModifiers": [
+                    {
+                      "Id": "Random Increase",
+                      "Modification": "Multiply",
+                      "Condition": "RANDOM 0.1",
+                      "Amount": 1.4
+                    }
+                  ],
                   "StackModifierMode": "Stack",
                   "QualityModifiers": null,
                   "QualityModifierMode": "Stack",
@@ -158,7 +179,7 @@
                   "PerItemCondition": null
                 }
               ],
-              "MinutesUntilReady": 700,
+              "MinutesUntilReady": 1200,
               "DaysUntilReady": -1,
               "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 20]",
               "RecalculateOnCollect": false
@@ -193,15 +214,22 @@
                   "ItemId": "(O)337",
                   "RandomItemId": null,
                   "MaxItems": null,
-                  "MinStack": 10,
-                  "MaxStack": 11,
+                  "MinStack": 5,
+                  "MaxStack": 6,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
                   "ObjectColor": null,
                   "ToolUpgradeLevel": -1,
                   "IsRecipe": false,
-                  "StackModifiers": null,
+                  "StackModifiers": [
+                    {
+                      "Id": "Random Increase",
+                      "Modification": "Multiply",
+                      "Condition": "RANDOM 0.1",
+                      "Amount": 1.4
+                    }
+                  ],
                   "StackModifierMode": "Stack",
                   "QualityModifiers": null,
                   "QualityModifierMode": "Stack",
@@ -209,7 +237,7 @@
                   "PerItemCondition": null
                 }
               ],
-              "MinutesUntilReady": 1000,
+              "MinutesUntilReady": 1800,
               "DaysUntilReady": -1,
               "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 20]",
               "RecalculateOnCollect": false
@@ -222,7 +250,7 @@
                   "Trigger": "ItemPlacedInMachine",
                   "RequiredItemId": "(O)80",
                   "RequiredTags": null,
-                  "RequiredCount": 5,
+                  "RequiredCount": 3,
                   "Condition": null
                 }
               ],
@@ -244,15 +272,22 @@
                   "ItemId": "(O)338",
                   "RandomItemId": null,
                   "MaxItems": null,
-                  "MinStack": 12,
-                  "MaxStack": 15,
+                  "MinStack": 6,
+                  "MaxStack": 7,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
                   "ObjectColor": null,
                   "ToolUpgradeLevel": -1,
                   "IsRecipe": false,
-                  "StackModifiers": null,
+                  "StackModifiers": [
+                    {
+                      "Id": "Random Increase",
+                      "Modification": "Multiply",
+                      "Condition": "RANDOM 0.1",
+                      "Amount": 1.4
+                    }
+                  ],
                   "StackModifierMode": "Stack",
                   "QualityModifiers": null,
                   "QualityModifierMode": "Stack",
@@ -260,9 +295,9 @@
                   "PerItemCondition": null
                 }
               ],
-              "MinutesUntilReady": 180,
+              "MinutesUntilReady": 200,
               "DaysUntilReady": -1,
-              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 5]",
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 3]",
               "RecalculateOnCollect": false
             },
             {
@@ -295,15 +330,22 @@
                   "ItemId": "(O)338",
                   "RandomItemId": null,
                   "MaxItems": null,
-                  "MinStack": 30,
-                  "MaxStack": 40,
+                  "MinStack": 15,
+                  "MaxStack": 18,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
                   "ObjectColor": null,
                   "ToolUpgradeLevel": -1,
                   "IsRecipe": false,
-                  "StackModifiers": null,
+                  "StackModifiers": [
+                    {
+                      "Id": "Random Increase",
+                      "Modification": "Multiply",
+                      "Condition": "RANDOM 0.1",
+                      "Amount": 1.4
+                    }
+                  ],
                   "StackModifierMode": "Stack",
                   "QualityModifiers": null,
                   "QualityModifierMode": "Stack",
@@ -311,7 +353,7 @@
                   "PerItemCondition": null
                 }
               ],
-              "MinutesUntilReady": 180,
+              "MinutesUntilReady": 360,
               "DaysUntilReady": -1,
               "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 3]",
               "RecalculateOnCollect": false
@@ -346,8 +388,8 @@
                   "ItemId": "(O)277",
                   "RandomItemId": null,
                   "MaxItems": null,
-                  "MinStack": 2,
-                  "MaxStack": 2,
+                  "MinStack": 1,
+                  "MaxStack": 1,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
@@ -397,15 +439,22 @@
                   "ItemId": "(O)910",
                   "RandomItemId": null,
                   "MaxItems": null,
-                  "MinStack": 10,
-                  "MaxStack": 11,
+                  "MinStack": 5,
+                  "MaxStack": 6,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
                   "ObjectColor": null,
                   "ToolUpgradeLevel": -1,
                   "IsRecipe": false,
-                  "StackModifiers": null,
+                  "StackModifiers": [
+                    {
+                      "Id": "Random Increase",
+                      "Modification": "Multiply",
+                      "Condition": "RANDOM 0.1",
+                      "Amount": 1.4
+                    }
+                  ],
                   "StackModifierMode": "Stack",
                   "QualityModifiers": null,
                   "QualityModifierMode": "Stack",
@@ -413,7 +462,7 @@
                   "PerItemCondition": null
                 }
               ],
-              "MinutesUntilReady": 1400,
+              "MinutesUntilReady": 2000,
               "DaysUntilReady": -1,
               "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 20]",
               "RecalculateOnCollect": false
@@ -421,7 +470,7 @@
           ],
           "AdditionalConsumedItems": [
             {
-              "ItemId": "(O)787",
+              "ItemId": "(O)Adam.Joja_Battery",
               "RequiredCount": 1,
               "InvalidCountMessage": "{{i18n:Adam.Joja_ICM.batterypack}}"
             }

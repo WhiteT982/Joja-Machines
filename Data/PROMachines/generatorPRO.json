@@ -18,7 +18,7 @@
                   "Trigger": "ItemPlacedInMachine",
                   "RequiredItemId": "(O)378",
                   "RequiredTags": null,
-                  "RequiredCount": 5,
+                  "RequiredCount": 3,
                   "Condition": null
                 }
               ],
@@ -36,12 +36,12 @@
                   "PriceModifiers": null,
                   "PriceModifierMode": "Stack",
                   "Condition": null,
-                  "Id": "(O)787",
-                  "ItemId": "(O)787",
+                  "Id": "(O)Adam.Joja_Battery",
+                  "ItemId": "(O)Adam.Joja_Battery",
                   "RandomItemId": null,
                   "MaxItems": null,
                   "MinStack": 1,
-                  "MaxStack": 2,
+                  "MaxStack": 1,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
@@ -58,7 +58,7 @@
               ],
               "MinutesUntilReady": 1000,
               "DaysUntilReady": -1,
-              "InvalidCountMessage": null,
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 3]",
               "RecalculateOnCollect": false
             },
             {
@@ -69,7 +69,7 @@
                   "Trigger": "ItemPlacedInMachine",
                   "RequiredItemId": "(O)380",
                   "RequiredTags": null,
-                  "RequiredCount": 5,
+                  "RequiredCount": 3,
                   "Condition": null
                 }
               ],
@@ -87,12 +87,12 @@
                   "PriceModifiers": null,
                   "PriceModifierMode": "Stack",
                   "Condition": null,
-                  "Id": "(O)787",
-                  "ItemId": "(O)787",
+                  "Id": "(O)Adam.Joja_Battery",
+                  "ItemId": "(O)Adam.Joja_Battery",
                   "RandomItemId": null,
                   "MaxItems": null,
                   "MinStack": 2,
-                  "MaxStack": 3,
+                  "MaxStack": 2,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
@@ -109,7 +109,7 @@
               ],
               "MinutesUntilReady": 800,
               "DaysUntilReady": -1,
-              "InvalidCountMessage": null,
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 3]",
               "RecalculateOnCollect": false
             },
             {
@@ -120,7 +120,7 @@
                   "Trigger": "ItemPlacedInMachine",
                   "RequiredItemId": "(O)384",
                   "RequiredTags": null,
-                  "RequiredCount": 5,
+                  "RequiredCount": 3,
                   "Condition": null
                 }
               ],
@@ -138,12 +138,12 @@
                   "PriceModifiers": null,
                   "PriceModifierMode": "Stack",
                   "Condition": null,
-                  "Id": "(O)787",
-                  "ItemId": "(O)787",
+                  "Id": "(O)Adam.Joja_Battery",
+                  "ItemId": "(O)Adam.Joja_Battery",
                   "RandomItemId": null,
                   "MaxItems": null,
                   "MinStack": 3,
-                  "MaxStack": 4,
+                  "MaxStack": 3,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
@@ -160,7 +160,7 @@
               ],
               "MinutesUntilReady": 400,
               "DaysUntilReady": -1,
-              "InvalidCountMessage": null,
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 3]",
               "RecalculateOnCollect": false
             },
             {
@@ -171,7 +171,7 @@
                   "Trigger": "ItemPlacedInMachine",
                   "RequiredItemId": "(O)386",
                   "RequiredTags": null,
-                  "RequiredCount": 5,
+                  "RequiredCount": 3,
                   "Condition": null
                 }
               ],
@@ -189,12 +189,12 @@
                   "PriceModifiers": null,
                   "PriceModifierMode": "Stack",
                   "Condition": null,
-                  "Id": "(O)787",
-                  "ItemId": "(O)787",
+                  "Id": "(O)Adam.Joja_Battery",
+                  "ItemId": "(O)Adam.Joja_Battery",
                   "RandomItemId": null,
                   "MaxItems": null,
                   "MinStack": 4,
-                  "MaxStack": 5,
+                  "MaxStack": 4,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
@@ -211,7 +211,7 @@
               ],
               "MinutesUntilReady": 200,
               "DaysUntilReady": -1,
-              "InvalidCountMessage": null,
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 3]",
               "RecalculateOnCollect": false
             },
             {
@@ -222,7 +222,7 @@
                   "Trigger": "ItemPlacedInMachine",
                   "RequiredItemId": "(O)909",
                   "RequiredTags": null,
-                  "RequiredCount": 5,
+                  "RequiredCount": 3,
                   "Condition": null
                 }
               ],
@@ -240,12 +240,12 @@
                   "PriceModifiers": null,
                   "PriceModifierMode": "Stack",
                   "Condition": null,
-                  "Id": "(O)787",
-                  "ItemId": "(O)787",
+                  "Id": "(O)Adam.Joja_Battery",
+                  "ItemId": "(O)Adam.Joja_Battery",
                   "RandomItemId": null,
                   "MaxItems": null,
                   "MinStack": 5,
-                  "MaxStack": 6,
+                  "MaxStack": 5,
                   "Quality": -1,
                   "ObjectInternalName": null,
                   "ObjectDisplayName": null,
@@ -262,7 +262,7 @@
               ],
               "MinutesUntilReady": 60,
               "DaysUntilReady": -1,
-              "InvalidCountMessage": null,
+              "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 3]",
               "RecalculateOnCollect": false
             }
           ],
@@ -272,7 +272,7 @@
           "ReadyTimeModifierMode": "Stack",
           "InvalidItemMessage": null,
           "InvalidItemMessageCondition": null,
-          "InvalidCountMessage": null,
+          "InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 3]",
           "LoadEffects": [
             {
               "Id": "Default",
