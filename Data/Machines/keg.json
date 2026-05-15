@@ -234,15 +234,15 @@
                     {
                       "Id": "Start Price",
                       "Modification": "Multiply",
-                      "Amount": 2
+                      "Amount": 2.5
                     }
                   ],
-                  "Id": "(O)Adam.Joja_Mead",
-                  "ItemId": "(O)Adam.Joja_Mead",
-                  "MinStack": 1,
-                  "MaxStack": 2,
-                  "ObjectInternalName": "Joja {0} Mead",
-                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:MeadFlavor %PRESERVED_DISPLAY_NAME]"
+                  "Id": "(O)Adam.Joja_PremiumMead",
+                  "ItemId": "(O)Adam.Joja_PremiumMead",
+                  "MinStack": -1,
+                  "MaxStack": -1,
+                  "ObjectInternalName": "Joja Premium {0} Mead",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:PremiumMeadFlavor %PRESERVED_DISPLAY_NAME]"
                 }
               ],
               "MinutesUntilReady": 250
