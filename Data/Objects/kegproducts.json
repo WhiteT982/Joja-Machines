@@ -176,6 +176,32 @@
             "alcohol_item"
           ]
         },
+        "Adam.Joja_PremiumMead": {
+          "Name": "Adam.Joja_PremiumMead",
+          "DisplayName": "{{i18n:Adam.Joja_PremiumMead.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_PremiumMead.Description}}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 300,
+          "Texture": "{{InternalAssetKey: assets/jojaproducts.png}}",
+          "SpriteIndex": "21",
+          "Edibility": 30,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "Tipsy",
+              "BuffId": "17",
+              "IconSpriteIndex": 0,
+              "Duration": 0
+            }
+          ],
+          "ContextTags": [
+            "color_blue",
+            "joja_item",
+            "joja_mead",
+            "alcohol_item"
+          ]
+        },
         "Adam.Joja_PaleAle": {
           "Name": "Adam.Joja_PaleAle",
           "DisplayName": "{{i18n:Adam.Joja_PaleAle.DisplayName}}",
@@ -276,6 +302,66 @@
 						"Id": "ItemPlacedInMachine",
 						"Trigger": "ItemPlacedInMachine",
 						"RequiredItemId": "(O)Adam.Joja_Mead",
+						"RequiredTags": null,
+						"RequiredCount": 1,
+						"Condition": null
+					}
+				],
+				"UseFirstValidOutput": false,
+				"OutputItem": [
+				{
+					"CustomData": {
+						"AgingMultiplier": "4"
+					},
+					"OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+					"CopyColor": false,
+					"CopyPrice": false,
+					"CopyQuality": false,
+					"PreserveType": null,
+					"PreserveId": null,
+					"IncrementMachineParentSheetIndex": 0,
+					"PriceModifiers": null,
+					"PriceModifierMode": "Stack",
+					"Condition": null,
+					"Id": "Default",
+					"ItemId": null,
+					"RandomItemId": null,
+					"MaxItems": null,
+					"MinStack": -1,
+					"MaxStack": -1,
+					"Quality": -1,
+					"ObjectInternalName": null,
+					"ObjectDisplayName": null,
+					"ToolUpgradeLevel": -1,
+					"IsRecipe": false,
+					"StackModifiers": null,
+					"StackModifierMode": "Stack",
+					"QualityModifiers": null,
+					"QualityModifierMode": "Stack",
+					"ModData": null,
+					"PerItemCondition": null
+				}
+			],
+			"MinutesUntilReady": -1,
+			"DaysUntilReady": -1,
+			"InvalidCountMessage": null,
+			"RecalculateOnCollect": false
+		}
+	}
+},
+{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)163", "OutputRules" ],
+			"Entries": {
+				"Joja Premium Mead Aging": 
+				{
+					"Id": "Adam.Joja_PremiumMead",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)Adam.Joja_PremiumMead",
 						"RequiredTags": null,
 						"RequiredCount": 1,
 						"Condition": null
