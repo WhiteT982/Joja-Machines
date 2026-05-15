@@ -5,7 +5,7 @@
       "Action": "EditData",
       "Target": "Data/CraftingRecipes",
       "Entries": {
-        "Adam.Joja_Keg": "335 1 390 20 338 2/Home/Adam.Joja_Keg/true/none/"
+        "Adam.Joja_Keg": "335 2 390 20 338 2/Home/Adam.Joja_Keg/true/none/"
       }
     },
     {
@@ -29,7 +29,7 @@
       "Action": "EditData",
       "Target": "Data/CraftingRecipes",
       "Entries": {
-        "Adam.Joja_FishSmoker": "335 3 787 1 338 3/Home/Adam.Joja_FishSmoker/true/none/"
+        "Adam.Joja_FishSmoker": "335 3 Adam.Joja_Battery 2 338 3/Home/Adam.Joja_FishSmoker/true/none/"
       }
     },
     {
@@ -45,7 +45,7 @@
       "Action": "EditData",
       "Target": "Data/CraftingRecipes",
       "Entries": {
-        "Adam.Joja_HoneyMaker": "335 3 726 1 724 1 725 1/Home/Adam.Joja_HoneyMaker/true/none/"
+        "Adam.Joja_HoneyMaker": "335 3 725 1/Home/Adam.Joja_HoneyMaker/true/none/"
       }
     },
      {
@@ -101,7 +101,7 @@
       "Action": "EditData",
       "Target": "Data/CraftingRecipes",
       "Entries": {
-        "Adam.Joja_TackleBin": "335 3 881 10 Moss 3/Home/Adam.Joja_TackleBin/true/none/"
+        "Adam.Joja_TackleBin": "335 3 881 10 Moss 1/Home/Adam.Joja_TackleBin/true/none/"
       }
     },
     {
