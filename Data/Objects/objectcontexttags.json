@@ -359,45 +359,6 @@
     {
       "Action": "EditData",
       "Target": "Data/Objects",
-      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Gold_Carrot_Seed", "ContextTags"],
-      "Entries": {
-            "spring_seed": "spring_seed",
-            "summer_seed": "summer_seed",
-            "fall_seed": "fall_seed"
-        },
-        "When": {
-        "HasMod": "FlashShifter.StardewValleyExpandedCP",
-        },
-    },
-    {
-      "Action": "EditData",
-      "Target": "Data/Objects",
-      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Joja_Berry_Starter", "ContextTags"],
-      "Entries": {
-            "spring_seed": "spring_seed",
-            "summer_seed": "summer_seed",
-            "fall_seed": "fall_seed"
-        },
-        "When": {
-        "HasMod": "FlashShifter.StardewValleyExpandedCP",
-        },
-    },
-    {
-      "Action": "EditData",
-      "Target": "Data/Objects",
-      "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Joja_Veggie_Seeds", "ContextTags"],
-      "Entries": {
-            "spring_seed": "spring_seed",
-            "summer_seed": "summer_seed",
-            "fall_seed": "fall_seed"
-        },
-        "When": {
-        "HasMod": "FlashShifter.StardewValleyExpandedCP",
-        },
-    },
-    {
-      "Action": "EditData",
-      "Target": "Data/Objects",
       "TargetField": [ "FlashShifter.StardewValleyExpandedCP_Butternut_Squash_Seed", "ContextTags"],
       "Entries": {
             "summer_seed": "summer_seed"
@@ -772,17 +733,6 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "TargetField": [ "Cornucopia_SugarcaneSeeds", "ContextTags"],
-      "Entries": {
-            "summer_seed": "summer_seed"
-        },
-        "When": {
-        "HasMod": "Cornucopia.MoreCrops",
-        },
-    },
-    {
-      "Action": "EditData",
-      "Target": "Data/Objects",
-      "TargetField": [ "Cornucopia_WatermelonSeeds", "ContextTags"],
       "Entries": {
             "summer_seed": "summer_seed"
         },
@@ -1297,19 +1247,6 @@
       "Target": "Data/Objects",
       "TargetField": [ "Cornucopia_WormwoodSeeds", "ContextTags"],
       "Entries": {
-            "winter_seed": "winter_seed"
-        },
-        "When": {
-        "HasMod": "Cornucopia.MoreCrops",
-        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
-        },
-    },
-    {
-      "Action": "EditData",
-      "Target": "Data/Objects",
-      "TargetField": [ "Cornucopia_GinsengSeeds", "ContextTags"],
-      "Entries": {
-      "spring_seed": "spring_seed",
             "winter_seed": "winter_seed"
         },
         "When": {
