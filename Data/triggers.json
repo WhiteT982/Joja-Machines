@@ -9,7 +9,7 @@
           "Trigger": "DayEnding",
           "Condition": "PLAYER_BASE_FARMING_LEVEL Current 2",
           "Actions": [
-            "AddMail Current Adam.Joja_PreservesJarMail"
+            "AddMail Current Adam.Joja_PreservesJarMail now"
           ]
         },
         "Joja Keg Mail": {
@@ -17,7 +17,7 @@
           "Trigger": "DayEnding",
           "Condition": "PLAYER_BASE_FARMING_LEVEL Current 6",
           "Actions": [
-            "AddMail Current Adam.Joja_KegMail"
+            "AddMail Current Adam.Joja_KegMail now"
           ]
         },
         "Joja Dehydrator Mail": {
@@ -25,7 +25,7 @@
           "Trigger": "DayEnding",
           "Condition": "PLAYER_BASE_FARMING_LEVEL Current 8",
           "Actions": [
-            "AddMail Current Adam.Joja_DehydratorMail"
+            "AddMail Current Adam.Joja_DehydratorMail now"
           ]
         },
         "Joja Fish Smoker Mail": {
@@ -33,7 +33,7 @@
           "Trigger": "DayEnding",
           "Condition": "PLAYER_BASE_FISHING_LEVEL Current 7",
           "Actions": [
-            "AddMail Current Adam.Joja_FishSmokerMail"
+            "AddMail Current Adam.Joja_FishSmokerMail now"
           ]
         },
         "Joja Chum Maker Mail": {
@@ -41,7 +41,7 @@
           "Trigger": "DayEnding",
           "Condition": "PLAYER_BASE_FISHING_LEVEL Current 2",
           "Actions": [
-            "AddMail Current Adam.Joja_ChumMakerMail"
+            "AddMail Current Adam.Joja_ChumMakerMail now"
           ]
         },
         "Joja Cheese Press Mail": {
@@ -49,7 +49,7 @@
           "Trigger": "DayEnding",
           "Condition": "BUILDINGS_CONSTRUCTED All Barn",
           "Actions": [
-            "AddMail Current Adam.Joja_CheesePressMail"
+            "AddMail Current Adam.Joja_CheesePressMail now"
           ]
         },
         "Joja Honey Maker Mail": {
@@ -57,7 +57,7 @@
           "Trigger": "DayStarted",
           "Condition": "PLAYER_BASE_FORAGING_LEVEL Current 3",
           "Actions": [
-            "AddMail Current Adam.Joja_HoneyMakerMail received"
+            "AddMail Current Adam.Joja_HoneyMakerMail now"
           ]
         },
         "Joja Mayo Machine Mail": {
@@ -65,7 +65,7 @@
           "Trigger": "DayStarted",
           "Condition": "BUILDINGS_CONSTRUCTED All Coop",
           "Actions": [
-            "AddMail Current Adam.Joja_MayoMachineMail received"
+            "AddMail Current Adam.Joja_MayoMachineMail now"
           ]
         },
         "Joja Generator Mail": {
@@ -73,7 +73,7 @@
           "Trigger": "DayStarted",
           "Condition": "PLAYER_HAS_MAIL current landslideDone Received",
           "Actions": [
-            "AddMail Current Adam.Joja_GeneratorMail received"
+            "AddMail Current Adam.Joja_GeneratorMail now"
           ]
         },
         "Joja Fish Trap Mail": {
@@ -81,7 +81,7 @@
           "Trigger": "DayStarted",
           "Condition": "PLAYER_BASE_FISHING_LEVEL current 3",
           "Actions": [
-            "AddMail Current Adam.Joja_FishTrapMail received"
+            "AddMail Current Adam.Joja_FishTrapMail now"
           ]
         },
         "Joja Oil Maker Mail": {
@@ -89,7 +89,7 @@
           "Trigger": "DayStarted",
           "Condition": "PLAYER_BASE_FARMING_LEVEL current 6",
           "Actions": [
-            "AddMail Current Adam.Joja_OilMakerMail received"
+            "AddMail Current Adam.Joja_OilMakerMail now"
           ]
         },
         "Joja Loom Mail": {
@@ -97,7 +97,7 @@
           "Trigger": "DayStarted",
           "Condition": "BUILDINGS_CONSTRUCTED All \"Deluxe Barn\"",
           "Actions": [
-            "AddMail Current Adam.Joja_LoomMail received"
+            "AddMail Current Adam.Joja_LoomMail now"
           ]
         },
         "Joja Furnace Mail": {
@@ -105,7 +105,7 @@
           "Trigger": "DayStarted",
           "Condition": "MINE_LOWEST_LEVEL_REACHED 5",
           "Actions": [
-            "AddMail Current Adam.Joja_FurnaceMail received"
+            "AddMail Current Adam.Joja_FurnaceMail now"
           ]
         },
         "Joja Tackle Bin Mail": {
@@ -113,7 +113,7 @@
           "Trigger": "DayStarted",
           "Condition": "PLAYER_BASE_FISHING_LEVEL current 3",
           "Actions": [
-            "AddMail Current Adam.Joja_TackleBinMail received"
+            "AddMail Current Adam.Joja_TackleBinMail now"
           ]
         },
         "Joja Seed Maker Mail": {
@@ -121,7 +121,7 @@
           "Trigger": "DayStarted",
           "Condition": "PLAYER_STAT current CropsShipped 1",
           "Actions": [
-            "AddMail Current Adam.Joja_SeedMakerMail received"
+            "AddMail Current Adam.Joja_SeedMakerMail now"
           ]
         },
         "Pierre Joja Machines": {
@@ -129,7 +129,7 @@
           "Trigger": "DayEnding",
           "Condition": "IS_COMMUNITY_CENTER_COMPLETE",
           "Actions": [
-            "AddMail Current Adam.Joja_MachinesPierre"
+            "AddMail Current Adam.Joja_MachinesPierre now"
           ]
         },
         "Pierre Abandoned JojaMart": {
@@ -161,7 +161,7 @@
           "Trigger": "DayEnding",
           "Condition": "PLAYER_HAS_SEEN_EVENT current 15389722",
           "Actions": [
-            "AddMail current Adam.Joja_ShipmentStartMail received"
+            "AddMail current Adam.Joja_ShipmentStartMail now"
           ]
         },
         "Remove Shipments1": {
