@@ -126,8 +126,8 @@
         },
         "Adam.Joja_BlueTea": {
           "Name": "Adam.Joja_BlueTea",
-          "DisplayName": "Joja Blue Tea",
-          "Description": "Green tea is healthy, but I'm not sure what blue tea will do to me?",
+          "DisplayName": "{{i18n:Adam.Joja_BlueTea.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_BlueTea.Description}}",
           "Type": "Basic",
           "Category": -26,
           "Price": 50,
