@@ -118,7 +118,7 @@
       "LogName": "Joja Machines Mail Data",
       "Target": "Data/Mail",
       "Entries": {
-        "Adam.Joja_SeedMakerMail": "{{i18n:Adam.Joja_SeedMakerMail.text}} %item id (BC)Adam.Joja_SeedMaker 1%%[letterbg 4][#]{{i18n:Adam.Joja_SeedMakerMail.title}}"
+        "Adam.Joja_SeedMakerMail": "{{i18n:Adam.Joja_SeedMakerMail.text}} %item id (O)770 3%%[letterbg 4][#]{{i18n:Adam.Joja_SeedMakerMail.title}}"
       }
     },
     {
