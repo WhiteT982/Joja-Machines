@@ -215,6 +215,210 @@
               "RecalculateOnCollect": false
             },
             {
+              "Id": "VMVGooseEgg",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)Lumisteria.MtVapius_GooseEgg",
+                  "RequiredTags": null,
+                  "RequiredCount": 1,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)Lumisteria.MtVapius_GooseMayonnaise",
+                  "ItemId": "(O)Lumisteria.MtVapius_GooseMayonnaise",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 2,
+                  "MaxStack": 2,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 180,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": null,
+              "RecalculateOnCollect": false
+            },
+            {
+              "Id": "VMVStellarGooseEgg",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)Lumisteria.MtVapius_StellarGooseEgg",
+                  "RequiredTags": null,
+                  "RequiredCount": 1,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)Lumisteria.MtVapius_StellarGooseMayonnaise",
+                  "ItemId": "(O)Lumisteria.MtVapius_StellarGooseMayonnaise",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 2,
+                  "MaxStack": 2,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 180,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": null,
+              "RecalculateOnCollect": false
+            },
+            {
+              "Id": "SpeckledFowlEgg",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)Lumisteria.MtVapius_SpeckledFowlEgg",
+                  "RequiredTags": null,
+                  "RequiredCount": 1,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)Lumisteria.MtVapius_SpeckledFowlMayonnaise",
+                  "ItemId": "(O)Lumisteria.MtVapius_SpeckledFowlMayonnaise",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 2,
+                  "MaxStack": 2,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 180,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": null,
+              "RecalculateOnCollect": false
+            },
+            {
+              "Id": "SpeckledFowlVoidEgg",
+              "Triggers": [
+                {
+                  "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)Lumisteria.MtVapius_SpeckledFowlVoidEgg",
+                  "RequiredTags": null,
+                  "RequiredCount": 1,
+                  "Condition": null
+                }
+              ],
+              "UseFirstValidOutput": false,
+              "OutputItem": [
+                {
+                  "CustomData": null,
+                  "OutputMethod": null,
+                  "CopyColor": false,
+                  "CopyPrice": false,
+                  "CopyQuality": false,
+                  "PreserveType": null,
+                  "PreserveId": null,
+                  "IncrementMachineParentSheetIndex": 0,
+                  "PriceModifiers": null,
+                  "PriceModifierMode": "Stack",
+                  "Condition": null,
+                  "Id": "(O)Lumisteria.MtVapius_SpeckledFowlVoidMayonnaise",
+                  "ItemId": "(O)Lumisteria.MtVapius_SpeckledFowlVoidMayonnaise",
+                  "RandomItemId": null,
+                  "MaxItems": null,
+                  "MinStack": 2,
+                  "MaxStack": 2,
+                  "Quality": -1,
+                  "ObjectInternalName": null,
+                  "ObjectDisplayName": null,
+                  "ObjectColor": null,
+                  "ToolUpgradeLevel": -1,
+                  "IsRecipe": false,
+                  "StackModifiers": null,
+                  "StackModifierMode": "Stack",
+                  "QualityModifiers": null,
+                  "QualityModifierMode": "Stack",
+                  "ModData": null,
+                  "PerItemCondition": null
+                }
+              ],
+              "MinutesUntilReady": 180,
+              "DaysUntilReady": -1,
+              "InvalidCountMessage": null,
+              "RecalculateOnCollect": false
+            },
+            {
               "Id": "VoidEgg",
               "Triggers": [
                 {
