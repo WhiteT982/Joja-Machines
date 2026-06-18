@@ -46,7 +46,7 @@
         },
         "Joja Cheese Press Mail": {
           "Id": "Adam.Joja_CheesePressMail",
-          "Trigger": "DayEnding",
+          "Trigger": "DayStarted",
           "Condition": "BUILDINGS_CONSTRUCTED All Barn",
           "Actions": [
             "AddMail Current Adam.Joja_CheesePressMail now"
