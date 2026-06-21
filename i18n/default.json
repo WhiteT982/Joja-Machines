@@ -69,6 +69,7 @@
 "Adam.Joja_PROrecipeBook.Description": "Contains all of Joja Co's deepest machine secrets.",
 "Adam.Joja_UpgradePack.DisplayName": "Joja Upgrade Pack",
 "Adam.Joja_UpgradePack.Description": "Craft with it and a Joja Machine to upgrade to the PRO level!",
+"Adam.Joja_UpgradePack.invalid_upgrade": "Can only upgrade Joja Machines to the PRO level after purchasing the Joja PRO Recipe Book.",
 "Adam.Joja_DriedFish.flavor": "Joja Dried {0}",
 "Adam.Joja_Wine.flavor": "Joja {0} Wine",
 "Adam.Joja_Juice.flavor": "Joja {0} Juice",
