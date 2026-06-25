@@ -19,7 +19,9 @@
                   "RequiredItemId": null,
                   "RequiredTags": [
                     "!fruit_item",
-                    "category_fruits"
+                    "category_fruits",
+                    "!id_o_296",
+                    "!id_o_410"
                     ],
                   "RequiredCount": 1,
                   "Condition": null
