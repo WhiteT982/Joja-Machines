@@ -2,6 +2,9 @@
   "Changes": [
     {
       "Action": "EditData",
+      "When": {
+        "Enable Alternate Textures": "false"
+      },
       "LogName": "Joja Machines Object Data",
       "Target": "Data/Objects",
       "Entries": {
@@ -362,6 +365,299 @@
 						"Id": "ItemPlacedInMachine",
 						"Trigger": "ItemPlacedInMachine",
 						"RequiredItemId": "(O)Adam.Joja_PremiumMead",
+						"RequiredTags": null,
+						"RequiredCount": 1,
+						"Condition": null
+					}
+				],
+				"UseFirstValidOutput": false,
+				"OutputItem": [
+				{
+					"CustomData": {
+						"AgingMultiplier": "4"
+					},
+					"OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+					"CopyColor": false,
+					"CopyPrice": false,
+					"CopyQuality": false,
+					"PreserveType": null,
+					"PreserveId": null,
+					"IncrementMachineParentSheetIndex": 0,
+					"PriceModifiers": null,
+					"PriceModifierMode": "Stack",
+					"Condition": null,
+					"Id": "Default",
+					"ItemId": null,
+					"RandomItemId": null,
+					"MaxItems": null,
+					"MinStack": -1,
+					"MaxStack": -1,
+					"Quality": -1,
+					"ObjectInternalName": null,
+					"ObjectDisplayName": null,
+					"ToolUpgradeLevel": -1,
+					"IsRecipe": false,
+					"StackModifiers": null,
+					"StackModifierMode": "Stack",
+					"QualityModifiers": null,
+					"QualityModifierMode": "Stack",
+					"ModData": null,
+					"PerItemCondition": null
+				}
+			],
+			"MinutesUntilReady": -1,
+			"DaysUntilReady": -1,
+			"InvalidCountMessage": null,
+			"RecalculateOnCollect": false
+		}
+	}
+},
+//Alternate Textures
+{
+      "Action": "EditData",
+      "When": {
+        "Enable Alternate Textures": "true"
+      },
+      "LogName": "Joja Machines Object Data",
+      "Target": "Data/Objects",
+      "Entries": {
+"Adam.Joja_Wine": {
+          "Name": "Adam.Joja_Wine",
+          "DisplayName": "{{i18n:Adam.Joja_Wine.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_Wine.Description}}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 550,
+          "Texture": "{{InternalAssetKey: assets/jojaproducts.png}}",
+          "SpriteIndex": "0",
+          "Edibility": 20,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "Tipsy",
+              "BuffId": "17",
+              "IconSpriteIndex": 0,
+              "Duration": 0
+            }
+          ],
+          "ContextTags": [
+            "color_blue",
+            "joja_item",
+            "joja_wine",
+            "alcohol_item",
+            "use_reverse_name_for_sorting",
+            "drink_item"
+          ]
+        },
+        "Adam.Joja_Juice": {
+          "Name": "Adam.Joja_Juice",
+          "DisplayName": "{{i18n:Adam.Joja_Juice.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_Juice.Description}}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 150,
+          "Texture": "{{InternalAssetKey: assets/jojaproducts.png}}",
+          "SpriteIndex": "1",
+          "Edibility": 30,
+          "IsDrink": true,
+          "ContextTags": [
+            "color_blue",
+            "joja_item",
+            "joja_juice",
+            "juice_item",
+            "use_reverse_name_for_sorting",
+            "drink_item"
+          ]
+        },
+        "Adam.Joja_Beer": {
+          "Name": "Adam.Joja_Beer",
+          "DisplayName": "{{i18n:Adam.Joja_Beer.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_Beer.Description}}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 100,
+          "Texture": "{{InternalAssetKey: assets/alternatejojaproducts.png}}",
+          "SpriteIndex": "2",
+          "Edibility": 20,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "Tipsy",
+              "BuffId": "17",
+              "IconSpriteIndex": 0,
+              "Duration": 0
+            }
+          ],
+          "ContextTags": [
+            "color_blue",
+            "joja_beer",
+            "joja_item",
+            "alcohol_item"
+          ]
+        },
+        "Adam.Joja_Vinegar": {
+          "Name": "Adam.Joja_Vinegar",
+          "DisplayName": "{{i18n:Adam.Joja_Vinegar.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_Vinegar.Description}}",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 50,
+          "Texture": "{{InternalAssetKey: assets/jojaproducts.png}}",
+          "SpriteIndex": "6",
+          "Edibility": 5,
+          "IsDrink": true,
+          "ContextTags": [
+            "color_blue",
+            "joja_item",
+            "vinegar_item"
+          ]
+        },
+        "Adam.Joja_Coffee": {
+          "Name": "Adam.Joja_Coffee",
+          "DisplayName": "{{i18n:Adam.Joja_Coffee.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_Coffee.Description}}",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 75,
+          "Texture": "{{InternalAssetKey: assets/jojaproducts.png}}",
+          "SpriteIndex": "7",
+          "Edibility": 1,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "Drink",
+              "IconSpriteIndex": 0,
+              "Duration": 240,
+              "CustomAttributes": {
+                "Speed": 1.5
+              }
+            }
+          ],
+          "ContextTags": [
+            "color_blue",
+            "joja_item",
+            "joja_coffee",
+            "coffee_item"
+          ]
+        },
+        "Adam.Joja_BlueTea": {
+          "Name": "Adam.Joja_BlueTea",
+          "DisplayName": "{{i18n:Adam.Joja_BlueTea.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_BlueTea.Description}}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 50,
+          "Texture": "{{InternalAssetKey: assets/jojaproducts.png}}",
+          "SpriteIndex": "8",
+          "Edibility": 5,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "Drink",
+              "IconSpriteIndex": 0,
+              "Duration": 360,
+              "CustomAttributes": {
+                "MaxStamina": 30.0
+              }
+            }
+          ],
+          "ContextTags": [
+            "color_blue",
+            "joja_item"
+          ]
+        },
+        "Adam.Joja_Mead": {
+          "Name": "Adam.Joja_Mead",
+          "DisplayName": "{{i18n:Adam.Joja_Mead.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_Mead.Description}}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 150,
+          "Texture": "{{InternalAssetKey: assets/alternatejojaproducts.png}}",
+          "SpriteIndex": "0",
+          "Edibility": 30,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "Tipsy",
+              "BuffId": "17",
+              "IconSpriteIndex": 0,
+              "Duration": 0
+            }
+          ],
+          "ContextTags": [
+            "color_blue",
+            "joja_item",
+            "joja_mead",
+            "alcohol_item"
+          ]
+        },
+        "Adam.Joja_PremiumMead": {
+          "Name": "Adam.Joja_PremiumMead",
+          "DisplayName": "{{i18n:Adam.Joja_PremiumMead.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_PremiumMead.Description}}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 300,
+          "Texture": "{{InternalAssetKey: assets/jojaproducts.png}}",
+          "SpriteIndex": "21",
+          "Edibility": 30,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "Tipsy",
+              "BuffId": "17",
+              "IconSpriteIndex": 0,
+              "Duration": 0
+            }
+          ],
+          "ContextTags": [
+            "color_blue",
+            "joja_item",
+            "joja_mead",
+            "alcohol_item"
+          ]
+        },
+        "Adam.Joja_PaleAle": {
+          "Name": "Adam.Joja_PaleAle",
+          "DisplayName": "{{i18n:Adam.Joja_PaleAle.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_PaleAle.Description}}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 150,
+          "Texture": "{{InternalAssetKey: assets/alternatejojaproducts.png}}",
+          "SpriteIndex": "1",
+          "Edibility": 20,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "Tipsy",
+              "BuffId": "17",
+              "IconSpriteIndex": 0,
+              "Duration": 0
+            }
+          ],
+          "ContextTags": [
+            "color_blue",
+            "joja_item",
+            "alcohol_item"
+          ]
+        }
+      }
+    },
+    {
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)163", "OutputRules" ],
+			"Entries": {
+				"Joja Wine Aging": 
+				{
+					"Id": "Adam.Joja_Wine",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)Adam.Joja_Wine",
 						"RequiredTags": null,
 						"RequiredCount": 1,
 						"Condition": null

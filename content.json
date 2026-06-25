@@ -6,6 +6,11 @@
       "Default": "Middle Joja",
       "Section": "JojaMart Map Compatibility",
       "Description": "Left Joja: Compatible with JojaFlex and SVE, Middle Joja: Compatible with Joja Sells it Too and SVE, Right Joja: Compatible with Joja Sells it Too and JojaFlex. DO NOT use with SVE."
+    },
+    "Enable Alternate Textures": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Description": "Enables alternate textures for Joja Mead, Pale Ale, and Beer."
     }
   },
   "Changes": [
