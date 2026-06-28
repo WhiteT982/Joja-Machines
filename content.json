@@ -10,9 +10,26 @@
     "Enable Alternate Textures": {
       "AllowValues": "true, false",
       "Default": "false",
-      "Description": "Enables alternate textures for Joja Mead, Pale Ale, and Beer."
+      "Description": "Enables alternate textures for Joja Products (Pale Ale, Mead, Beer, etc)."
     }
   },
+  //Dynamic Tokens
+  "DynamicTokens": [
+      {
+         "Name": "Style",
+         "Value": "base",
+         "When": {
+            "Enable Alternate Textures": "false"
+         }
+      },
+      {
+         "Name": "Style",
+         "Value": "alternate",
+         "When": {
+            "Enable Alternate Textures": "true"
+         }
+      }
+   ],
   "Changes": [
     {
       "Action": "Include",

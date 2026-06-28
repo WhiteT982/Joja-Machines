@@ -12,7 +12,7 @@
           "Type": "Basic",
           "Category": -102,
           "Price": 1,
-          "Texture": "{{InternalAssetKey: assets/jojaproducts.png}}",
+          "Texture": "{{InternalAssetKey: assets/jojaproducts{{style}}.png}}",
           "SpriteIndex": "17",
           "Edibility": -300,
           "ContextTags": [

@@ -691,5 +691,5 @@
 "config.section.Joja Machines Store Location.name": "JojaMart Map Compatibility",
 "config.Joja Machines Store Location.description": "Left Joja: Compatible with JojaFlex and SVE, Middle Joja: Compatible with Joja Sells it Too and SVE, Right Joja: Compatible with Joja Sells it Too and JojaFlex. DO NOT use with SVE.",
 "config.Enable Alternate Textures.name": "Enable Alternate Textures",
-"config.Enable Alternate Textures.description": "Enables alternate textures for Joja Mead, Pale Ale, and Beer.",
+"config.Enable Alternate Textures.description": "Enables alternate textures for Joja Products (Pale Ale, Mead, Beer, etc)."
 }
