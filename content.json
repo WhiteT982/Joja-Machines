@@ -1,5 +1,5 @@
 {
-  "Format": "2.9.0",
+  "Format": "2.9.1",
   "ConfigSchema": {
     "Joja Machines Store Location": {
       "AllowValues": "Left Joja, Middle Joja, Right Joja",
@@ -67,14 +67,6 @@
       },
       "Action": "Include",
       "FromFile": "Data/Patches/blueegg.json"
-    }
-    /*SVE Compatibiity*/,
-    {
-      "When": {
-        "HasMod": "FlashShifter.StardewValleyExpandedCP"
-      },
-      "Action": "Include",
-      "FromFile": "Data/Patches/SVE.json"
     }
     /*Event Maps*/,
     {

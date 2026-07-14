@@ -353,8 +353,24 @@
               "Id": "(O)Adam.Joja_UpgradePack",
               "ItemId": "(O)Adam.Joja_UpgradePack",
               "IsRecipe": false
-            },
-            {
+            }
+          ]
+        }
+      }
+    },
+    //PRO Book no SVE
+    {
+      "Action": "EditData",
+      "when": {
+        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+      },
+      "Target": "Data/Shops",
+      "TargetField": [
+        "JojaMachines",
+        "Items"
+      ],
+      "Entries": {
+        "PRO Book": {
               "Price": 75000,
               "AvailableStock": 1,
               "AvailableStockModifiers": [
@@ -371,13 +387,47 @@
               "AvoidRepeat": true,
               "IgnoreShopPriceModifiers": true,
               "PriceModifiers": null,
-              "Condition": "PLAYER_HAS_MAIL current Adam.Joja_MachinesPROMail, !PLAYER_HAS_MAIL current Adam.Joja_PROBookSVE received",
+              "Condition": "PLAYER_HAS_MAIL current Adam.Joja_MachinesPROMail received",
               "Id": "(O)Adam.Joja_PROrecipeBook",
               "ItemId": "(O)Adam.Joja_PROrecipeBook",
               "IsRecipe": false
             }
-          ]
-        }
+      }
+    },
+    //PRO Book SVE
+    {
+      "Action": "EditData",
+      "when": {
+        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+      },
+      "Target": "Data/Shops",
+      "TargetField": [
+        "JojaMachines",
+        "Items"
+      ],
+      "Entries": {
+        "PRO Book": {
+              "Price": 75000,
+              "AvailableStock": 1,
+              "AvailableStockModifiers": [
+            {
+              "Id": "No Repeat Book",
+              "Modification": "Set",
+              "Amount": 0,
+              "Condition": "PLAYER_HAS_SEEN_EVENT current JojaPROeventSVE"
+            }
+          ],
+              "ActionsOnPurchase": [
+                "spacechase0.SpaceCore_PlayEvent JojaPROeventSVE true"
+              ],
+              "AvoidRepeat": true,
+              "IgnoreShopPriceModifiers": true,
+              "PriceModifiers": null,
+              "Condition": "PLAYER_HAS_MAIL current Adam.Joja_MachinesPROMail received",
+              "Id": "(O)Adam.Joja_PROrecipeBook",
+              "ItemId": "(O)Adam.Joja_PROrecipeBook",
+              "IsRecipe": false
+            }
       }
     },
     {

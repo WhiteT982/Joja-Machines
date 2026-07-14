@@ -38,87 +38,87 @@
     "(BC)Adam.Joja_Keg": {
       "ItemId": "(BC)Adam.Joja_KegPRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
-      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROevent SVE\""
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     },
     "(BC)Adam.Joja_PreservesJar": {
       "ItemId": "(BC)Adam.Joja_PreservesJarPRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
-      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROevent SVE\""
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     },
     "(BC)Adam.Joja_FishSmoker": {
       "ItemId": "(BC)Adam.Joja_FishSmokerPRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
-      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROevent SVE\""
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     },
     "(BC)Adam.Joja_Dehydrator": {
       "ItemId": "(BC)Adam.Joja_DehydratorPRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
-      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROevent SVE\""
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     },
     "(BC)Adam.Joja_WormBin": {
       "ItemId": "(BC)Adam.Joja_WormBinPRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
-      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROevent SVE\""
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     },
     "(BC)Adam.Joja_ChumMaker": {
       "ItemId": "(BC)Adam.Joja_ChumMakerPRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
-      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROevent SVE\""
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     },
     "(BC)Adam.Joja_CheesePress": {
       "ItemId": "(BC)Adam.Joja_CheesePressPRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
-      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROevent SVE\""
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     },
     "(BC)Adam.Joja_HoneyMaker": {
       "ItemId": "(BC)Adam.Joja_HoneyMakerPRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
-      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROevent SVE\""
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     },
     "(BC)Adam.Joja_MayoMachine": {
       "ItemId": "(BC)Adam.Joja_MayoMachinePRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
-      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROevent SVE\""
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     },
     "(BC)Adam.Joja_Generator": {
       "ItemId": "(BC)Adam.Joja_GeneratorPRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
-      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROevent SVE\""
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     },
     "(BC)Adam.Joja_FishTrap": {
       "ItemId": "(BC)Adam.Joja_FishTrapPRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
-      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROevent SVE\""
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     },
     "(BC)Adam.Joja_OilMaker": {
       "ItemId": "(BC)Adam.Joja_OilMakerPRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
-      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROevent SVE\""
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     },
     "(BC)Adam.Joja_Loom": {
       "ItemId": "(BC)Adam.Joja_LoomPRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
-      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROevent SVE\""
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     },
     "(BC)Adam.Joja_Furnace": {
       "ItemId": "(BC)Adam.Joja_FurnacePRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
-      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROevent SVE\""
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     },
     "(BC)Adam.Joja_TackleBin": {
       "ItemId": "(BC)Adam.Joja_TackleBinPRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
-      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROevent SVE\""
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     },
     "(BC)Adam.Joja_SeedMaker": {
       "ItemId": "(BC)Adam.Joja_SeedMakerPRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
-      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROevent SVE\""
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     },
     "(BC)Adam.Joja_SeedSorter": {
       "ItemId": "(BC)Adam.Joja_SeedSorterPRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
-      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROevent SVE\""
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     }
   }
 }
