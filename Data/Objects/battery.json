@@ -10,7 +10,7 @@
           "DisplayName": "{{i18n:Adam.Joja_Battery.DisplayName}}",
           "Description": "{{i18n:Adam.Joja_Battery.Description}}",
           "Type": "Basic",
-          "Category": -8,
+          "Category": -16,
           "Price": 15,
           "Texture": "{{InternalAssetKey: assets/jojaproducts{{style}}.png}}",
           "SpriteIndex": "22",
