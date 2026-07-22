@@ -326,7 +326,9 @@
             }
           ],
           "ExperienceGainOnHarvest": null,
-          "CustomFields": null
+          "CustomFields": {
+            "selph.ExtraMachineConfig.ExtraOutputIds": "DischargedBatteryOutput"
+          }
         }
       }
     }

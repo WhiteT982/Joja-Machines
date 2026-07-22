@@ -13,7 +13,7 @@
       "Action": "EditData",
       "Target": "Data/CraftingRecipes",
       "Entries": {
-        "Adam.Joja_PreservesJar": "335 1 390 10 338 1/Home/Adam.Joja_PreservesJar/true/none/"
+        "Adam.Joja_PreservesJar": "334 1 390 10 338 1/Home/Adam.Joja_PreservesJar/true/none/"
       }
     },
      {
@@ -21,7 +21,7 @@
       "Action": "EditData",
       "Target": "Data/CraftingRecipes",
       "Entries": {
-        "Adam.Joja_Dehydrator": "335 3 390 10 82 1/Home/Adam.Joja_Dehydrator/true/none/"
+        "Adam.Joja_Dehydrator": "336 2 390 10 82 1/Home/Adam.Joja_Dehydrator/true/none/"
       }
     },
      {
@@ -37,7 +37,7 @@
       "Action": "EditData",
       "Target": "Data/CraftingRecipes",
       "Entries": {
-        "Adam.Joja_CheesePress": "335 4 390 30 338 3 84 1/Home/Adam.Joja_CheesePress/true/none/"
+        "Adam.Joja_CheesePress": "335 2 390 30 338 3 84 1/Home/Adam.Joja_CheesePress/true/none/"
       }
     },
     {
@@ -101,7 +101,7 @@
       "Action": "EditData",
       "Target": "Data/CraftingRecipes",
       "Entries": {
-        "Adam.Joja_TackleBin": "335 3 881 10 Moss 1/Home/Adam.Joja_TackleBin/true/none/"
+        "Adam.Joja_TackleBin": "335 1 881 10 Moss 1/Home/Adam.Joja_TackleBin/true/none/"
       }
     },
     {
@@ -118,6 +118,14 @@
       "Target": "Data/CraftingRecipes",
       "Entries": {
         "Adam.Joja_SeedSorter": "335 5 330 5 82 1/Home/Adam.Joja_SeedSorter/true/none/"
+      }
+    },
+    {
+      "LogName": "Create battery charger recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Adam.Joja_BatteryCharger": "336 2 80 1/Home/Adam.Joja_BatteryCharger/true/none/"
       }
     }
   ]

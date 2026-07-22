@@ -141,7 +141,7 @@
           "custom_crab_pot_item",
           "prevent_remove_when_processing",
           "draw_water_overlay"
-          ],
+          ]
         }
       }
     },
@@ -160,7 +160,7 @@
           "custom_crab_pot_item",
           "prevent_remove_when_processing",
           "draw_water_overlay"
-          ],
+          ]
         }
       }
     },
@@ -246,6 +246,20 @@
           "Description": "{{i18n:Adam.Joja_SeedSorterPRO.Description}}",
           "Texture": "{{InternalAssetKey: assets/jojamachinesPRO.png}}",
           "SpriteIndex": "22"
+        }
+      }
+    },
+    {
+      "LogName": "Add the battery charger",
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "Adam.Joja_BatteryChargerPRO": {
+          "Name": "Adam.Joja_BatteryChargerPRO",
+          "DisplayName": "{{i18n:Adam.Joja_BatteryChargerPRO.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_BatteryChargerPRO.Description}}",
+          "Texture": "{{InternalAssetKey: assets/jojamachinesPRO.png}}",
+          "SpriteIndex": "24"
         }
       }
     }

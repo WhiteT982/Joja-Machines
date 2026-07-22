@@ -10,7 +10,7 @@
           "DisplayName": "{{i18n:Adam.Joja_UpgradePack.DisplayName}}",
           "Description": "{{i18n:Adam.Joja_UpgradePack.Description}}",
           "Type": "Basic",
-          "Category": -20,
+          "Category": -16,
           "Price": 1000,
           "Texture": "{{InternalAssetKey: assets/jojaproducts{{style}}.png}}",
           "SpriteIndex": "18",
@@ -117,6 +117,11 @@
     },
     "(BC)Adam.Joja_SeedSorter": {
       "ItemId": "(BC)Adam.Joja_SeedSorterPRO",
+      "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
+      "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
+    },
+    "(BC)Adam.Joja_BatteryCharger": {
+      "ItemId": "(BC)Adam.Joja_BatteryChargerPRO",
       "FailureMessage": "{{i18n:Adam.Joja_UpgradePack.invalid_upgrade}}",
       "Condition": "ANY \"PLAYER_HAS_SEEN_EVENT any JojaPROevent\" \"PLAYER_HAS_SEEN_EVENT any JojaPROeventSVE\""
     }

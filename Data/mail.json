@@ -126,6 +126,14 @@
       "LogName": "Joja Machines Mail Data",
       "Target": "Data/Mail",
       "Entries": {
+        "Adam.Joja_BatteryChargerMail": "{{i18n:Adam.Joja_BatteryChargerMail.text}} %item id (BC)Adam.Joja_BatteryCharger 1%%[letterbg 4][#]{{i18n:Adam.Joja_BatteryChargerMail.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "Joja Machines Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
         "Adam.Joja_MachinesPierre": "{{i18n:Adam.Joja_MachinesPierre.text}}[#]{{i18n:Adam.Joja_MachinesPierre.title}}"
       }
     },

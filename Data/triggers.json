@@ -124,6 +124,14 @@
             "AddMail Current Adam.Joja_SeedMakerMail now"
           ]
         },
+        "Joja Battery Charger Mail": {
+          "Id": "Adam.Joja_BatteryChargerMail",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_BASE_FORAGING_LEVEL current 6",
+          "Actions": [
+            "AddMail Current Adam.Joja_BatteryChargerMail now"
+          ]
+        },
         "Pierre Joja Machines": {
           "Id": "Adam.Joja_MachinesPierre",
           "Trigger": "DayEnding",

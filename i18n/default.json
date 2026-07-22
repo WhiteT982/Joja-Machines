@@ -86,6 +86,10 @@
 "Adam.Joja_PremiumMead.flavor": "Joja Premium {0} Mead",
 "Adam.Joja_Battery.DisplayName": "Joja Battery Pack",
 "Adam.Joja_Battery.Description": "Proprietary power source to be used with Joja Machines. DO NOT use normal batteries or your machine will not function.",
+"Adam.Joja_BatteryDischarged.DisplayName": "Discharged Joja Battery Pack",
+"Adam.Joja_BatteryDischarged.Description": "Right now it's useless, but maybe you could recycle it? Or if there was some way that you could recharge it?",
+"Adam.Joja_BadBattery.DisplayName": "Dead Joja Battery Pack",
+"Adam.Joja_BadBattery.Description": "This Joja Battery Pack can no longer be recharged. It can only be recycled now.",
 //Machines
 "Adam.Joja_Keg.DisplayName": "Joja Keg",
 "Adam.Joja_Keg.Description": "Make your own artisan products at home with a new and improved keg design from Joja! Now faster than ever before!",
@@ -121,6 +125,8 @@
 "Adam.Joja_SeedMaker.Description": "Place produce, forage, or flowers inside to get mixed seeds, seasonal seeds, mixed flower seeds, or a random sapling.",
 "Adam.Joja_SeedSorter.DisplayName": "Joja Seed Sorter",
 "Adam.Joja_SeedSorter.Description": "Place mixed seeds inside to be sorted into seeds depending on the current season. Also a chance to receive rare and ancient seeds!",
+"Adam.Joja_BatteryCharger.DisplayName": "Joja Battery Charger",
+"Adam.Joja_BatteryCharger.Description": "Place up to three discharged Joja Battery Packs inside to restore them to full power.",
 "Adam.Joja_ICM.batterypack": "Requires one Joja Battery Pack.",
 "Adam.Joja_ICM.tacklebin": "Requires one processed metal bar and a piece of trash.",
 //PRO Machines
@@ -158,6 +164,8 @@
 "Adam.Joja_SeedMakerPRO.Description": "Place produce, forage, or flowers inside to get mixed seeds, seasonal seeds, mixed flower seeds, or a random sapling.",
 "Adam.Joja_SeedSorterPRO.DisplayName": "Joja Seed Sorter PRO",
 "Adam.Joja_SeedSorterPRO.Description": "Place mixed seeds inside to be sorted into seeds depending on the current season. Also a chance to receive rare and ancient seeds!",
+"Adam.Joja_BatteryChargerPRO.DisplayName": "Joja Battery Charger PRO",
+"Adam.Joja_BatteryChargerPRO.Description": "Place up to five discharged Joja Battery Packs inside to restore them to full power.",
 //Events
 "PierreAbandonedJoja.0": "Sometime late last night...",
 "PierreAbandonedJoja.1": "Morris really left in a hurry huh?#$b#I wonder if he left anything behind when he left?",
@@ -555,6 +563,8 @@
 "Adam.Joja_TackleBinMail.text": "Dear Current Resident,^Joja Co is writing to you today to announce yet another addition to the Joja CARES line of products. The Joja Tackle Bin is a new machine that with the addition of a resource bar, will recycle any trash that you find into a piece of fishing tackle! These go great with the new Joja Fish Trap too.^This is just another step in Joja Co's commitment to a cleaner eviornment for everyone to enjoy. Each resource bar will produce different kinds of tackle so don't be afraid to try out different ones! Just like all of our products we welcome you to stop by your local JojaMart to pick up the recipe or product. We've even included a few copies of the jojaNet 2.0 trial CD which includes information on all of our products :)^\t-Joja Co^Disclaimer:^By accepting this product the user accepts all responsibility.^No returns or refunds accepted even if product was damaged during shipping.",
 "Adam.Joja_SeedMakerMail.title": "Joja Seed Maker",
 "Adam.Joja_SeedMakerMail.text": "Dear Current Resident,^Joja Co is writing to you today to congratulate you on your first crop shipment! Joja Co is proud to support our local farmers and have also created two new machines to help any upcoming farmer get started.^Today we are introducing our new Joja Seed Maker and Seed Sorter. The Seed Maker will produce different seeds depending upon the input. Crops will result in mixed seeds, flowers into mixed flower seeds, forage into seasonal seeds, and tree produce into saplings. If you would prefer to know what kind of seeds you have, you can then place those mixed seeds into our Seed Sorter and it will sort those mixed seeds into crop seeds for whatever season it currently is. During development, our engineers have even found that the Seed Sorter has a small chance to produce rare seeds! So we invite you to your local JojaMart to browse our full selection of new machines and products as they are developed :)^\t-Joja Co^Disclaimer:^By accepting this product the user accepts all responsibility.^No returns or refunds accepted even if product was damaged during shipping.",
+"Adam.Joja_BatteryChargerMail.title": "Joja Battery Charger",
+"Adam.Joja_BatteryChargerMail.text": "Dear Current Resident,^Have you been wondering what to do with your old discharged Joja Battery Packs? Maybe you've been recycling them or using them to make tackle with the Joja Tackle Bin?.^Well today we are introducing our new Joja Battery Charger! Place this new machine anywere outside and add up to three discharged Joja Battery Packs inside. All of your batteries will be fully recharged the next day and ready to be used in Joja Machines once again. We've even included one of these new machines with this letter so that you can start recharging those batteries ASAP! Also don't forget to stop by your local JojaMart to pick up more machines and recipes :) ^\t-Joja Co^Disclaimer:^By accepting this product the user accepts all responsibility.^No returns or refunds accepted even if product was damaged during shipping.",
 "Adam.Joja_MachinesPierre.title": "Pierre's Joja Machines",
 "Adam.Joja_MachinesPierre.text": "Hi @,^I was digging around in the old JojaMart and found some stuff you might be interested in. If you're curious, come by the old shop and I'll let you take them off my hands for cheap! Assuming you haven't already picked them up from Joja of course...^\t-Pierre[letterbg 0]",
 "Adam.Joja_ShipmentStartMail.title": "Joja Shipment Start",

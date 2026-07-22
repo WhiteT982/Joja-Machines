@@ -18,6 +18,44 @@
           "ContextTags": [
             "joja_item"
           ]
+        },
+        "Adam.Joja_BatteryDischarged": {
+          "Name": "Adam.Joja_BatteryDischarged",
+          "DisplayName": "{{i18n:Adam.Joja_BatteryDischarged.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_BatteryDischarged.Description}}",
+          "Type": "Basic",
+          "Category": -20,
+          "Price": 0,
+          "Texture": "{{InternalAssetKey: assets/jojaproducts{{style}}.png}}",
+          "SpriteIndex": "23",
+          "Edibility": -300,
+          "ContextTags": [
+            "joja_item"
+          ]
+        },
+        "Adam.Joja_BadBattery": {
+          "Name": "Adam.Joja_BadBattery",
+          "DisplayName": "{{i18n:Adam.Joja_BadBattery.DisplayName}}",
+          "Description": "{{i18n:Adam.Joja_BadBattery.Description}}",
+          "Type": "Basic",
+          "Category": -20,
+          "Price": 0,
+          "Texture": "{{InternalAssetKey: assets/jojaproducts{{style}}.png}}",
+          "SpriteIndex": "24",
+          "Edibility": -300,
+          "ContextTags": [
+            "joja_item"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "selph.ExtraMachineConfig/ExtraOutputs",
+      "Entries": {
+        "DischargedBatteryOutput": {
+          "Id": "DischargedBatteryOutput",
+          "ItemId": "(O)Adam.Joja_BatteryDischarged"
         }
       }
     }
