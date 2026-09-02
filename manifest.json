@@ -1,7 +1,7 @@
 {
   "Name": "Joja Machines",
   "Author": "blue704",
-  "Version": "1.5.7",
+  "Version": "1.5.8",
   "Description": "New Machines from Joja!",
   "UniqueID": "Adam.Joja_Machines",
   "UpdateKeys": ["Nexus:40013"],
@@ -14,7 +14,8 @@
 		{"UniqueID": "6480.blueegg", "IsRequired": false},
 		{"UniqueID": "FlashShifter.StardewValleyExpandedCP", "IsRequired": false},
 		{"UniqueID": "Cornucopia.MoreCrops", "IsRequired": false},
-		{"UniqueID": "Wildflour.AtelierGoods", "IsRequired": false}
+		{"UniqueID": "Wildflour.AtelierGoods", "IsRequired": false},
+		{"UniqueID": "nachonline.mps", "IsRequired": false}
 		],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
