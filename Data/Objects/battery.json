@@ -30,7 +30,8 @@
           "SpriteIndex": "23",
           "Edibility": -300,
           "ContextTags": [
-            "joja_item"
+            "joja_item",
+            "recyclable_battery"
           ]
         },
         "Adam.Joja_BadBattery": {
@@ -44,7 +45,8 @@
           "SpriteIndex": "24",
           "Edibility": -300,
           "ContextTags": [
-            "joja_item"
+            "joja_item",
+            "recyclable_battery"
           ]
         }
       }
