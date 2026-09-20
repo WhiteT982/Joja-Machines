@@ -423,7 +423,7 @@
         "Adam.Joja_BoysNight": {
           "Name": "{{i18n:Adam.Joja_BoysNight.name}}",
           "Requester": "Shane",
-          "Duration": "Week",
+          "Duration": "Month",
           "Repeatable": "true",
           "RequiredTags": " ",
           "Condition": "PLAYER_HAS_SEEN_EVENT current GuysNightPrequel",
@@ -536,7 +536,7 @@
         "Adam.Joja_GirlsNight": {
           "Name": "{{i18n:Adam.Joja_GirlsNight.name}}",
           "Requester": "Leah",
-          "Duration": "Week",
+          "Duration": "Month",
           "Repeatable": "true",
           "RequiredTags": " ",
           "Condition": "PLAYER_HAS_SEEN_EVENT current GirlsNightPrequel",
