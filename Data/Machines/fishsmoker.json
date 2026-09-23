@@ -71,7 +71,10 @@
               "RecalculateOnCollect": false
             }
           ],
-          "PreventTimePass": ["Rain"],
+          "PreventTimePass": [
+            "Rain",
+            "Inside"
+          ],
           "ReadyTimeModifiers": null,
           "ReadyTimeModifierMode": "Stack",
           "InvalidItemMessage": null,
