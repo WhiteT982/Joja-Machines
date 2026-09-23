@@ -7,7 +7,7 @@
       "Entries": {
         "VincentCheezeQuest": "ItemDelivery/{{i18n:VincentCheezeQuest.title}}/{{i18n:VincentCheezeQuest.text}}/{{i18n:VincentCheezeQuest.objective}}/Vincent (O)Adam.Joja_Cheeze 1/-1/20/-1/true/{{i18n:VincentCheezeQuest.reaction}}",
         "HaleyHoneyQuest": "ItemDelivery/{{i18n:HaleyHoneyQuest.title}}/{{i18n:HaleyHoneyQuest.text}}/{{i18n:HaleyHoneyQuest.objective}}/Haley (O)Adam.Joja_Honey 3/-1/1500/-1/true/{{i18n:HaleyHoneyQuest.reaction}}",
-         "LeahWineQuest": "ItemDelivery/{{i18n:LeahWineQuest.title}}/{{i18n:LeahWineQuest.text}}/{{i18n:LeahWineQuest.objective}}/Leah (O)Adam.Joja_Wine 1/-1/750/-1/true/{{i18n:LeahWineQuest.reaction}}",
+        "LeahWineQuest": "ItemDelivery/{{i18n:LeahWineQuest.title}}/{{i18n:LeahWineQuest.text}}/{{i18n:LeahWineQuest.objective}}/Leah (O)Adam.Joja_Wine 1/-1/750/-1/true/{{i18n:LeahWineQuest.reaction}}",
         "SebastianJellyQuest": "ItemDelivery/{{i18n:SebastianJellyQuest.title}}/{{i18n:SebastianJellyQuest.text}}/{{i18n:SebastianJellyQuest.objective}}/Sebastian (O)Adam.Joja_Jelly 1/-1/500/-1/true/{{i18n:SebastianJellyQuest.reaction}}",
         "AlexJuiceQuest": "ItemDelivery/{{i18n:AlexJuiceQuest.title}}/{{i18n:AlexJuiceQuest.text}}/{{i18n:AlexJuiceQuest.objective}}/Alex (O)Adam.Joja_Juice 5/-1/2500/-1/true/{{i18n:AlexJuiceQuest.reaction}}",
         "HarveyPickleQuest": "ItemDelivery/{{i18n:HarveyPickleQuest.title}}/{{i18n:HarveyPickleQuest.text}}/{{i18n:HarveyPickleQuest.objective}}/Harvey (O)Adam.Joja_Pickle 5/-1/2000/-1/true/{{i18n:HarveyPickleQuest.reaction}}",
