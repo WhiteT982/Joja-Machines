@@ -23,23 +23,23 @@
           "PriceModifierMode": "Stack",
           "Items": [
             {
-              "Price": 9000,
+              "Price": 7000,
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
               "PriceModifiers": [],
-              "Condition": "PLAYER_BASE_FARMING_LEVEL any 6",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_KegUnlock received\" \"PLAYER_BASE_FARMING_LEVEL any 6\"",
               "Id": "(BC)Adam.Joja_Keg (Recipe)",
               "ItemId": "(BC)Adam.Joja_Keg",
               "IsRecipe": true
             },
             {
-              "Price": 7000,
+              "Price": 5000,
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
               "PriceModifiers": [],
-              "Condition": "PLAYER_BASE_FARMING_LEVEL any 6",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_KegUnlock received\" \"PLAYER_BASE_FARMING_LEVEL any 6\"",
               "Id": "(BC)Adam.Joja_Keg",
               "ItemId": "(BC)Adam.Joja_Keg",
               "IsRecipe": false
@@ -49,7 +49,7 @@
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FARMING_LEVEL any 2",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_PreservesJarUnlock received\" \"PLAYER_BASE_FARMING_LEVEL any 2\"",
               "Id": "(BC)Adam.Joja_PreservesJar (Recipe)",
               "ItemId": "(BC)Adam.Joja_PreservesJar",
               "IsRecipe": true
@@ -59,47 +59,47 @@
               "AvailableStock": 100,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FARMING_LEVEL any 2",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_PreservesJarUnlock received\" \"PLAYER_BASE_FARMING_LEVEL any 2\"",
               "Id": "(BC)Adam.Joja_PreservesJar",
               "ItemId": "(BC)Adam.Joja_PreservesJar",
               "IsRecipe": false
             },
             {
-              "Price": 9000,
+              "Price": 7000,
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FARMING_LEVEL any 8",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_DehydratorUnlock received\" \"PLAYER_BASE_FARMING_LEVEL any 8\"",
               "Id": "(BC)Adam.Joja_Dehydrator (Recipe)",
               "ItemId": "(BC)Adam.Joja_Dehydrator",
               "IsRecipe": true
             },
             {
-              "Price": 7000,
+              "Price": 5000,
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FARMING_LEVEL any 8",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_DehydratorUnlock received\" \"PLAYER_BASE_FARMING_LEVEL any 8\"",
               "Id": "(BC)Adam.Joja_Dehydrator",
               "ItemId": "(BC)Adam.Joja_Dehydrator",
               "IsRecipe": false
             },
             {
-              "Price": 9000,
+              "Price": 8000,
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FISHING_LEVEL any 7",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_FishSmokerUnlock received\" \"PLAYER_BASE_FISHING_LEVEL any 7\"",
               "Id": "(BC)Adam.Joja_FishSmoker (Recipe)",
               "ItemId": "(BC)Adam.Joja_FishSmoker",
               "IsRecipe": true
             },
             {
-              "Price": 7000,
+              "Price": 6000,
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FISHING_LEVEL any 7",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_FishSmokerUnlock received\" \"PLAYER_BASE_FISHING_LEVEL any 7\"",
               "Id": "(BC)Adam.Joja_FishSmoker",
               "ItemId": "(BC)Adam.Joja_FishSmoker",
               "IsRecipe": false
@@ -109,7 +109,7 @@
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FISHING_LEVEL any 2",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_ChumMakerUnlock received\" \"PLAYER_BASE_FISHING_LEVEL any 2\"",
               "Id": "(BC)Adam.Joja_WormBin",
               "ItemId": "(BC)Adam.Joja_WormBin",
               "IsRecipe": false
@@ -119,19 +119,39 @@
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FISHING_LEVEL any 2",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_ChumMakerUnlock received\" \"PLAYER_BASE_FISHING_LEVEL any 2\"",
               "Id": "(BC)Adam.Joja_ChumMaker",
               "ItemId": "(BC)Adam.Joja_ChumMaker",
               "IsRecipe": false
             },
             {
-              "Price": 3000,
+              "Price": 2000,
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_HAS_MAIL any Adam.Joja_CheesePressMail received",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_CheesePressUnlock received\" \"PLAYER_HAS_MAIL any Adam.Joja_CheesePressMail received\"",
               "Id": "(BC)Adam.Joja_CheesePress (Recipe)",
               "ItemId": "(BC)Adam.Joja_CheesePress",
+              "IsRecipe": true
+            },
+            {
+              "Price": 4000,
+              "AvailableStock": 50,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_CheesePressUnlock received\" \"PLAYER_HAS_MAIL any Adam.Joja_CheesePressMail received\"",
+              "Id": "(BC)Adam.Joja_CheesePress",
+              "ItemId": "(BC)Adam.Joja_CheesePress",
+              "IsRecipe": false
+            },
+            {
+              "Price": 2500,
+              "AvailableStock": -1,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_HoneyMakerUnlock received\" \"PLAYER_BASE_FORAGING_LEVEL any 3\"",
+              "Id": "(BC)Adam.Joja_HoneyMaker (Recipe)",
+              "ItemId": "(BC)Adam.Joja_HoneyMaker",
               "IsRecipe": true
             },
             {
@@ -139,27 +159,7 @@
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_HAS_MAIL any Adam.Joja_CheesePressMail received",
-              "Id": "(BC)Adam.Joja_CheesePress",
-              "ItemId": "(BC)Adam.Joja_CheesePress",
-              "IsRecipe": false
-            },
-            {
-              "Price": 3000,
-              "AvailableStock": -1,
-              "AvoidRepeat": false,
-              "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FORAGING_LEVEL any 3",
-              "Id": "(BC)Adam.Joja_HoneyMaker (Recipe)",
-              "ItemId": "(BC)Adam.Joja_HoneyMaker",
-              "IsRecipe": true
-            },
-            {
-              "Price": 6000,
-              "AvailableStock": 50,
-              "AvoidRepeat": false,
-              "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FORAGING_LEVEL any 3",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_HoneyMakerUnlock received\" \"PLAYER_BASE_FORAGING_LEVEL any 3\"",
               "Id": "(BC)Adam.Joja_HoneyMaker",
               "ItemId": "(BC)Adam.Joja_HoneyMaker",
               "IsRecipe": false
@@ -169,7 +169,7 @@
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_HAS_MAIL any Adam.Joja_MayoMachineMail received",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_MayoMachineUnlock received\" \"PLAYER_HAS_MAIL any Adam.Joja_MayoMachineMail received\"",
               "Id": "(BC)Adam.Joja_MayoMachine (Recipe)",
               "ItemId": "(BC)Adam.Joja_MayoMachine",
               "IsRecipe": true
@@ -179,7 +179,7 @@
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_HAS_MAIL any Adam.Joja_MayoMachineMail received",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_MayoMachineUnlock received\" \"PLAYER_HAS_MAIL any Adam.Joja_MayoMachineMail received\"",
               "Id": "(BC)Adam.Joja_MayoMachine",
               "ItemId": "(BC)Adam.Joja_MayoMachine",
               "IsRecipe": false
@@ -189,7 +189,7 @@
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_HAS_MAIL current landslideDone Received",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_GeneratorUnlock received\" \"PLAYER_HAS_MAIL current landslideDone received\"",
               "Id": "(BC)Adam.Joja_Generator (Recipe)",
               "ItemId": "(BC)Adam.Joja_Generator",
               "IsRecipe": true
@@ -199,7 +199,7 @@
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_HAS_MAIL current landslideDone Received",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_GeneratorUnlock received\" \"PLAYER_HAS_MAIL current landslideDone received\"",
               "Id": "(BC)Adam.Joja_Generator",
               "ItemId": "(BC)Adam.Joja_Generator",
               "IsRecipe": false
@@ -209,7 +209,7 @@
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FISHING_LEVEL any 3",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_FishTrapUnlock received\" \"PLAYER_BASE_FISHING_LEVEL any 3\"",
               "Id": "(BC)Adam.Joja_FishTrap (Recipe)",
               "ItemId": "(BC)Adam.Joja_FishTrap",
               "IsRecipe": true
@@ -219,7 +219,7 @@
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FISHING_LEVEL any 3",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_FishTrapUnlock received\" \"PLAYER_BASE_FISHING_LEVEL any 3\"",
               "Id": "(BC)Adam.Joja_FishTrap",
               "ItemId": "(BC)Adam.Joja_FishTrap",
               "IsRecipe": false
@@ -229,7 +229,7 @@
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FARMING_LEVEL any 6",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_OilMakerUnlock received\" \"PLAYER_BASE_FARMING_LEVEL any 6\"",
               "Id": "(BC)Adam.Joja_OilMaker (Recipe)",
               "ItemId": "(BC)Adam.Joja_OilMaker",
               "IsRecipe": true
@@ -239,7 +239,7 @@
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FARMING_LEVEL current 6",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_OilMakerUnlock received\" \"PLAYER_BASE_FARMING_LEVEL any 6\"",
               "Id": "(BC)Adam.Joja_OilMaker",
               "ItemId": "(BC)Adam.Joja_OilMaker",
               "IsRecipe": false
@@ -249,7 +249,7 @@
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "BUILDINGS_CONSTRUCTED All \"Deluxe Barn\"",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_LoomUnlock received\" \"PLAYER_HAS_MAIL any Adam.Joja_LoomMail received\"",
               "Id": "(BC)Adam.Joja_Loom (Recipe)",
               "ItemId": "(BC)Adam.Joja_Loom",
               "IsRecipe": true
@@ -259,7 +259,7 @@
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "BUILDINGS_CONSTRUCTED All \"Deluxe Barn\"",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_LoomUnlock received\" \"PLAYER_HAS_MAIL any Adam.Joja_LoomMail received\"",
               "Id": "(BC)Adam.Joja_Loom",
               "ItemId": "(BC)Adam.Joja_Loom",
               "IsRecipe": false
@@ -269,17 +269,17 @@
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "MINE_LOWEST_LEVEL_REACHED 5",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_FurnaceUnlock received\" \"MINE_LOWEST_LEVEL_REACHED 5\"",
               "Id": "(BC)Adam.Joja_Furnace (Recipe)",
               "ItemId": "(BC)Adam.Joja_Furnace",
               "IsRecipe": true
             },
             {
-              "Price": 5000,
+              "Price": 3000,
               "AvailableStock": 50,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "MINE_LOWEST_LEVEL_REACHED 5",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_FurnaceUnlock received\" \"MINE_LOWEST_LEVEL_REACHED 5\"",
               "Id": "(BC)Adam.Joja_Furnace",
               "ItemId": "(BC)Adam.Joja_Furnace",
               "IsRecipe": false
@@ -289,7 +289,7 @@
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FISHING_LEVEL any 3",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_TackleBinUnlock received\" \"PLAYER_BASE_FISHING_LEVEL any 3\"",
               "Id": "(BC)Adam.Joja_TackleBin (Recipe)",
               "ItemId": "(BC)Adam.Joja_TackleBin",
               "IsRecipe": true
@@ -299,7 +299,7 @@
               "AvailableStock": 20,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FISHING_LEVEL any 3",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_TackleBinUnlock received\" \"PLAYER_BASE_FISHING_LEVEL any 3\"",
               "Id": "(BC)Adam.Joja_TackleBin",
               "ItemId": "(BC)Adam.Joja_TackleBin",
               "IsRecipe": false
@@ -309,7 +309,7 @@
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_STAT current CropsShipped 1",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_SeedMakerUnlock received\" \"PLAYER_STAT current CropsShipped 1\"",
               "Id": "(BC)Adam.Joja_SeedMaker (Recipe)",
               "ItemId": "(BC)Adam.Joja_SeedMaker",
               "IsRecipe": true
@@ -319,7 +319,7 @@
               "AvailableStock": 20,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_STAT current CropsShipped 1",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_SeedMakerUnlock received\" \"PLAYER_STAT current CropsShipped 1\"",
               "Id": "(BC)Adam.Joja_SeedMaker",
               "ItemId": "(BC)Adam.Joja_SeedMaker",
               "IsRecipe": false
@@ -329,7 +329,7 @@
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_STAT current CropsShipped 1",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_SeedMakerUnlock received\" \"PLAYER_STAT current CropsShipped 1\"",
               "Id": "(BC)Adam.Joja_SeedSorter (Recipe)",
               "ItemId": "(BC)Adam.Joja_SeedSorter",
               "IsRecipe": true
@@ -339,7 +339,7 @@
               "AvailableStock": 20,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_STAT current CropsShipped 1",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_SeedMakerUnlock received\" \"PLAYER_STAT current CropsShipped 1\"",
               "Id": "(BC)Adam.Joja_SeedSorter",
               "ItemId": "(BC)Adam.Joja_SeedSorter",
               "IsRecipe": false
@@ -349,7 +349,7 @@
               "AvailableStock": -1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FORAGING_LEVEL any 6",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_BatteryChargerUnlock received\" \"PLAYER_BASE_FORAGING_LEVEL any 6\"",
               "Id": "(BC)Adam.Joja_BatteryCharger (Recipe)",
               "ItemId": "(BC)Adam.Joja_BatteryCharger",
               "IsRecipe": true
@@ -359,7 +359,7 @@
               "AvailableStock": 20,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
-              "Condition": "PLAYER_BASE_FORAGING_LEVEL any 6",
+              "Condition": "ANY \"PLAYER_HAS_MAIL any Adam.Joja_BatteryChargerUnlock received\" \"PLAYER_BASE_FORAGING_LEVEL any 6\"",
               "Id": "(BC)Adam.Joja_BatteryCharger",
               "ItemId": "(BC)Adam.Joja_BatteryCharger",
               "IsRecipe": false

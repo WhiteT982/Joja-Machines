@@ -11,6 +11,114 @@
       "AllowValues": "true, false",
       "Default": "true",
       "Description": "Enables alternate textures for Joja Products (Pale Ale, Mead, Beer, etc)."
+    },
+    "Unlock the Battery Charger": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Battery Charger at JojaMart."
+    },
+    "Unlock the Cheese Press": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Cheese Press at JojaMart."
+    },
+    "Unlock the Chum Maker": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Chum Maker and Worm Bin at JojaMart."
+    },
+    "Unlock the Dehydrator": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Dehydrator at JojaMart."
+    },
+    "Unlock the Fish Smoker": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Fish Smoker at JojaMart."
+    },
+    "Unlock the Fish Trap": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Fish Trap at JojaMart."
+    },
+    "Unlock the Furnace": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Furnace at JojaMart."
+    },
+    "Unlock the Generator": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Generator at JojaMart."
+    },
+    "Unlock the Honey Maker": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Honey Maker at JojaMart."
+    },
+    "Unlock the Keg": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Keg at JojaMart."
+    },
+    "Unlock the Loom": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Loom at JojaMart."
+    },
+    "Unlock the Mayo Machine": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Mayo Machine at JojaMart."
+    },
+    "Unlock the Oil Maker": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Oil Maker at JojaMart."
+    },
+    "Unlock the Preserves Jar": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Preserves Jar at JojaMart."
+    },
+    "Unlock the Seed Maker": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Seed Maker and Seed Sorter at JojaMart."
+    },
+    "Unlock the Seed Sorter": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Seed Sorter at JojaMart."
+    },
+    "Unlock the Tackle Bin": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Tackle Bin at JojaMart."
+    },
+    "Unlock the Worm Bin": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Machine Unlocks",
+      "Description": "Unlocks the Joja Worm Bin at JojaMart."
     }
   },
   //Dynamic Tokens

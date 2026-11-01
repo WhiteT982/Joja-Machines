@@ -1,8 +1,12 @@
 {
   "Changes": [
+    //Machine Mails
     {
       "Action": "EditData",
       "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Preserves Jar": "false"
+         },
       "Entries": {
         "Joja Preserves Jar Mail": {
           "Id": "Adam.Joja_PreservesJarMail",
@@ -11,7 +15,16 @@
           "Actions": [
             "AddMail Current Adam.Joja_PreservesJarMail now"
           ]
-        },
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Keg": "false"
+         },
+      "Entries": {
         "Joja Keg Mail": {
           "Id": "Adam.Joja_KegMail",
           "Trigger": "DayEnding",
@@ -19,7 +32,16 @@
           "Actions": [
             "AddMail Current Adam.Joja_KegMail now"
           ]
-        },
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Dehydrator": "false"
+         },
+      "Entries": {
         "Joja Dehydrator Mail": {
           "Id": "Adam.Joja_DehydratorMail",
           "Trigger": "DayEnding",
@@ -27,7 +49,16 @@
           "Actions": [
             "AddMail Current Adam.Joja_DehydratorMail now"
           ]
-        },
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Fish Smoker": "false"
+         },
+      "Entries": {
         "Joja Fish Smoker Mail": {
           "Id": "Adam.Joja_FishSmokerMail",
           "Trigger": "DayEnding",
@@ -35,7 +66,16 @@
           "Actions": [
             "AddMail Current Adam.Joja_FishSmokerMail now"
           ]
-        },
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Chum Maker": "false"
+         },
+      "Entries": {
         "Joja Chum Maker Mail": {
           "Id": "Adam.Joja_ChumMakerMail",
           "Trigger": "DayEnding",
@@ -43,7 +83,16 @@
           "Actions": [
             "AddMail Current Adam.Joja_ChumMakerMail now"
           ]
-        },
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Cheese Press": "false"
+         },
+      "Entries": {
         "Joja Cheese Press Mail": {
           "Id": "Adam.Joja_CheesePressMail",
           "Trigger": "DayStarted",
@@ -51,15 +100,33 @@
           "Actions": [
             "AddMail Current Adam.Joja_CheesePressMail now"
           ]
-        },
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Honey Maker": "false"
+         },
+      "Entries": {
         "Joja Honey Maker Mail": {
           "Id": "Adam.Joja_HoneyMakerMail",
-          "Trigger": "DayStarted",
+          "Trigger": "DayEnding",
           "Condition": "PLAYER_BASE_FORAGING_LEVEL Current 3",
           "Actions": [
             "AddMail Current Adam.Joja_HoneyMakerMail now"
           ]
-        },
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Mayo Machine": "false"
+         },
+      "Entries": {
         "Joja Mayo Machine Mail": {
           "Id": "Adam.Joja_MayoMachineMail",
           "Trigger": "DayStarted",
@@ -67,7 +134,16 @@
           "Actions": [
             "AddMail Current Adam.Joja_MayoMachineMail now"
           ]
-        },
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Generator": "false"
+         },
+      "Entries": {
         "Joja Generator Mail": {
           "Id": "Adam.Joja_GeneratorMail",
           "Trigger": "DayStarted",
@@ -75,23 +151,50 @@
           "Actions": [
             "AddMail Current Adam.Joja_GeneratorMail now"
           ]
-        },
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Fish Trap": "false"
+         },
+      "Entries": {
         "Joja Fish Trap Mail": {
           "Id": "Adam.Joja_FishTrapMail",
-          "Trigger": "DayStarted",
+          "Trigger": "DayEnding",
           "Condition": "PLAYER_BASE_FISHING_LEVEL current 3",
           "Actions": [
             "AddMail Current Adam.Joja_FishTrapMail now"
           ]
-        },
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Oil Maker": "false"
+         },
+      "Entries": {
         "Joja Oil Maker Mail": {
           "Id": "Adam.Joja_OilMakerMail",
-          "Trigger": "DayStarted",
+          "Trigger": "DayEnding",
           "Condition": "PLAYER_BASE_FARMING_LEVEL current 6",
           "Actions": [
             "AddMail Current Adam.Joja_OilMakerMail now"
           ]
-        },
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Loom": "false"
+         },
+      "Entries": {
         "Joja Loom Mail": {
           "Id": "Adam.Joja_LoomMail",
           "Trigger": "DayStarted",
@@ -99,39 +202,629 @@
           "Actions": [
             "AddMail Current Adam.Joja_LoomMail now"
           ]
-        },
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Furnace": "false"
+         },
+      "Entries": {
         "Joja Furnace Mail": {
           "Id": "Adam.Joja_FurnaceMail",
-          "Trigger": "DayStarted",
+          "Trigger": "DayEnding",
           "Condition": "MINE_LOWEST_LEVEL_REACHED 5",
           "Actions": [
             "AddMail Current Adam.Joja_FurnaceMail now"
           ]
-        },
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Tackle Bin": "false"
+         },
+      "Entries": {
         "Joja Tackle Bin Mail": {
           "Id": "Adam.Joja_TackleBinMail",
-          "Trigger": "DayStarted",
+          "Trigger": "DayEnding",
           "Condition": "PLAYER_BASE_FISHING_LEVEL current 3",
           "Actions": [
             "AddMail Current Adam.Joja_TackleBinMail now"
           ]
-        },
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Seed Maker": "false"
+         },
+      "Entries": {
         "Joja Seed Maker Mail": {
           "Id": "Adam.Joja_SeedMakerMail",
-          "Trigger": "DayStarted",
+          "Trigger": "DayEnding",
           "Condition": "PLAYER_STAT current CropsShipped 1",
           "Actions": [
             "AddMail Current Adam.Joja_SeedMakerMail now"
           ]
-        },
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Battery Charger": "false"
+         },
+      "Entries": {
         "Joja Battery Charger Mail": {
           "Id": "Adam.Joja_BatteryChargerMail",
-          "Trigger": "DayStarted",
+          "Trigger": "DayEnding",
           "Condition": "PLAYER_BASE_FORAGING_LEVEL current 6",
           "Actions": [
             "AddMail Current Adam.Joja_BatteryChargerMail now"
           ]
-        },
+        }
+      }
+    },
+    //Config Machine Unlock True
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Preserves Jar": "true"
+         },
+      "Entries": {
+        "Joja Preserves Jar Unlock True": {
+          "Id": "Joja Preserves Jar Unlock True",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "AddMail Current Adam.Joja_PreservesJarUnlock received",
+            "MarkActionApplied current \"Joja Preserves Jar Unlock False\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Keg": "true"
+         },
+      "Entries": {
+        "Joja Keg Unlock True": {
+          "Id": "Joja Keg Unlock True",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "AddMail Current Adam.Joja_KegUnlock received",
+            "MarkActionApplied current \"Joja Keg Unlock False\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Dehydrator": "true"
+         },
+      "Entries": {
+        "Joja Dehydrator Unlock True": {
+          "Id": "Joja Dehydrator Unlock True",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "AddMail Current Adam.Joja_DehydratorUnlock received",
+            "MarkActionApplied current \"Joja Dehydrator Unlock False\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Fish Smoker": "true"
+         },
+      "Entries": {
+        "Joja Fish Smoker Unlock True": {
+          "Id": "Joja Fish Smoker Unlock True",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "AddMail Current Adam.Joja_FishSmokerUnlock received",
+            "MarkActionApplied current \"Joja Fish Smoker Unlock False\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Chum Maker": "true"
+         },
+      "Entries": {
+        "Joja Chum Maker Unlock True": {
+          "Id": "Joja Chum Maker Unlock True",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "AddMail Current Adam.Joja_ChumMakerUnlock received",
+            "MarkActionApplied current \"Joja Chum Maker Unlock False\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Cheese Press": "true"
+         },
+      "Entries": {
+        "Joja Cheese Press Unlock True": {
+          "Id": "Joja Cheese Press Unlock True",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "AddMail Current Adam.Joja_CheesePressUnlock received",
+            "MarkActionApplied current \"Joja Cheese Press Unlock False\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Honey Maker": "true"
+         },
+      "Entries": {
+        "Joja Honey Maker Unlock True": {
+          "Id": "Joja Honey Maker Unlock True",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "AddMail Current Adam.Joja_HoneyMakerUnlock received",
+            "MarkActionApplied current \"Joja Honey Maker Unlock False\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Mayo Machine": "true"
+         },
+      "Entries": {
+        "Joja Mayo Machine Unlock True": {
+          "Id": "Joja Mayo Machine Unlock True",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "AddMail Current Adam.Joja_MayoMachineUnlock received",
+            "MarkActionApplied current \"Joja Mayo Machine Unlock False\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Generator": "true"
+         },
+      "Entries": {
+        "Joja Generator Unlock True": {
+          "Id": "Joja Generator Unlock True",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "AddMail Current Adam.Joja_GeneratorUnlock received",
+            "MarkActionApplied current \"Joja Generator Unlock False\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Fish Trap": "true"
+         },
+      "Entries": {
+        "Joja Fish Trap Unlock True": {
+          "Id": "Joja Fish Trap Unlock True",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "AddMail Current Adam.Joja_FishTrapUnlock received",
+            "MarkActionApplied current \"Joja Fish Trap Unlock False\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Oil Maker": "true"
+         },
+      "Entries": {
+        "Joja Oil Maker Unlock True": {
+          "Id": "Joja Oil Maker Unlock True",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "AddMail Current Adam.Joja_OilMakerUnlock received",
+            "MarkActionApplied current \"Joja Oil Maker Unlock False\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Loom": "true"
+         },
+      "Entries": {
+        "Joja Loom Unlock True": {
+          "Id": "Joja Loom Unlock True",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "AddMail Current Adam.Joja_LoomUnlock received",
+            "MarkActionApplied current \"Joja Loom Unlock False\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Furnace": "true"
+         },
+      "Entries": {
+        "Joja Furnace Unlock True": {
+          "Id": "Joja Furnace Unlock True",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "AddMail Current Adam.Joja_FurnaceUnlock received",
+            "MarkActionApplied current \"Joja Furnace Unlock False\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Tackle Bin": "true"
+         },
+      "Entries": {
+        "Joja Tackle Bin Unlock True": {
+          "Id": "Joja Tackle Bin Unlock True",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "AddMail Current Adam.Joja_TackleBinUnlock received",
+            "MarkActionApplied current \"Joja Tackle Bin Unlock False\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Seed Maker": "true"
+         },
+      "Entries": {
+        "Joja Seed Maker Unlock True": {
+          "Id": "Joja Seed Maker Unlock True",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "AddMail Current Adam.Joja_SeedMakerUnlock received",
+            "MarkActionApplied current \"Joja Seed Maker Unlock False\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Battery Charger": "true"
+         },
+      "Entries": {
+        "Joja Battery Charger Unlock True": {
+          "Id": "Joja Battery Charger Unlock True",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "AddMail Current Adam.Joja_BatteryChargerUnlock received",
+            "MarkActionApplied current \"Joja Battery Charger Unlock False\" false"
+          ]
+        }
+      }
+    },
+    
+    //Config Machine Unlock False
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Preserves Jar": "false"
+         },
+      "Entries": {
+        "Joja Preserves Jar Unlock False": {
+          "Id": "Joja Preserves Jar Unlock False",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "RemoveMail Current Adam.Joja_PreservesJarUnlock all",
+            "MarkActionApplied current \"Joja Preserves Jar Unlock True\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Keg": "false"
+         },
+      "Entries": {
+        "Joja Keg Unlock False": {
+          "Id": "Joja Keg Unlock False",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "RemoveMail Current Adam.Joja_KegUnlock all",
+            "MarkActionApplied current \"Joja Keg Unlock True\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Dehydrator": "false"
+         },
+      "Entries": {
+        "Joja Dehydrator Unlock False": {
+          "Id": "Joja Dehydrator Unlock False",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "RemoveMail Current Adam.Joja_DehydratorUnlock all",
+            "MarkActionApplied current \"Joja Dehydrator Unlock True\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Fish Smoker": "false"
+         },
+      "Entries": {
+        "Joja Fish Smoker Unlock False": {
+          "Id": "Joja Fish Smoker Unlock False",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "RemoveMail Current Adam.Joja_FishSmokerUnlock all",
+            "MarkActionApplied current \"Joja Fish Smoker Unlock True\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Chum Maker": "false"
+         },
+      "Entries": {
+        "Joja Chum Maker Unlock False": {
+          "Id": "Joja Chum Maker Unlock False",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "RemoveMail Current Adam.Joja_ChumMakerUnlock all",
+            "MarkActionApplied current \"Joja Chum Maker Unlock True\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Cheese Press": "false"
+         },
+      "Entries": {
+        "Joja Cheese Press Unlock False": {
+          "Id": "Joja Cheese Press Unlock False",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "RemoveMail Current Adam.Joja_CheesePressUnlock all",
+            "MarkActionApplied current \"Joja Cheese Press Unlock True\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Honey Maker": "false"
+         },
+      "Entries": {
+        "Joja Honey Maker Unlock False": {
+          "Id": "Joja Honey Maker Unlock False",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "RemoveMail Current Adam.Joja_HoneyMakerUnlock all",
+            "MarkActionApplied current \"Joja Honey Maker Unlock True\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Mayo Machine": "false"
+         },
+      "Entries": {
+        "Joja Mayo Machine Unlock False": {
+          "Id": "Joja Mayo Machine Unlock False",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "RemoveMail Current Adam.Joja_MayoMachineUnlock all",
+            "MarkActionApplied current \"Joja Mayo Machine Unlock True\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Generator": "false"
+         },
+      "Entries": {
+        "Joja Generator Unlock False": {
+          "Id": "Joja Generator Unlock False",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "RemoveMail Current Adam.Joja_GeneratorUnlock all",
+            "MarkActionApplied current \"Joja Generator Unlock True\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Fish Trap": "false"
+         },
+      "Entries": {
+        "Joja Fish Trap Unlock False": {
+          "Id": "Joja Fish Trap Unlock False",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "RemoveMail Current Adam.Joja_FishTrapUnlock all",
+            "MarkActionApplied current \"Joja Fish Trap Unlock True\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Oil Maker": "false"
+         },
+      "Entries": {
+        "Joja Oil Maker Unlock False": {
+          "Id": "Joja Oil Maker Unlock False",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "RemoveMail Current Adam.Joja_OilMakerUnlock all",
+            "MarkActionApplied current \"Joja Oil Maker Unlock True\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Loom": "false"
+         },
+      "Entries": {
+        "Joja Loom Unlock False": {
+          "Id": "Joja Loom Unlock False",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "RemoveMail Current Adam.Joja_LoomUnlock all",
+            "MarkActionApplied current \"Joja Loom Unlock True\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Furnace": "false"
+         },
+      "Entries": {
+        "Joja Furnace Unlock False": {
+          "Id": "Joja Furnace Unlock False",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "RemoveMail Current Adam.Joja_FurnaceUnlock all",
+            "MarkActionApplied current \"Joja Furnace Unlock True\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Tackle Bin": "false"
+         },
+      "Entries": {
+        "Joja Tackle Bin Unlock False": {
+          "Id": "Joja Tackle Bin Unlock False",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "RemoveMail Current Adam.Joja_TackleBinUnlock all",
+            "MarkActionApplied current \"Joja Tackle Bin Unlock True\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Seed Maker": "false"
+         },
+      "Entries": {
+        "Joja Seed Maker Unlock False": {
+          "Id": "Joja Seed Maker Unlock False",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "RemoveMail Current Adam.Joja_SeedMakerUnlock all",
+            "MarkActionApplied current \"Joja Seed Maker Unlock True\" false"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+         "When": {
+            "Unlock the Battery Charger": "false"
+         },
+      "Entries": {
+        "Joja Battery Charger Unlock False": {
+          "Id": "Joja Battery Charger Unlock False",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "RemoveMail Current Adam.Joja_BatteryChargerUnlock all",
+            "MarkActionApplied current \"Joja Battery Charger Unlock True\" false"
+          ]
+        }
+      }
+    },
+    //Joja Machines Triggers
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
         "Pierre Joja Machines": {
           "Id": "Adam.Joja_MachinesPierre",
           "Trigger": "DayEnding",
@@ -327,6 +1020,7 @@
         }
       }
     },
+    //SVE Triggers
     {
       "When": {
         "HasMod": "FlashShifter.StardewValleyExpandedCP"
